@@ -15,10 +15,9 @@ const Navigation = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-            <a href="#sports" className="text-gray-600 hover:text-gray-900 transition-colors">Sports</a>
-            <a href="#video" className="text-gray-600 hover:text-gray-900 transition-colors">Videos</a>
-            <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            <a href="/" className="text-primary font-medium transition-colors">Home</a>
+            <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
+            <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
               Get Started
             </button>
@@ -38,10 +37,9 @@ const Navigation = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b">
-            <a href="#features" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-            <a href="#sports" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Sports</a>
-            <a href="#video" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Videos</a>
-            <a href="#contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            <a href="/" className="block px-3 py-2 text-primary font-medium">Home</a>
+            <a href="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</a>
+            <a href="/contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             <button className="w-full mt-4 bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
               Get Started
             </button>
