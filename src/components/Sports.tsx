@@ -1,13 +1,13 @@
-import { Ball, Dumbbell, Bike } from "lucide-react";
+import { CircleDot, Dumbbell, Bike } from "lucide-react";
 
 const sports = [
   {
-    icon: <Ball className="h-6 w-6" />,
+    icon: <CircleDot className="h-6 w-6" />,
     name: "Soccer",
     active: true
   },
   {
-    icon: <Ball className="h-6 w-6" />,
+    icon: <CircleDot className="h-6 w-6" />,
     name: "Basketball"
   },
   {
