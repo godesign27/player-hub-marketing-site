@@ -14,11 +14,13 @@ const Navigation = () => {
             </a>
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-primary font-medium transition-colors">Home</a>
-            <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
-            <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
-            <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
+          <div className="hidden md:flex items-center">
+            <div className="flex items-center space-x-8 -ml-48">
+              <a href="/" className="text-primary font-medium transition-colors">Home</a>
+              <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
+              <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            </div>
+            <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors ml-8">
               Get Started
             </button>
           </div>
