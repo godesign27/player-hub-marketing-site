@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   return (
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
@@ -21,9 +23,9 @@ const Navigation = () => {
           
           <div className="hidden md:flex items-center">
             <div className="flex items-center space-x-8 ml-52">
-              <a href="/" className="text-[#000000] font-bold transition-colors">Home</a>
+              <a href="/" className={location.pathname === "/" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Home</a>
               <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
-              <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+              <a href="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Contact</a>
             </div>
             <div className="flex items-center space-x-4 ml-8">
               <button className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
@@ -49,9 +51,9 @@ const Navigation = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b">
-            <a href="/" className="block px-3 py-2 text-[#000000] font-bold">Home</a>
+            <a href="/" className={location.pathname === "/" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Home</a>
             <a href="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</a>
-            <a href="/contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            <a href="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Contact</a>
             <button className="w-full mt-4 bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
               Log In
             </button>
