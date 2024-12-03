@@ -21,7 +21,7 @@ const Navigation = () => {
               <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             </div>
             <div className="flex items-center space-x-4 ml-8">
-              <button className="bg-secondary text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors">
+              <button className="bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
                 Log In
               </button>
               <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
@@ -47,7 +47,7 @@ const Navigation = () => {
             <a href="/" className="block px-3 py-2 text-primary font-medium">Home</a>
             <a href="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</a>
             <a href="/contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
-            <button className="w-full mt-4 bg-secondary text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors">
+            <button className="w-full mt-4 bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
               Log In
             </button>
             <button className="w-full mt-4 bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
