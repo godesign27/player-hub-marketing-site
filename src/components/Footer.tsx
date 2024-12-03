@@ -27,18 +27,18 @@ const Footer = () => {
           <Link to="/terms" className="text-gray-600 hover:text-gray-900">Terms of Use</Link>
           <Link to="/privacy" className="text-gray-600 hover:text-gray-900">Privacy Policy</Link>
           <DropdownMenu>
-            <DropdownMenuTrigger className="flex items-center gap-x-1 text-gray-600 hover:text-gray-900">
-              <Globe className="h-4 w-4" />
+            <DropdownMenuTrigger className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <Globe className="h-4 w-4 mr-2" />
               <span>English</span>
             </DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <DropdownMenuItem>English</DropdownMenuItem>
-              <DropdownMenuItem>Dutch</DropdownMenuItem>
-              <DropdownMenuItem>French</DropdownMenuItem>
-              <DropdownMenuItem>German</DropdownMenuItem>
-              <DropdownMenuItem>Italian</DropdownMenuItem>
-              <DropdownMenuItem>Portuguese</DropdownMenuItem>
-              <DropdownMenuItem>Spanish</DropdownMenuItem>
+            <DropdownMenuContent className="z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">English</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Dutch</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">French</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">German</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Italian</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Portuguese</DropdownMenuItem>
+              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Spanish</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
