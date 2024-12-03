@@ -9,7 +9,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <a href="/" className="flex items-center">
+            <a href="/" className="flex items-center space-x-2">
+              <img 
+                src="/lovable-uploads/f62f7f05-47c4-4538-be19-6d431147e810.png" 
+                alt="Player Hub Logo" 
+                className="h-8 w-auto"
+              />
               <span className="text-xl font-bold text-gray-900">PlayerHub</span>
             </a>
           </div>
