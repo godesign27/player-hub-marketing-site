@@ -25,7 +25,7 @@ const Contact = () => {
     <div className="min-h-screen flex flex-col">
       <Navigation />
       <main className="flex-grow flex flex-col items-center px-4 py-16 bg-white">
-        <div className="w-full max-w-3xl mx-auto text-center mb-12">
+        <div className="w-full max-w-3xl mx-auto text-center mb-12 mt-16">
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Have questions, feedback, or need assistance? We're here to help.
