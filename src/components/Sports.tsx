@@ -25,13 +25,6 @@ const Sports = () => {
   return (
     <section id="sports" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="p-4 mb-8 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
-          <span className="flex items-center gap-2">
-            <InfoIcon className="h-4 w-4" />
-            Coming soon. More sports will be added in 2025-2026
-          </span>
-        </div>
-
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             For Soccer players.
@@ -57,6 +50,13 @@ const Sports = () => {
               <span className="font-medium">{sport.name}</span>
             </div>
           ))}
+        </div>
+
+        <div className="p-4 mt-8 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
+          <span className="flex items-center gap-2">
+            <InfoIcon className="h-4 w-4" />
+            Coming soon. More sports will be added in 2025-2026
+          </span>
         </div>
       </div>
     </section>
