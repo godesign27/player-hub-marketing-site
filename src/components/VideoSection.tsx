@@ -25,7 +25,7 @@ const VideoSection = () => {
               <img
                 src="/lovable-uploads/0e0200d7-6bbb-46f3-8147-ab68adf92d02.png"
                 alt="Soccer player dribbling the ball during a match"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
               <div className="absolute inset-0 flex items-center justify-center">
                 <button className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
