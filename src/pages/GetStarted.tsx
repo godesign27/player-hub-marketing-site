@@ -110,6 +110,10 @@ const GetStarted = () => {
                   <Check className="h-5 w-5 text-green-500 mr-2" />
                   <span className="text-gray-600">Unlimited Player messages</span>
                 </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Coach/Recruiter profile</span>
+                </li>
               </ul>
             </div>
             <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
