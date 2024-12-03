@@ -8,7 +8,7 @@ const PlayerJourneySection2 = () => {
               Player highlight videos
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              Your story is more than just stats and highlights—it's a journey of dedication, growth, and ambition. Our platform empowers you to create a compelling player profile that resonates with coaches and recruiters. Share your personal journey, highlight your achievements, and let your passion shine through. Whether it's on the field or off, your story deserves to be told in a way that truly reflects who you are as an athlete and as a person. Stand out, be noticed, and take control of your athletic future.
+              Upload and share your best moments with recruiters and coaches. PlayerHub showcases your key plays and skills with our Smart Player system.
             </p>
           </div>
           <div className="w-full">
