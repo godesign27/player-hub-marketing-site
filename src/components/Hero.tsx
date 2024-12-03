@@ -22,8 +22,8 @@ const Hero = () => {
         <div className="mt-16 animate-fade-up" style={{ animationDelay: "0.3s" }}>
           <div className="relative mx-auto max-w-[800px]">
             <img
-              src="/lovable-uploads/303a5526-a387-4377-b9d3-1ee09d30a64e.png"
-              alt="PlayerHub Platform"
+              src="/lovable-uploads/4a7ad64b-21a1-47ac-a31f-de89e45864e9.png"
+              alt="PlayerHub Platform Preview"
               className="w-full rounded-lg shadow-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-accent/50 to-transparent rounded-lg"></div>
