@@ -8,7 +8,7 @@ const RecruiterFeatures = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             Recruiters and Coaches Tailored Talent Management at Your Fingertips
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Efficiently manage your recruitment process with our comprehensive tools.
           </p>
         </div>
@@ -19,7 +19,7 @@ const RecruiterFeatures = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Custom Boards for Seamless Recruit Management
             </h3>
-            <p className="text-gray-600">
+            <p className="text-sm sm:text-base text-gray-600">
               Create custom boards to organize and track your recruitment pipeline effectively.
             </p>
           </div>
@@ -29,7 +29,7 @@ const RecruiterFeatures = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Direct Messaging for Instant Connections
             </h3>
-            <p className="text-gray-600">
+            <p className="text-sm sm:text-base text-gray-600">
               Connect directly with athletes through our secure messaging system.
             </p>
           </div>
@@ -39,7 +39,7 @@ const RecruiterFeatures = () => {
             <h3 className="text-xl font-semibold text-gray-900 mb-2">
               Collaborative Team Access
             </h3>
-            <p className="text-gray-600">
+            <p className="text-sm sm:text-base text-gray-600">
               Share profiles and notes with your coaching staff and team members.
             </p>
           </div>

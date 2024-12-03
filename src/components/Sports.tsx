@@ -29,7 +29,7 @@ const Sports = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             For Soccer players.
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             We currently offer player profiles for Soccer player. Each player will get personalized profile content based on their on the sport they choose.
           </p>
         </div>

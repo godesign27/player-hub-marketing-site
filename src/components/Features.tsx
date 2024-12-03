@@ -31,7 +31,7 @@ const Features = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             The first ever athlete managed player profile.
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             Take control of your sporting journey with our comprehensive platform designed for athletes.
           </p>
         </div>
@@ -48,7 +48,7 @@ const Features = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">
                 {feature.title}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-sm sm:text-base text-gray-600">
                 {feature.description}
               </p>
             </div>

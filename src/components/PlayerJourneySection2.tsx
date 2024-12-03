@@ -9,7 +9,7 @@ const PlayerJourneySection2 = () => {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
               Player highlight videos
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+            <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-8">
               Upload and share your best moments with recruiters and coaches. PlayerHub showcases your key plays and skills with our Smart Player system.
             </p>
             <Button size="lg" className="w-full sm:w-auto">
