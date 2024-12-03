@@ -11,7 +11,7 @@ const Hero = () => {
             <span className="text-primary">to showcase your story.</span>
           </h1>
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            Showcase your talent on a platform designed for aspiring athletes. Create your  profile site, highlight your achievements and journey then share with scouts, coaches, recruiters and fans.
+            Showcase your Player Profile and tell your sports story allowing recruiters, scouts, coaches and peers a detailed glimpse into your sport journey and personal narrative, equipping them with the essential information and tools to kickstart the evaluation journey.
           </p>
           <button className="inline-flex items-center bg-primary text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-primary/90 transition-all transform hover:scale-105 animate-fade-up" style={{ animationDelay: "0.2s" }}>
             Get Started
