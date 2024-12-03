@@ -2,7 +2,7 @@ import { Play } from "lucide-react";
 
 const VideoSection = () => {
   return (
-    <section id="video" className="py-20 bg-white">
+    <section id="video" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -21,7 +21,7 @@ const VideoSection = () => {
           </div>
           
           <div className="relative">
-            <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
+            <div className="aspect-video rounded-lg overflow-hidden">
               <img
                 src="/lovable-uploads/0e0200d7-6bbb-46f3-8147-ab68adf92d02.png"
                 alt="Soccer player dribbling the ball during a match"
