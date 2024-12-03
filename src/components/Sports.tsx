@@ -23,7 +23,7 @@ const sports = [
 
 const Sports = () => {
   return (
-    <section id="sports" className="py-20 bg-accent">
+    <section id="sports" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="p-4 mb-8 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
           <span className="flex items-center gap-2">
