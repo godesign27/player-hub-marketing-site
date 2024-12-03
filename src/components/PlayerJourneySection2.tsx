@@ -10,6 +10,9 @@ const PlayerJourneySection2 = () => {
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
               Upload and share your best moments with recruiters and coaches. PlayerHub showcases your key plays and skills with our Smart Player system.
             </p>
+            <Button size="lg" className="w-full sm:w-auto">
+              Get Started
+            </Button>
           </div>
           <div className="w-full">
             <img
