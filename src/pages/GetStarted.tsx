@@ -24,7 +24,7 @@ const GetStarted = () => {
           {/* Free Plan */}
           <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col">
             <div className="flex-grow">
-              <h2 className="text-2xl font-bold mb-2">Free</h2>
+              <h2 className="text-2xl font-bold mb-2">Starter (Free)</h2>
               <p className="text-gray-600 mb-4">Great to get you seen by recruiters, trainers, coaches, peers and more.</p>
               <div className="flex items-baseline text-gray-900 mb-6">
                 <span className="text-3xl font-semibold">$</span>
