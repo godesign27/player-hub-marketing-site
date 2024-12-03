@@ -47,7 +47,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
-              Sign Up
+              Sign Up and Create Profile
             </button>
           </div>
 
@@ -85,7 +85,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
-              Sign Up
+              Sign Up and Create Profile
             </button>
           </div>
 
@@ -117,7 +117,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
-              Sign Up
+              Sign Up and Create Profile
             </button>
           </div>
         </div>
