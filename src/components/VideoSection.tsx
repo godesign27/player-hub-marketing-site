@@ -27,11 +27,6 @@ const VideoSection = () => {
                 alt="Soccer player"
                 className="w-[590px] h-full object-contain"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <button className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center hover:bg-white transition-colors">
-                  <Play className="h-8 w-8 text-primary ml-1" />
-                </button>
-              </div>
             </div>
           </div>
         </div>
