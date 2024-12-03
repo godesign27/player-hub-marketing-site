@@ -12,10 +12,10 @@ const PlayerJourneySection = () => {
           </div>
           <div className="text-left">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-              Highly Motivated Player
+              Showcase Your Journey, Capture Attention, Get Traction
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
-              As an elite 15-year-old futsal/soccer athlete, my journey in this beautiful game is fueled by passion, dedication, and an unwavering commitment to excellence. With seven years of competitive play under my belt, I have honed my skills on the pitch, embracing every opportunity to grow stronger, faster, and smarter as a player. Through countless hours of training, learning from experienced coaches as a youth player, constantly wanting, and pushing the boundaries of my abilities. Balancing academics with athletics, I strive to excel in both arenas, understanding that discipline and hard work are essential ingredients for long-term success. Off the field, I am just as committed to personal development, engaging in activities that enrich my understanding of the game and foster leadership qualities. My goal is to not only become a professional athlete but also to inspire others with my journey, demonstrating that with perseverance and support, anything is possible.
+              Your story is more than just stats and highlights—it's a journey of dedication, growth, and ambition. Our platform empowers you to create a compelling player profile that resonates with coaches and recruiters. Share your personal journey, highlight your achievements, and let your passion shine through. Whether it's on the field or off, your story deserves to be told in a way that truly reflects who you are as an athlete and as a person. Stand out, be noticed, and take control of your athletic future.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
