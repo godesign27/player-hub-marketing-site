@@ -74,7 +74,7 @@ const Footer = ({ activePage }: FooterProps) => {
               <span>English</span>
               <ChevronDown className="h-4 w-4 ml-2" />
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="z-10 bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+            <DropdownMenuContent>
               <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">English</DropdownMenuItem>
               <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Dutch</DropdownMenuItem>
               <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">French</DropdownMenuItem>
