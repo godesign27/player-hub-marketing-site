@@ -12,8 +12,10 @@ const Privacy = () => {
           <div className="prose prose-gray max-w-none">
             <p className="text-gray-600 mb-4">Last Updated: December 2024</p>
             
-            <p className="mb-6">Player Hub, Inc. ("we," "us," or "our") operates the PlayerHub.com website and related mobile applications (collectively, the "Services").</p>
+            <p className="mb-6">Player Hub, Inc. ("we," "us," or "our") operates the PlayerHub.com website and related mobile applications (collectively, the "Services"). This Privacy Policy informs you of our policies regarding the collection, use, and disclosure of personal information when you use our Services. It also explains your choices regarding your data.</p>
             
+            <p className="mb-6">By using our Services, you agree to the collection and use of information in accordance with this Privacy Policy. Unless otherwise defined, the terms used in this Privacy Policy have the same meanings as in our Terms of Use, accessible at http://www.playerhub.com/termsofservice.</p>
+
             <h2 className="text-xl font-semibold mt-8 mb-4">Definitions</h2>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Services: The PlayerHub.com website and related mobile applications operated by Player Hub, Inc. and/or its affiliates.</li>
@@ -27,9 +29,36 @@ const Privacy = () => {
             
             <h3 className="text-lg font-semibold mt-6 mb-3">Personal Information</h3>
             <p className="mb-4">While using our Services, we may ask you to provide certain personally identifiable information that can be used to contact or identify you, including but not limited to:</p>
-            <ul className="list-disc pl-6 mb-6 space-y-2">
+            <ul className="list-disc pl-6 mb-4 space-y-2">
               <li>Email address</li>
               <li>First name and last name</li>
+            </ul>
+            <p className="mb-4">For athletes, additional personal information may be collected, such as:</p>
+            <ul className="list-disc pl-6 mb-6 space-y-2">
+              <li>Graduation year</li>
+              <li>Height, weight, position</li>
+              <li>Other relevant athletic details</li>
+            </ul>
+            <p className="mb-6">This information may be provided directly by you or through your club or school. All information collected is accessible through your user account and can be corrected or deleted by you at any time.</p>
+
+            <h3 className="text-lg font-semibold mt-6 mb-3">Usage Data</h3>
+            <p className="mb-4">We may automatically collect information on how the Services are accessed and used ("Usage Data"). This may include:</p>
+            <ul className="list-disc pl-6 mb-6 space-y-2">
+              <li>Your IP address</li>
+              <li>Browser type and version</li>
+              <li>Pages of our Services that you visit</li>
+              <li>Time and date of your visit</li>
+              <li>Time spent on those pages</li>
+              <li>Unique device identifiers and other diagnostic data</li>
+            </ul>
+            <p className="mb-6">Some of this data may be considered Personal Information.</p>
+
+            <h3 className="text-lg font-semibold mt-6 mb-3">Tracking & Cookies Data</h3>
+            <p className="mb-4">We use cookies and similar tracking technologies to monitor activity on our Services and hold certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, some parts of our Services may not function properly if you disable cookies.</p>
+            <p className="mb-4">Examples of Cookies We Use:</p>
+            <ul className="list-disc pl-6 mb-6 space-y-2">
+              <li>Session Cookies: To keep you logged in and facilitate interaction with the Service.</li>
+              <li>Security Cookies: For security purposes.</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-8 mb-4">Use of Data</h2>
@@ -40,11 +69,15 @@ const Privacy = () => {
               <li>Allowing you to participate in interactive features</li>
               <li>Providing customer support</li>
               <li>Gathering analysis or valuable information to improve our Services</li>
+              <li>Monitoring the usage of our Services</li>
+              <li>Detecting, preventing, and addressing technical issues</li>
+              <li>Communicating news, special offers, and general information about similar goods and services</li>
             </ul>
 
             <h2 className="text-xl font-semibold mt-8 mb-4">Contact Us</h2>
             <p className="mb-4">If you have any questions about this Privacy Policy or wish to make a data request, please contact us:</p>
             <p className="mb-4">Email: help@playerhub.com</p>
+            <p className="mb-4">We will respond to your request within a reasonable timeframe. We retain and use your information as necessary to comply with legal obligations, resolve disputes, and enforce our agreements.</p>
           </div>
         </div>
       </main>
