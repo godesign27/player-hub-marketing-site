@@ -5,6 +5,13 @@ const Footer = () => {
   return (
     <footer className="w-full bg-white border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/lovable-uploads/6746630b-9c98-4ba7-8c5a-bc0d28548c6f.png" 
+            alt="PlayerHub Logo" 
+            className="h-8"
+          />
+        </div>
         <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
           <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>
           <Link to="/players" className="text-gray-600 hover:text-gray-900">Players</Link>
