@@ -12,11 +12,14 @@ const Footer = () => {
     <footer className="w-full bg-white border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex justify-center mb-8">
-          <img 
-            src="/lovable-uploads/6746630b-9c98-4ba7-8c5a-bc0d28548c6f.png" 
-            alt="PlayerHub Logo" 
-            className="h-8"
-          />
+          <div className="flex items-center space-x-2">
+            <img 
+              src="/lovable-uploads/f62f7f05-47c4-4538-be19-6d431147e810.png" 
+              alt="Player Hub Logo" 
+              className="h-8"
+            />
+            <span className="text-xl font-bold text-gray-900">PlayerHub</span>
+          </div>
         </div>
         <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
           <Link to="/" className="text-[#000000] font-bold">Home</Link>
