@@ -22,91 +22,97 @@ const GetStarted = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Free Plan */}
-          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow">
-            <h2 className="text-2xl font-bold mb-2">Free</h2>
-            <p className="text-gray-600 mb-4">Great to get you seen.</p>
-            <div className="flex items-baseline text-gray-900 mb-6">
-              <span className="text-3xl font-semibold">$</span>
-              <span className="text-5xl font-extrabold tracking-tight">0</span>
-              <span className="ml-1 text-xl text-gray-500">/month</span>
+          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col">
+            <div className="flex-grow">
+              <h2 className="text-2xl font-bold mb-2">Free</h2>
+              <p className="text-gray-600 mb-4">Great to get you seen.</p>
+              <div className="flex items-baseline text-gray-900 mb-6">
+                <span className="text-3xl font-semibold">$</span>
+                <span className="text-5xl font-extrabold tracking-tight">0</span>
+                <span className="ml-1 text-xl text-gray-500">/month</span>
+              </div>
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Player Profile</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Player Handle</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Manage your Profile: 1 Video and 2 Images</span>
+                </li>
+              </ul>
             </div>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Player Profile</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Player Handle</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Manage your Profile: 1 Video and 2 Images</span>
-              </li>
-            </ul>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
               Get started
             </button>
           </div>
 
           {/* Pro Plan */}
-          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow">
-            <h2 className="text-2xl font-bold mb-2">Pro</h2>
-            <p className="text-gray-600 mb-4">Best if you want to showcase your story and communicate with Recruiters and Coaches.</p>
-            <div className="flex items-baseline text-gray-900 mb-6">
-              <span className="text-3xl font-semibold">$</span>
-              <span className="text-5xl font-extrabold tracking-tight">4</span>
-              <span className="ml-1 text-xl text-gray-500">/month</span>
+          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col">
+            <div className="flex-grow">
+              <h2 className="text-2xl font-bold mb-2">Pro</h2>
+              <p className="text-gray-600 mb-4">Best if you want to showcase your story and communicate with Recruiters and Coaches.</p>
+              <div className="flex items-baseline text-gray-900 mb-6">
+                <span className="text-3xl font-semibold">$</span>
+                <span className="text-5xl font-extrabold tracking-tight">4</span>
+                <span className="ml-1 text-xl text-gray-500">/month</span>
+              </div>
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Player Profile</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Player Handle</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Manage your Profile: 8 Videos and 40 Images</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Unlimited Recruiter messages</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">No Ad banners</span>
+                </li>
+              </ul>
             </div>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Player Profile</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Player Handle</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Manage your Profile: 8 Videos and 40 Images</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Unlimited Recruiter messages</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">No Ad banners</span>
-              </li>
-            </ul>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
               Get started
             </button>
           </div>
 
           {/* Recruiter/Coach Plan */}
-          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow">
-            <h2 className="text-2xl font-bold mb-2">Recruiter/Coach</h2>
-            <p className="text-gray-600 mb-4">Everything you need to find and communicate with players. (Only players you message can see your profile).</p>
-            <div className="flex items-baseline text-gray-900 mb-6">
-              <span className="text-5xl font-extrabold tracking-tight">Free</span>
+          <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col">
+            <div className="flex-grow">
+              <h2 className="text-2xl font-bold mb-2">Recruiter/Coach</h2>
+              <p className="text-gray-600 mb-4">Everything you need to find and communicate with players. (Only players you message can see your profile).</p>
+              <div className="flex items-baseline text-gray-900 mb-6">
+                <span className="text-5xl font-extrabold tracking-tight">Free</span>
+              </div>
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Personalized Recruiter Dashboard</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Player Board Lists</span>
+                </li>
+                <li className="flex items-center">
+                  <Check className="h-5 w-5 text-green-500 mr-2" />
+                  <span className="text-gray-600">Unlimited Player messages</span>
+                </li>
+              </ul>
             </div>
-            <ul className="space-y-4 mb-8">
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Personalized Recruiter Dashboard</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Player Board Lists</span>
-              </li>
-              <li className="flex items-center">
-                <Check className="h-5 w-5 text-green-500 mr-2" />
-                <span className="text-gray-600">Unlimited Player messages</span>
-              </li>
-            </ul>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors">
+            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
               Get started
             </button>
           </div>
