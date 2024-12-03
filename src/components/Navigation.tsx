@@ -20,9 +20,14 @@ const Navigation = () => {
               <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
               <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             </div>
-            <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors ml-8">
-              Get Started
-            </button>
+            <div className="flex items-center space-x-4 ml-8">
+              <button className="bg-secondary text-secondary-foreground px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors">
+                Log In
+              </button>
+              <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
+                Get Started
+              </button>
+            </div>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -42,6 +47,9 @@ const Navigation = () => {
             <a href="/" className="block px-3 py-2 text-primary font-medium">Home</a>
             <a href="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</a>
             <a href="/contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+            <button className="w-full mt-4 bg-secondary text-secondary-foreground px-4 py-2 rounded-lg hover:bg-secondary/90 transition-colors">
+              Log In
+            </button>
             <button className="w-full mt-4 bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
               Get Started
             </button>
