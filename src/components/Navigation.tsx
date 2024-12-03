@@ -21,7 +21,7 @@ const Navigation = () => {
               <a href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
             </div>
             <div className="flex items-center space-x-4 ml-8">
-              <button className="bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
+              <button className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
                 Log In
               </button>
               <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
