@@ -1,5 +1,11 @@
 import { Globe } from "lucide-react";
 import { Link } from "react-router-dom";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Footer = () => {
   return (
@@ -20,10 +26,21 @@ const Footer = () => {
           <Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
           <Link to="/terms" className="text-gray-600 hover:text-gray-900">Terms of Use</Link>
           <Link to="/privacy" className="text-gray-600 hover:text-gray-900">Privacy Policy</Link>
-          <button className="flex items-center gap-x-1 text-gray-600 hover:text-gray-900">
-            <Globe className="h-4 w-4" />
-            <span>English</span>
-          </button>
+          <DropdownMenu>
+            <DropdownMenuTrigger className="flex items-center gap-x-1 text-gray-600 hover:text-gray-900">
+              <Globe className="h-4 w-4" />
+              <span>English</span>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+              <DropdownMenuItem>English</DropdownMenuItem>
+              <DropdownMenuItem>Dutch</DropdownMenuItem>
+              <DropdownMenuItem>French</DropdownMenuItem>
+              <DropdownMenuItem>German</DropdownMenuItem>
+              <DropdownMenuItem>Italian</DropdownMenuItem>
+              <DropdownMenuItem>Portuguese</DropdownMenuItem>
+              <DropdownMenuItem>Spanish</DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
         <div className="text-center mt-8 text-gray-500">
           © 2024 PlayerHub, Inc. All rights reserved.
