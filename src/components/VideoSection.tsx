@@ -23,8 +23,8 @@ const VideoSection = () => {
           <div className="relative">
             <div className="aspect-video bg-gray-100 rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
-                alt="Video Preview"
+                src="/lovable-uploads/0e0200d7-6bbb-46f3-8147-ab68adf92d02.png"
+                alt="Soccer player dribbling the ball during a match"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center">
