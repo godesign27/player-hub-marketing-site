@@ -2,7 +2,6 @@ import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Sports from "@/components/Sports";
-import VideoSection from "@/components/VideoSection";
 import RecruiterFeatures from "@/components/RecruiterFeatures";
 import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
@@ -17,7 +16,6 @@ const Index = () => {
       <Sports />
       <PlayerJourneySection />
       <PlayerJourneySection2 />
-      <VideoSection />
       <RecruiterFeatures />
       <Newsletter />
     </div>
