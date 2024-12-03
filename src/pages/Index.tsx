@@ -6,6 +6,7 @@ import VideoSection from "@/components/VideoSection";
 import RecruiterFeatures from "@/components/RecruiterFeatures";
 import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
+import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Features />
       <Sports />
       <PlayerJourneySection />
+      <PlayerJourneySection2 />
       <VideoSection />
       <RecruiterFeatures />
       <Newsletter />
