@@ -19,7 +19,7 @@ const Index = () => {
       <PlayerJourneySection2 />
       <RecruiterFeatures />
       <Newsletter />
-      <Footer />
+      <Footer activePage="home" />
     </div>
   );
 };
