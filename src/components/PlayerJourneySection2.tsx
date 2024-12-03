@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const PlayerJourneySection2 = () => {
   return (
     <section className="py-20 bg-white">
