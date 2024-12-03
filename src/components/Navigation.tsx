@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,19 +11,19 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center space-x-12">
-            <a href="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-2">
               <img 
                 src="/lovable-uploads/f62f7f05-47c4-4538-be19-6d431147e810.png" 
                 alt="Player Hub Logo" 
                 className="h-8 w-auto"
               />
               <span className="text-xl font-bold text-gray-900">PlayerHub</span>
-            </a>
+            </Link>
             
             <div className="hidden md:flex items-center space-x-8">
-              <a href="/" className={location.pathname === "/" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Home</a>
-              <a href="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</a>
-              <a href="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Contact</a>
+              <Link to="/" className={location.pathname === "/" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Home</Link>
+              <Link to="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</Link>
+              <Link to="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Contact</Link>
             </div>
           </div>
           
@@ -31,9 +31,9 @@ const Navigation = () => {
             <button className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
               Log In
             </button>
-            <button className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
+            <Link to="/get-started" className="bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
               Get Started
-            </button>
+            </Link>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -50,15 +50,17 @@ const Navigation = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b">
-            <a href="/" className={location.pathname === "/" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Home</a>
-            <a href="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</a>
-            <a href="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Contact</a>
+            <Link to="/" className={location.pathname === "/" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Home</Link>
+            <Link to="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</Link>
+            <Link to="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Contact</Link>
             <button className="w-full mt-4 bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
               Log In
             </button>
-            <button className="w-full mt-4 bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
-              Get Started
-            </button>
+            <Link to="/get-started" className="block w-full mt-4">
+              <button className="w-full bg-primary px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors">
+                Get Started
+              </button>
+            </Link>
           </div>
         </div>
       )}
