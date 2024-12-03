@@ -30,7 +30,7 @@ const Sports = () => {
             For Soccer players.
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            We currently support soccer players across the globe. More sports coming soon!
+            We currently offer player profiles for Soccer player. Each player will get personalized profile content based on their on the sport they choose.
           </p>
         </div>
 
