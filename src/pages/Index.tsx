@@ -6,6 +6,7 @@ import RecruiterFeatures from "@/components/RecruiterFeatures";
 import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
 import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <PlayerJourneySection2 />
       <RecruiterFeatures />
       <Newsletter />
+      <Footer />
     </div>
   );
 };
