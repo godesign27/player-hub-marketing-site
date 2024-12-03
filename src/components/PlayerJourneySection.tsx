@@ -19,12 +19,6 @@ const PlayerJourneySection = () => {
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">Master the Basics</h3>
-                <p className="text-gray-600">
-                  Dedicate focused practice time by honing fundamental skills like dribbling, passing, and shooting, establishing a strong foundation as a stage for advanced techniques and tactics.
-                </p>
-              </div>
-              <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Embrace Teamwork and Communication</h3>
                 <p className="text-gray-600">
                   Success is a team sport. Learn the importance of communication, understanding positioning, supporting teammates and maintaining and working together towards a common goal.
