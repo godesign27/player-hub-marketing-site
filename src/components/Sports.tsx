@@ -1,4 +1,6 @@
 import { CircleDot, Dumbbell, Bike } from "lucide-react";
+import { Alert, AlertDescription } from "@/components/ui/alert";
+import { InfoIcon } from "lucide-react";
 
 const sports = [
   {
@@ -24,6 +26,13 @@ const Sports = () => {
   return (
     <section id="sports" className="py-20 bg-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Alert className="mb-8">
+          <InfoIcon className="h-4 w-4" />
+          <AlertDescription>
+            Coming soon. More sports will be added in 2025-2026
+          </AlertDescription>
+        </Alert>
+
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
             For Soccer players.
