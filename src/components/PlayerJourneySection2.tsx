@@ -13,8 +13,8 @@ const PlayerJourneySection2 = () => {
           </div>
           <div className="w-full">
             <img
-              src="/lovable-uploads/296e0bf0-5170-4c47-b8e3-195544473e1e.png"
-              alt="Soccer player"
+              src="/lovable-uploads/5f259a50-4c80-4797-958d-2c652fc93ccf.png"
+              alt="Soccer player in action"
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
