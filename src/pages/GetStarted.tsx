@@ -93,7 +93,7 @@ const GetStarted = () => {
           <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow flex flex-col">
             <div className="flex-grow">
               <h2 className="text-2xl font-bold mb-2">Recruiter/Coach</h2>
-              <p className="text-gray-600 mb-4">Everything you need to find and communicate with players. (Only players you message can see your profile).</p>
+              <p className="text-gray-600 mb-4">Everything you need to find and communicate with players.</p>
               <div className="flex items-baseline text-gray-900 mb-6">
                 <span className="text-5xl font-extrabold tracking-tight">Free</span>
               </div>
