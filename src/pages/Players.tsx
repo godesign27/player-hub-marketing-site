@@ -42,7 +42,7 @@ const Players = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Navigation />
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 mt-12">
         <div className="flex flex-col space-y-6">
           {/* Search and Filter Section */}
           <div className="flex items-center space-x-4">
