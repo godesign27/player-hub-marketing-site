@@ -2,8 +2,6 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Check } from "lucide-react";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
-import { Toggle } from "@/components/ui/toggle";
 
 const GetStarted = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -22,21 +20,45 @@ const GetStarted = () => {
           </p>
         </div>
 
-        <div className="flex justify-center gap-4 mb-12">
-          <Toggle 
-            pressed={!isYearly}
-            onPressedChange={() => setIsYearly(false)}
-            className={`${!isYearly ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
-          >
-            Monthly
-          </Toggle>
-          <Toggle
-            pressed={isYearly}
-            onPressedChange={() => setIsYearly(true)}
-            className={`${isYearly ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
-          >
-            Yearly
-          </Toggle>
+        <div className="flex justify-center mb-12">
+          <div className="sm:hidden w-full max-w-xs">
+            <label htmlFor="billing-tabs" className="sr-only">Select billing period</label>
+            <select 
+              id="billing-tabs" 
+              value={isYearly ? "yearly" : "monthly"}
+              onChange={(e) => setIsYearly(e.target.value === "yearly")}
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            >
+              <option value="monthly">Monthly</option>
+              <option value="yearly">Yearly</option>
+            </select>
+          </div>
+          <ul className="hidden text-sm font-medium text-center text-gray-500 rounded-lg shadow sm:flex">
+            <li className="w-32 focus-within:z-10">
+              <button
+                onClick={() => setIsYearly(false)}
+                className={`inline-block w-full p-4 ${!isYearly 
+                  ? 'text-white bg-primary hover:bg-primary/90' 
+                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
+                  border-r border-gray-200 rounded-s-lg focus:ring-4 focus:ring-blue-300 focus:outline-none`}
+                aria-current={!isYearly ? "page" : undefined}
+              >
+                Monthly
+              </button>
+            </li>
+            <li className="w-32 focus-within:z-10">
+              <button
+                onClick={() => setIsYearly(true)}
+                className={`inline-block w-full p-4 ${isYearly 
+                  ? 'text-white bg-primary hover:bg-primary/90' 
+                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
+                  rounded-e-lg focus:ring-4 focus:ring-blue-300 focus:outline-none`}
+                aria-current={isYearly ? "page" : undefined}
+              >
+                Yearly
+              </button>
+            </li>
+          </ul>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
