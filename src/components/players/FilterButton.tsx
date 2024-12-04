@@ -1,13 +1,24 @@
-import { Filter } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { useState } from "react"
+import { Filter } from "lucide-react"
+import { Button } from "@/components/ui/button"
+import FilterDrawer from "./FilterDrawer"
 
 const FilterButton = () => {
-  return (
-    <Button variant="outline" className="flex items-center gap-2">
-      <Filter className="h-4 w-4" />
-      Filter
-    </Button>
-  );
-};
+  const [open, setOpen] = useState(false)
 
-export default FilterButton;
+  return (
+    <>
+      <Button 
+        variant="outline" 
+        className="flex items-center gap-2"
+        onClick={() => setOpen(true)}
+      >
+        <Filter className="h-4 w-4" />
+        Filter
+      </Button>
+      <FilterDrawer open={open} onOpenChange={setOpen} />
+    </>
+  )
+}
+
+export default FilterButton
