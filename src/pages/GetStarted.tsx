@@ -40,7 +40,7 @@ const GetStarted = () => {
                 className={`inline-block w-full p-4 ${!isYearly 
                   ? 'text-white bg-primary hover:bg-primary/90' 
                   : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
-                  border-r border-gray-200 rounded-s-lg focus:ring-4 focus:ring-black focus:outline-none`}
+                  border-r border-gray-200 rounded-s-lg focus:ring-4 focus:ring-blue-300 focus:outline-none`}
                 aria-current={!isYearly ? "page" : undefined}
               >
                 Monthly
@@ -52,7 +52,7 @@ const GetStarted = () => {
                 className={`inline-block w-full p-4 ${isYearly 
                   ? 'text-white bg-primary hover:bg-primary/90' 
                   : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
-                  rounded-e-lg focus:ring-4 focus:ring-black focus:outline-none`}
+                  rounded-e-lg focus:ring-4 focus:ring-blue-300 focus:outline-none`}
                 aria-current={isYearly ? "page" : undefined}
               >
                 Yearly
