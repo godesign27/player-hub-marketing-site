@@ -57,8 +57,8 @@ const Players = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Navigation />
-      <main className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 mt-12">
-        <div className="flex flex-col space-y-6">
+      <main className="flex-grow mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 mt-12">
+        <div className="max-w-7xl mx-auto flex flex-col space-y-6">
           <div className="flex items-center space-x-4">
             <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
             <FilterButton />
