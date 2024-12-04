@@ -26,14 +26,14 @@ const GetStarted = () => {
           <Toggle 
             pressed={!isYearly}
             onPressedChange={() => setIsYearly(false)}
-            className={`${!isYearly ? 'bg-black text-white' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
+            className={`${!isYearly ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
           >
             Monthly
           </Toggle>
           <Toggle
             pressed={isYearly}
             onPressedChange={() => setIsYearly(true)}
-            className={`${isYearly ? 'bg-black text-white' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
+            className={`${isYearly ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
           >
             Yearly
           </Toggle>
