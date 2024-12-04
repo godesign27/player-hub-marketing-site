@@ -22,7 +22,7 @@ const MOCK_PLAYERS: Player[] = [
     number: "#4",
     team: "FC United Academy II",
     position: "Striker / Winger",
-    imageUrl: "/lovable-uploads/41219820-e099-45b0-907c-b254274886df.png"
+    imageUrl: "/lovable-uploads/b911c675-f1be-49a0-bc81-9d2a02e4a0cb.png"
   },
   {
     id: "2",
@@ -30,7 +30,7 @@ const MOCK_PLAYERS: Player[] = [
     number: "#11",
     team: "Philadelphia Union / MLS Next",
     position: "Striker / Winger",
-    imageUrl: "/lovable-uploads/41219820-e099-45b0-907c-b254274886df.png"
+    imageUrl: "/lovable-uploads/b911c675-f1be-49a0-bc81-9d2a02e4a0cb.png"
   }
 ];
 
