@@ -38,7 +38,7 @@ const MOCK_PLAYERS: Player[] = [
     number: "#7",
     team: "Chicago Fire Academy",
     position: "Midfielder",
-    imageUrl: "/lovable-uploads/303a5526-a387-4377-b9d3-1ee09d30a64e.png"
+    imageUrl: "/lovable-uploads/cab74c6e-f0b7-4d4c-b817-c27d8fddaac1.png"
   },
   {
     id: "4",
@@ -46,7 +46,7 @@ const MOCK_PLAYERS: Player[] = [
     number: "#23",
     team: "LA Galaxy Academy",
     position: "Defender",
-    imageUrl: "/lovable-uploads/41219820-e099-45b0-907c-b254274886df.png"
+    imageUrl: "/lovable-uploads/cab74c6e-f0b7-4d4c-b817-c27d8fddaac1.png"
   }
 ];
 
