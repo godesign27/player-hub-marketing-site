@@ -62,12 +62,12 @@ const Footer = ({ activePage }: FooterProps) => {
           >
             Privacy Policy
           </Link>
-          <Link 
-            to="/login" 
+          <a 
+            href="https://dev.playerhub.co/en/auth/login"
             className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
           >
             Log In
-          </Link>
+          </a>
           <DropdownMenu>
             <DropdownMenuTrigger className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
               <Globe className="h-4 w-4 mr-2" />
