@@ -1,8 +1,13 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Check } from "lucide-react";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Toggle } from "@/components/ui/toggle";
 
 const GetStarted = () => {
+  const [isYearly, setIsYearly] = useState(false);
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
@@ -18,8 +23,20 @@ const GetStarted = () => {
         </div>
 
         <div className="flex justify-center gap-4 mb-12">
-          <button className="bg-[#111928] text-white px-6 py-2 rounded-lg">Monthly</button>
-          <button className="bg-gray-100 text-gray-900 px-6 py-2 rounded-lg">Yearly</button>
+          <Toggle 
+            pressed={!isYearly}
+            onPressedChange={() => setIsYearly(false)}
+            className={`${!isYearly ? 'bg-[#111928] text-white' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
+          >
+            Monthly
+          </Toggle>
+          <Toggle
+            pressed={isYearly}
+            onPressedChange={() => setIsYearly(true)}
+            className={`${isYearly ? 'bg-[#111928] text-white' : 'bg-gray-100 text-gray-900'} px-6 py-2 rounded-lg`}
+          >
+            Yearly
+          </Toggle>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -31,7 +48,7 @@ const GetStarted = () => {
               <div className="flex items-baseline text-gray-900 mb-6">
                 <span className="text-3xl font-semibold">$</span>
                 <span className="text-5xl font-extrabold tracking-tight">0</span>
-                <span className="ml-1 text-xl text-gray-500">/month</span>
+                <span className="ml-1 text-xl text-gray-500">{isYearly ? '/year' : '/month'}</span>
               </div>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
@@ -60,8 +77,8 @@ const GetStarted = () => {
               <p className="text-gray-600 mb-4">Best if you want to showcase your story and communicate with Recruiters and Coaches.</p>
               <div className="flex items-baseline text-gray-900 mb-6">
                 <span className="text-3xl font-semibold">$</span>
-                <span className="text-5xl font-extrabold tracking-tight">6</span>
-                <span className="ml-1 text-xl text-gray-500">/month</span>
+                <span className="text-5xl font-extrabold tracking-tight">{isYearly ? '50' : '6'}</span>
+                <span className="ml-1 text-xl text-gray-500">{isYearly ? '/year' : '/month'}</span>
               </div>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center">
