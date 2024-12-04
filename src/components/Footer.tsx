@@ -34,7 +34,7 @@ const Footer = ({ activePage }: FooterProps) => {
           </Link>
           <Link 
             to="/players" 
-            className={activePage === "players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+            className={location.pathname === "/players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             Players
           </Link>
