@@ -31,6 +31,22 @@ const MOCK_PLAYERS: Player[] = [
     team: "Philadelphia Union / MLS Next",
     position: "Striker / Winger",
     imageUrl: "/lovable-uploads/b911c675-f1be-49a0-bc81-9d2a02e4a0cb.png"
+  },
+  {
+    id: "3",
+    name: "Lucas Martinez",
+    number: "#7",
+    team: "Chicago Fire Academy",
+    position: "Midfielder",
+    imageUrl: "/lovable-uploads/303a5526-a387-4377-b9d3-1ee09d30a64e.png"
+  },
+  {
+    id: "4",
+    name: "Alex Thompson",
+    number: "#23",
+    team: "LA Galaxy Academy",
+    position: "Defender",
+    imageUrl: "/lovable-uploads/41219820-e099-45b0-907c-b254274886df.png"
   }
 ];
 
