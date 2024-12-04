@@ -60,7 +60,7 @@ const GetStarted = () => {
               <p className="text-gray-600 mb-4">Best if you want to showcase your story and communicate with Recruiters and Coaches.</p>
               <div className="flex items-baseline text-gray-900 mb-6">
                 <span className="text-3xl font-semibold">$</span>
-                <span className="text-5xl font-extrabold tracking-tight">4</span>
+                <span className="text-5xl font-extrabold tracking-tight">6</span>
                 <span className="ml-1 text-xl text-gray-500">/month</span>
               </div>
               <ul className="space-y-4 mb-8">
