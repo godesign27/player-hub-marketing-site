@@ -16,8 +16,8 @@ interface FilterDrawerProps {
 const FilterDrawer = ({ open, onOpenChange }: FilterDrawerProps) => {
   return (
     <Drawer open={open} onOpenChange={onOpenChange}>
-      <DrawerContent className="h-[90vh]">
-        <div className="mx-auto w-full max-w-lg">
+      <DrawerContent className="h-[90vh] z-50">
+        <div className="mx-auto w-full max-w-lg relative z-50">
           <DrawerHeader className="relative">
             <DrawerTitle className="text-lg font-semibold">Filter Players</DrawerTitle>
             <DrawerClose className="absolute right-2 top-2 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100">
