@@ -22,7 +22,7 @@ const Navigation = () => {
             
             <div className="hidden md:flex items-center space-x-8">
               <Link to="/" className={location.pathname === "/" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Home</Link>
-              <Link to="/players" className="text-gray-600 hover:text-gray-900 transition-colors">Players</Link>
+              <Link to="/players" className={location.pathname === "/players" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Players</Link>
               <Link to="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Contact</Link>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Navigation = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-b">
             <Link to="/" className={location.pathname === "/" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Home</Link>
-            <Link to="/players" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">Players</Link>
+            <Link to="/players" className={location.pathname === "/players" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Players</Link>
             <Link to="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>Contact</Link>
             <button className="w-full mt-4 bg-white text-[#1A56DB] border border-[#1A56DB] px-4 py-2 rounded-lg hover:bg-secondary hover:text-[#111928] transition-colors">
               Log In
