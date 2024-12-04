@@ -5,6 +5,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 interface Player {
   id: string;
@@ -75,11 +76,15 @@ const Players = () => {
                 className="group"
               >
                 <div className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                  <div className="relative aspect-square">
+                  <AspectRatio ratio={1 / 1} className="bg-muted">
                     <img
                       src={player.imageUrl}
                       alt={player.name}
-                      className="w-full h-full object-cover"
+                      className="object-cover w-full h-full"
+                      onError={(e) => {
+                        const img = e.target as HTMLImageElement;
+                        img.src = "/placeholder.svg";
+                      }}
                     />
                     <button className="absolute top-2 right-2 p-1 rounded-full bg-white/80 hover:bg-white">
                       <svg
@@ -96,7 +101,7 @@ const Players = () => {
                         />
                       </svg>
                     </button>
-                  </div>
+                  </AspectRatio>
                   <div className="p-4">
                     <div className="flex justify-between items-start mb-1">
                       <h3 className="font-semibold text-gray-900">
