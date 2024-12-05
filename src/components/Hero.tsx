@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="mt-16 animate-fade-up flex justify-center" style={{ animationDelay: "0.3s" }}>
           <div className="relative w-full max-w-[130%] max-w-4xl">
             <img
-              src="/lovable-uploads/cab74c6e-f0b7-4d4c-b817-c27d8fddaac1.png"
+              src="/lovable-uploads/3604b77f-1349-4b19-b7a7-114d60a04209.png"
               alt="PlayerHub Platform Preview"
               className="w-full rounded-lg scale-130"
             />
