@@ -24,7 +24,7 @@ const Hero = () => {
             <img
               src="/lovable-uploads/20778281-954a-4cac-9ac5-392134c008e6.png"
               alt="PlayerHub Platform Preview"
-              className="w-full rounded-lg shadow-xl"
+              className="w-full rounded-lg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-accent/50 to-transparent rounded-lg"></div>
           </div>
