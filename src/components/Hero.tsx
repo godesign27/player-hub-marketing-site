@@ -19,8 +19,8 @@ const Hero = () => {
           </button>
         </div>
 
-        <div className="mt-16 animate-fade-up -mx-4 sm:-mx-6 lg:-mx-8" style={{ animationDelay: "0.3s" }}>
-          <div className="relative w-full">
+        <div className="mt-16 animate-fade-up flex justify-center" style={{ animationDelay: "0.3s" }}>
+          <div className="relative w-full max-w-4xl">
             <img
               src="/lovable-uploads/20778281-954a-4cac-9ac5-392134c008e6.png"
               alt="PlayerHub Platform Preview"
