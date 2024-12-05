@@ -18,6 +18,17 @@ const Hero = () => {
             <ArrowRight className="ml-2 h-5 w-5" />
           </button>
         </div>
+
+        <div className="mt-16 animate-fade-up -mx-4 sm:-mx-6 lg:-mx-8" style={{ animationDelay: "0.3s" }}>
+          <div className="relative w-full">
+            <img
+              src="/lovable-uploads/20778281-954a-4cac-9ac5-392134c008e6.png"
+              alt="PlayerHub Platform Preview"
+              className="w-full rounded-lg shadow-xl"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-accent/50 to-transparent rounded-lg"></div>
+          </div>
+        </div>
       </div>
     </div>
   );
