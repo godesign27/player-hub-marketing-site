@@ -70,11 +70,11 @@ const Sports = () => {
               key={index}
               className="flex flex-col items-start space-y-3 p-6 rounded-xl bg-blue-50/50"
             >
-              <div className="w-12 h-12 flex items-center justify-center bg-blue-100 rounded-lg">
+              <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-lg">
                 <img
                   src={sport.icon}
                   alt={`${sport.name} icon`}
-                  className="w-6 h-6"
+                  className="w-10 h-10"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-900">{sport.name}</h3>
