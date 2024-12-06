@@ -1,23 +1,29 @@
-import { CircleDot, Dumbbell, Bike } from "lucide-react";
 import { InfoIcon } from "lucide-react";
 
 const sports = [
   {
-    icon: <CircleDot className="h-6 w-6" />,
+    icon: "/lovable-uploads/2bf2332d-2dc4-4bc3-bf4d-a94ef09b00d3.png",
     name: "Soccer",
-    active: true
+    status: "Active",
+    statusClass: "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300"
   },
   {
-    icon: <CircleDot className="h-6 w-6" />,
-    name: "Basketball"
+    icon: "/lovable-uploads/2a0602a7-84c4-409f-9cb5-f20160776471.png",
+    name: "Basketball",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   },
   {
-    icon: <Dumbbell className="h-6 w-6" />,
-    name: "Hockey"
+    icon: "/lovable-uploads/85bee935-342a-4f7b-8c9e-f6c6f7e35cb4.png",
+    name: "Hockey",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   },
   {
-    icon: <Bike className="h-6 w-6" />,
-    name: "Volleyball"
+    icon: "/lovable-uploads/e6bf3dac-c074-4484-8dcb-2a7267697243.png",
+    name: "Volleyball",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   }
 ];
 
@@ -25,38 +31,39 @@ const Sports = () => {
   return (
     <section id="sports" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            For Soccer players.
+        <div className="text-left mb-16">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            For sport players.
           </h2>
-          <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            We currently offer player profiles for Soccer player. Each player will get personalized profile content based on their on the sport they choose.
+          <p className="text-lg text-gray-600 max-w-2xl">
+            We currently offer player profiles for Soccer player. You get personalized profile content based on the sport you choose.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {sports.map((sport, index) => (
             <div
               key={index}
-              className={`p-4 rounded-xl text-center transition-all ${
-                sport.active
-                  ? "bg-primary text-white"
-                  : "bg-white text-gray-600 hover:bg-gray-50"
-              }`}
+              className="flex flex-col items-start space-y-3 p-6 rounded-xl bg-blue-50/50"
             >
-              <div className="flex items-center justify-center mb-2">
-                {sport.icon}
+              <div className="w-12 h-12 flex items-center justify-center bg-blue-100 rounded-lg">
+                <img
+                  src={sport.icon}
+                  alt={`${sport.name} icon`}
+                  className="w-6 h-6"
+                />
               </div>
-              <span className="font-medium">{sport.name}</span>
+              <h3 className="text-xl font-semibold text-gray-900">{sport.name}</h3>
+              <span className={`text-xs font-medium px-2.5 py-0.5 rounded ${sport.statusClass}`}>
+                {sport.status}
+              </span>
             </div>
           ))}
         </div>
 
-        <div className="p-4 mt-8 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400" role="alert">
-          <span className="flex items-center gap-2">
-            <InfoIcon className="h-4 w-4" />
-            Coming soon. More sports will be added in 2025-2026
-          </span>
+        <div className="mt-8 p-4 flex items-center gap-2 text-sm text-blue-800 rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-blue-400">
+          <InfoIcon className="h-4 w-4" />
+          Coming soon. More sports will be added in 2025-2026
         </div>
       </div>
     </section>
