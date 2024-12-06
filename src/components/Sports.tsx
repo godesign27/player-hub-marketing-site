@@ -27,7 +27,7 @@ const sports = [
   },
   {
     icon: "/lovable-uploads/72e38585-d9b9-4032-9b81-0fdf47918105.png",
-    name: "Cricket",
+    name: "American Football",
     status: "Coming soon.",
     statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   },
@@ -39,7 +39,7 @@ const sports = [
   },
   {
     icon: "/lovable-uploads/7389daa2-515a-46bd-997f-b0f942c0c1d5.png",
-    name: "American Football",
+    name: "Cricket",
     status: "Coming soon.",
     statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   },
