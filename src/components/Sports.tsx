@@ -24,6 +24,30 @@ const sports = [
     name: "Volleyball",
     status: "Coming soon.",
     statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
+  },
+  {
+    icon: "/lovable-uploads/72e38585-d9b9-4032-9b81-0fdf47918105.png",
+    name: "Cricket",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
+  },
+  {
+    icon: "/lovable-uploads/e695e586-b667-44f4-9526-cc4d1b855975.png",
+    name: "Baseball",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
+  },
+  {
+    icon: "/lovable-uploads/7389daa2-515a-46bd-997f-b0f942c0c1d5.png",
+    name: "American Football",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
+  },
+  {
+    icon: "/lovable-uploads/6d368769-2467-4db9-a27b-ff3d287ef243.png",
+    name: "Tennis",
+    status: "Coming soon.",
+    statusClass: "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300"
   }
 ];
 
