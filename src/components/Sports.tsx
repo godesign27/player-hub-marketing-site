@@ -68,7 +68,7 @@ const Sports = () => {
           {sports.map((sport, index) => (
             <div
               key={index}
-              className="flex flex-col items-start space-y-3 p-6 rounded-xl bg-blue-50/50"
+              className="flex flex-col items-start space-y-3 p-6 rounded-xl bg-gray-50"
             >
               <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-lg">
                 <img
