@@ -21,7 +21,7 @@ const Newsletter = () => {
         <div className="max-w-2xl mx-auto text-center">
           <Bell className="h-12 w-12 text-primary mx-auto mb-6" />
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Subscribe and get more features
+            Subscribe
           </h2>
           <p className="text-lg text-gray-600 mb-8">
             Stay up to date with the latest features and updates.
