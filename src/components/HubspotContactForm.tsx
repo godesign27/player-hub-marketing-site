@@ -15,6 +15,15 @@ const HubspotContactForm = () => {
     script.type = "text/javascript";
     document.head.appendChild(script);
 
+    // Add CSS to hide HubSpot branding
+    const style = document.createElement("style");
+    style.textContent = `
+      .hubspot-link__container {
+        display: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+
     script.addEventListener("load", () => {
       // Create the form once the script is loaded
       if (window.hbspt) {
@@ -29,6 +38,7 @@ const HubspotContactForm = () => {
     // Cleanup
     return () => {
       script.remove();
+      style.remove();
     };
   }, []);
 
