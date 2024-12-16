@@ -7,6 +7,7 @@ import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
 import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <RecruiterFeatures />
       <Newsletter />
       <Footer activePage="home" />
+      <CookieConsent />
     </div>
   );
 };
