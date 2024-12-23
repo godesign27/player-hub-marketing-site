@@ -7,9 +7,14 @@ const Banner = () => {
         <h2 className="text-2xl md:text-3xl font-normal mb-2">
           Your Story. Your Sport. Your Future. Launching February 14th, 2025
         </h2>
-        <p className="text-lg md:text-xl">
+        <p className="text-lg md:text-xl mb-8">
           PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers.
         </p>
+        <img 
+          src="/lovable-uploads/f97efc51-6f9a-4aa2-a426-4e61fd8bb014.png" 
+          alt="Rocket launch illustration" 
+          className="mx-auto h-32 md:h-40"
+        />
       </div>
     </div>
   );
