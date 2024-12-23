@@ -1,5 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import Banner from "@/components/Banner";
 import { Check } from "lucide-react";
 import { useState } from "react";
 
@@ -9,6 +10,7 @@ const GetStarted = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
+      <Banner />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
