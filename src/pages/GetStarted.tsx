@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Banner from "@/components/Banner";
 import { Check } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const GetStarted = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -89,9 +90,9 @@ const GetStarted = () => {
                 </li>
               </ul>
             </div>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
+            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
               Sign Up and Create Profile
-            </button>
+            </Link>
           </div>
 
           {/* Pro Plan */}
@@ -127,9 +128,9 @@ const GetStarted = () => {
                 </li>
               </ul>
             </div>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
+            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
               Sign Up and Create Profile
-            </button>
+            </Link>
           </div>
 
           {/* Recruiter/Coach Plan */}
@@ -159,9 +160,9 @@ const GetStarted = () => {
                 </li>
               </ul>
             </div>
-            <button className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto">
+            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
               Sign Up and Create Profile
-            </button>
+            </Link>
           </div>
         </div>
       </div>
