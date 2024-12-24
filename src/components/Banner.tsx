@@ -1,4 +1,5 @@
 import React from "react";
+import WaitlistForm from "./WaitlistForm";
 
 const Banner = () => {
   return (
@@ -15,6 +16,7 @@ const Banner = () => {
         <p className="text-lg md:text-xl mb-8">
           PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers.
         </p>
+        <WaitlistForm />
       </div>
     </div>
   );
