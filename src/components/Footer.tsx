@@ -12,6 +12,12 @@ interface FooterProps {
 }
 
 const Footer = ({ activePage }: FooterProps) => {
+  // Function to check if the launch date has passed
+  const isLaunched = () => {
+    const launchDate = new Date('2025-02-14T00:00:00');
+    return new Date() >= launchDate;
+  };
+
   return (
     <footer className="w-full bg-white border-t">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -32,12 +38,14 @@ const Footer = ({ activePage }: FooterProps) => {
           >
             Home
           </Link>
-          <Link 
-            to="/players" 
-            className={location.pathname === "/players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
-          >
-            Players
-          </Link>
+          {isLaunched() && (
+            <Link 
+              to="/players" 
+              className={location.pathname === "/players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+            >
+              Players
+            </Link>
+          )}
           <Link 
             to="/get-started" 
             className={activePage === "get-started" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
@@ -62,12 +70,14 @@ const Footer = ({ activePage }: FooterProps) => {
           >
             Privacy Policy
           </Link>
-          <a 
-            href="https://dev.playerhub.co/en/auth/login"
-            className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
-          >
-            Log In
-          </a>
+          {isLaunched() && (
+            <a 
+              href="https://dev.playerhub.co/en/auth/login"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              Log In
+            </a>
+          )}
           <DropdownMenu>
             <DropdownMenuTrigger className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
               <Globe className="h-4 w-4 mr-2" />
