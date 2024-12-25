@@ -53,6 +53,12 @@ const Footer = ({ activePage }: FooterProps) => {
             Get Started
           </Link>
           <Link 
+            to="/get-started" 
+            className={activePage === "pricing" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+          >
+            Pricing
+          </Link>
+          <Link 
             to="/contact" 
             className={activePage === "contact" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
