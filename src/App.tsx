@@ -11,6 +11,7 @@ import Privacy from "@/pages/Privacy";
 import Terms from "@/pages/Terms";
 import GetStarted from "@/pages/GetStarted";
 import Players from "@/pages/Players";
+import Pricing from "@/pages/Pricing";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
@@ -54,6 +55,7 @@ const App = () => {
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
             <Route path="/get-started" element={<GetStarted />} />
+            <Route path="/pricing" element={<Pricing />} />
             <Route 
               path="/players" 
               element={isLaunched() ? <Players /> : <Navigate to="/" replace />} 
