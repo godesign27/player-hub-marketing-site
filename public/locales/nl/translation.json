@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "Home",
+    "players": "Spelers",
+    "getStarted": "Aan de slag",
+    "pricing": "Prijzen",
+    "contact": "Contact"
+  },
+  "footer": {
+    "termsOfUse": "Gebruiksvoorwaarden",
+    "privacyPolicy": "Privacybeleid",
+    "login": "Inloggen",
+    "language": "Taal",
+    "copyright": "© 2024 PlayerHub, Inc. Alle rechten voorbehouden."
+  },
+  "languages": {
+    "en": "Engels",
+    "nl": "Nederlands",
+    "fr": "Frans",
+    "de": "Duits",
+    "it": "Italiaans",
+    "pt": "Portugees",
+    "es": "Spaans"
+  }
+}
