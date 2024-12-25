@@ -1,5 +1,6 @@
 import { Globe, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -12,10 +13,16 @@ interface FooterProps {
 }
 
 const Footer = ({ activePage }: FooterProps) => {
+  const { t, i18n } = useTranslation();
+
   // Function to check if the launch date has passed
   const isLaunched = () => {
     const launchDate = new Date('2025-02-14T00:00:00');
     return new Date() >= launchDate;
+  };
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
   };
 
   return (
@@ -36,73 +43,73 @@ const Footer = ({ activePage }: FooterProps) => {
             to="/" 
             className={activePage === "home" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Home
+            {t('navigation.home')}
           </Link>
           {isLaunched() && (
             <Link 
               to="/players" 
               className={location.pathname === "/players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
             >
-              Players
+              {t('navigation.players')}
             </Link>
           )}
           <Link 
             to="/get-started" 
             className={activePage === "get-started" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Get Started
+            {t('navigation.getStarted')}
           </Link>
           <Link 
             to="/get-started" 
             className={activePage === "pricing" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Pricing
+            {t('navigation.pricing')}
           </Link>
           <Link 
             to="/contact" 
             className={activePage === "contact" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Contact
+            {t('navigation.contact')}
           </Link>
           <Link 
             to="/terms" 
             className={activePage === "terms" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Terms of Use
+            {t('footer.termsOfUse')}
           </Link>
           <Link 
             to="/privacy" 
             className={activePage === "privacy" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
-            Privacy Policy
+            {t('footer.privacyPolicy')}
           </Link>
           {isLaunched() && (
             <a 
               href="https://dev.playerhub.co/en/auth/login"
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
             >
-              Log In
+              {t('footer.login')}
             </a>
           )}
           <DropdownMenu>
             <DropdownMenuTrigger className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
               <Globe className="h-4 w-4 mr-2" />
-              <span>English</span>
+              <span>{t('languages.' + i18n.language)}</span>
               <ChevronDown className="h-4 w-4 ml-2" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">English</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Dutch</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">French</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">German</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Italian</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Portuguese</DropdownMenuItem>
-              <DropdownMenuItem className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white">Spanish</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('en')}>{t('languages.en')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('nl')}>{t('languages.nl')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('fr')}>{t('languages.fr')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('de')}>{t('languages.de')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('it')}>{t('languages.it')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('pt')}>{t('languages.pt')}</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => changeLanguage('es')}>{t('languages.es')}</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
         <div className="text-center mt-8 text-gray-500">
-          © 2024 PlayerHub, Inc. All rights reserved.
+          {t('footer.copyright')}
         </div>
       </div>
     </footer>

@@ -1,0 +1,25 @@
+{
+  "navigation": {
+    "home": "Home",
+    "players": "Players",
+    "getStarted": "Get Started",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "footer": {
+    "termsOfUse": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "login": "Log In",
+    "language": "Language",
+    "copyright": "© 2024 PlayerHub, Inc. All rights reserved."
+  },
+  "languages": {
+    "en": "English",
+    "nl": "Dutch",
+    "fr": "French",
+    "de": "German",
+    "it": "Italian",
+    "pt": "Portuguese",
+    "es": "Spanish"
+  }
+}
