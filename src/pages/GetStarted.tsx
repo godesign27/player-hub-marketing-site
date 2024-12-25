@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Banner from "@/components/Banner";
+import FAQ from "@/components/FAQ";
 import { Check } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -166,6 +167,7 @@ const GetStarted = () => {
           </div>
         </div>
       </div>
+      <FAQ />
       <Footer activePage="get-started" />
     </div>
   );
