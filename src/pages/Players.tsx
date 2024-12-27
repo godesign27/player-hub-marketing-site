@@ -1,86 +1,18 @@
-import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import SearchBar from "@/components/players/SearchBar";
-import FilterButton from "@/components/players/FilterButton";
-import PlayerCard from "@/components/players/PlayerCard";
-import CreateProfileCTA from "@/components/players/CreateProfileCTA";
-
-interface Player {
-  id: string;
-  name: string;
-  number: string;
-  team: string;
-  position: string;
-  imageUrl: string;
-}
-
-const MOCK_PLAYERS: Player[] = [
-  {
-    id: "1",
-    name: "Bodhi McGuire",
-    number: "#4",
-    team: "FC United Academy II",
-    position: "Striker / Winger",
-    imageUrl: "/lovable-uploads/b911c675-f1be-49a0-bc81-9d2a02e4a0cb.png"
-  },
-  {
-    id: "2",
-    name: "Cavan Sullivan",
-    number: "#11",
-    team: "Philadelphia Union / MLS Next",
-    position: "Striker / Winger",
-    imageUrl: "/lovable-uploads/b911c675-f1be-49a0-bc81-9d2a02e4a0cb.png"
-  },
-  {
-    id: "3",
-    name: "Lucas Martinez",
-    number: "#7",
-    team: "Chicago Fire Academy",
-    position: "Midfielder",
-    imageUrl: "/lovable-uploads/cab74c6e-f0b7-4d4c-b817-c27d8fddaac1.png"
-  },
-  {
-    id: "4",
-    name: "Alex Thompson",
-    number: "#23",
-    team: "LA Galaxy Academy",
-    position: "Defender",
-    imageUrl: "/lovable-uploads/cab74c6e-f0b7-4d4c-b817-c27d8fddaac1.png"
-  }
-];
 
 const Players = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [players] = useState<Player[]>(MOCK_PLAYERS);
-
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Navigation />
-      <main className="flex-grow mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 mt-12">
-        <div className="max-w-7xl mx-auto flex flex-col space-y-6">
-          <div className="flex items-center space-x-4">
-            <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-            <FilterButton />
-          </div>
-
-          <div className="text-sm text-gray-600 font-bold">
-            All Players (8)
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {players.map((player) => (
-              <PlayerCard key={player.id} {...player} />
-            ))}
-          </div>
-
-          <CreateProfileCTA />
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {players.slice(0, 4).map((player) => (
-              <PlayerCard key={`bottom-${player.id}`} {...player} />
-            ))}
-          </div>
+      <main className="flex-grow mx-auto w-full px-4 sm:px-6 lg:px-8 py-8 mt-16">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl text-center mb-4">
+            On February 14th you will find players here to view and learn about their stories.
+          </h1>
+          <p className="text-xl text-gray-600 text-center max-w-3xl mx-auto">
+            Recruiters and Coaches can find players, create player boards and message players.
+          </p>
         </div>
       </main>
       <Footer />

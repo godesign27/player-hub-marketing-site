@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "./i18n";
 
@@ -16,12 +16,6 @@ import Pricing from "@/pages/Pricing";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const queryClient = new QueryClient();
-
-// Function to check if the launch date has passed
-const isLaunched = () => {
-  const launchDate = new Date('2025-02-14T00:00:00');
-  return new Date() >= launchDate;
-};
 
 const App = () => {
   useEffect(() => {
@@ -57,10 +51,7 @@ const App = () => {
             <Route path="/terms" element={<Terms />} />
             <Route path="/get-started" element={<GetStarted />} />
             <Route path="/pricing" element={<Pricing />} />
-            <Route 
-              path="/players" 
-              element={isLaunched() ? <Players /> : <Navigate to="/" replace />} 
-            />
+            <Route path="/players" element={<Players />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
