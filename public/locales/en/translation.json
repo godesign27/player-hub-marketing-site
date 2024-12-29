@@ -94,6 +94,52 @@
     "title": "Your Story. Your Sport. Your Future. Launching February 14th, 2025",
     "description": "PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers."
   },
+  "getStarted": {
+    "title": "Your Future, Your Profile, Your Way",
+    "description": "Create a player profile that truly reflects your passion and skills. In just a few minutes, you can join PlayerHub and start telling your story.",
+    "pricing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "freePlan": {
+        "title": "Starter (Free)",
+        "description": "Great to get you seen by recruiters, trainers, coaches, peers and more.",
+        "price": "0",
+        "features": [
+          "Player Profile",
+          "Player Handle",
+          "Manage your Profile: 1 Video and 2 Images"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Best if you want to showcase your story and communicate with Recruiters and Coaches.",
+        "monthlyPrice": "6",
+        "yearlyPrice": "50",
+        "features": [
+          "Player Profile",
+          "Player Handle",
+          "Manage your Profile: 8 Videos and 40 Images",
+          "Unlimited Recruiter messages",
+          "No Ad banners"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Recruiter/Coach",
+        "description": "Everything you need to find and communicate with players.",
+        "price": "Free",
+        "features": [
+          "Personalized Recruiter Dashboard",
+          "Player Board Lists",
+          "Unlimited Player messages",
+          "Coach/Recruiter profile"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Have questions, feedback, or need assistance? We're here to help. Whether you're a player, coach, recruiter, or just curious about our platform, don't hesitate to reach out. Our team is dedicated to providing you with the support and information you need to make the most of your experience."
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "sections": {
