@@ -13,6 +13,7 @@ import GetStarted from "@/pages/GetStarted";
 import Players from "@/pages/Players";
 import Pricing from "@/pages/Pricing";
 import ScrollToTop from "@/components/ScrollToTop";
+import HubspotTracking from "@/components/HubspotTracking";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <HubspotTracking />
         <BrowserRouter>
           <ScrollToTop />
           <Routes>
