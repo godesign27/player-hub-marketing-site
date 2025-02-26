@@ -12,6 +12,11 @@ const GetStarted = () => {
   const [isYearly, setIsYearly] = useState(false);
   const { t } = useTranslation();
 
+  const getFeatures = (key: string): string[] => {
+    const features = t(`getStarted.pricing.${key}.features`, { returnObjects: true });
+    return Array.isArray(features) ? features : [];
+  };
+
   return (
     <div className="min-h-screen bg-gray-50">
       <Navigation />
@@ -79,7 +84,7 @@ const GetStarted = () => {
                 <span className="ml-1 text-xl text-gray-500">{isYearly ? '/year' : '/month'}</span>
               </div>
               <ul className="space-y-4 mb-8">
-                {t('getStarted.pricing.freePlan.features', { returnObjects: true }).map((feature: string, index: number) => (
+                {getFeatures('freePlan').map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <Check className="h-5 w-5 text-green-500 mr-2" />
                     <span className="text-gray-600">{feature}</span>
@@ -88,7 +93,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
-              Sign Up and Create Profile
+              {t('hero.cta')}
             </Link>
           </div>
 
@@ -105,7 +110,7 @@ const GetStarted = () => {
                 <span className="ml-1 text-xl text-gray-500">{isYearly ? '/year' : '/month'}</span>
               </div>
               <ul className="space-y-4 mb-8">
-                {t('getStarted.pricing.proPlan.features', { returnObjects: true }).map((feature: string, index: number) => (
+                {getFeatures('proPlan').map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <Check className="h-5 w-5 text-green-500 mr-2" />
                     <span className="text-gray-600">{feature}</span>
@@ -114,7 +119,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
-              Sign Up and Create Profile
+              {t('hero.cta')}
             </Link>
           </div>
 
@@ -127,7 +132,7 @@ const GetStarted = () => {
                 <span className="text-5xl font-extrabold tracking-tight">{t('getStarted.pricing.recruiterPlan.price')}</span>
               </div>
               <ul className="space-y-4 mb-8">
-                {t('getStarted.pricing.recruiterPlan.features', { returnObjects: true }).map((feature: string, index: number) => (
+                {getFeatures('recruiterPlan').map((feature, index) => (
                   <li key={index} className="flex items-center">
                     <Check className="h-5 w-5 text-green-500 mr-2" />
                     <span className="text-gray-600">{feature}</span>
@@ -136,7 +141,7 @@ const GetStarted = () => {
               </ul>
             </div>
             <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
-              Sign Up and Create Profile
+              {t('hero.cta')}
             </Link>
           </div>
         </div>

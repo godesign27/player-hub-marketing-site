@@ -1,0 +1,166 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "players": "Giocatori",
+    "pricing": "Prezzi",
+    "contact": "Contatti",
+    "getStarted": "Inizia ora"
+  },
+  "banner": {
+    "title": "Unisciti alla lista d'attesa",
+    "description": "Sii il primo a sapere quando lanceremo!",
+    "successMessage": "Ti sei iscritto con successo alla lista d'attesa!"
+  },
+  "hero": {
+    "title": "Sblocca il tuo potenziale",
+    "subtitle": "sportivo",
+    "description": "PlayerHub è la piattaforma definitiva per gli atleti che vogliono mostrare il loro talento e connettersi con reclutatori in tutto il mondo.",
+    "cta": "Crea il tuo profilo"
+  },
+  "features": {
+    "title": "Caratteristiche della piattaforma",
+    "subtitle": "Tutto ciò di cui hai bisogno per far emergere il tuo talento",
+    "personalizedProfile": {
+      "title": "Profilo personalizzato",
+      "description": "Crea un profilo coinvolgente che mostri le tue statistiche, i successi e gli highlights."
+    },
+    "uploadMedia": {
+      "title": "Carica contenuti multimediali",
+      "description": "Carica video delle tue prestazioni, highlights e momenti migliori."
+    },
+    "expandNetwork": {
+      "title": "Espandi la tua rete",
+      "description": "Connettiti con altri atleti, allenatori e reclutatori nella tua disciplina."
+    },
+    "messageRecruiters": {
+      "title": "Messaggia con i reclutatori",
+      "description": "Comunica direttamente con reclutatori e allenatori interessati al tuo profilo."
+    }
+  },
+  "sports": {
+    "title": "Sport disponibili",
+    "subtitle": "Inizia con il calcio - altri sport in arrivo presto",
+    "active": "Attivo",
+    "comingSoon": "Prossimamente",
+    "futureUpdate": "Altri sport saranno aggiunti nei prossimi aggiornamenti"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Il tuo futuro, il tuo profilo, il tuo percorso",
+      "description": "PlayerHub ti offre gli strumenti per metterti in mostra e raggiungere il livello successivo nella tua carriera sportiva."
+    },
+    "section2": {
+      "title": "Inizia il tuo viaggio oggi",
+      "description": "Non perdere l'opportunità di farti notare dai reclutatori e dagli allenatori di tutto il mondo.",
+      "cta": "Crea il tuo profilo"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Reclutatori e allenatori",
+    "subtitle": "Strumenti potenti per scoprire e gestire i talenti",
+    "customBoards": {
+      "title": "Bacheche personalizzate",
+      "description": "Organizza i giocatori in bacheche personalizzate per tenere traccia dei talenti interessanti."
+    },
+    "directMessaging": {
+      "title": "Messaggistica diretta",
+      "description": "Comunica direttamente con i giocatori attraverso la nostra piattaforma sicura."
+    },
+    "teamAccess": {
+      "title": "Accesso di squadra",
+      "description": "Collabora con il tuo staff condividendo note e valutazioni sui giocatori."
+    }
+  },
+  "newsletter": {
+    "title": "Rimani aggiornato",
+    "description": "Iscriviti alla nostra newsletter per ricevere aggiornamenti sulle nuove funzionalità e i prossimi sport.",
+    "placeholder": "Inserisci la tua email",
+    "button": "Iscriviti",
+    "success": "Iscrizione completata!",
+    "successMessage": "Grazie per esserti iscritto alla nostra newsletter!"
+  },
+  "footer": {
+    "termsOfUse": "Termini di utilizzo",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2024 PlayerHub. Tutti i diritti riservati.",
+    "signInLink": "Accedi"
+  },
+  "languages": {
+    "en": "Inglese",
+    "es": "Spagnolo",
+    "nl": "Olandese",
+    "fr": "Francese",
+    "de": "Tedesco",
+    "it": "Italiano",
+    "pt": "Portoghese"
+  },
+  "faq": {
+    "title": "Domande frequenti",
+    "sections": {
+      "general": {
+        "title": "Utilizzo generale e funzionalità",
+        "questions": {
+          "security": {
+            "question": "Come gestite la sicurezza dei dati?",
+            "answer": "Utilizziamo la crittografia end-to-end e seguiamo le migliori pratiche del settore per proteggere i tuoi dati personali e le comunicazioni sulla piattaforma."
+          },
+          "dataProtection": {
+            "question": "Come proteggete i miei dati personali?",
+            "answer": "Rispettiamo rigorosamente il GDPR e altre normative sulla protezione dei dati. I tuoi dati sono archiviati in modo sicuro e non vengono mai condivisi senza il tuo consenso."
+          },
+          "cancellation": {
+            "question": "Come posso cancellare il mio account?",
+            "answer": "Puoi cancellare il tuo account in qualsiasi momento dalle impostazioni del profilo. Tutti i tuoi dati verranno rimossi dai nostri server entro 30 giorni."
+          }
+        }
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Scegli il piano giusto per te",
+    "description": "Tutti i piani includono una prova gratuita di 14 giorni",
+    "pricing": {
+      "monthly": "Mensile",
+      "yearly": "Annuale",
+      "freePlan": {
+        "title": "Gratuito",
+        "description": "Per gli atleti che iniziano il loro viaggio",
+        "price": "0",
+        "features": [
+          "Profilo base",
+          "Caricamento di 3 video",
+          "Statistiche di base",
+          "Messaggistica limitata"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Per atleti seri che vogliono distinguersi",
+        "monthlyPrice": "15",
+        "yearlyPrice": "144",
+        "features": [
+          "Tutto del piano Gratuito",
+          "Video illimitati",
+          "Statistiche avanzate",
+          "Messaggistica illimitata",
+          "Badge verificato",
+          "Supporto prioritario"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Reclutatore",
+        "description": "Per reclutatori e allenatori",
+        "price": "Contattaci",
+        "features": [
+          "Accesso a tutti i profili",
+          "Strumenti di ricerca avanzati",
+          "Bacheche personalizzate",
+          "Analisi approfondite",
+          "Accesso multi-utente",
+          "API dedicata"
+        ]
+      }
+    }
+  }
+}
