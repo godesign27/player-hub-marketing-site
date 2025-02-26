@@ -1,0 +1,170 @@
+
+{
+  "navigation": {
+    "home": "Inicio",
+    "players": "Jugadores",
+    "getStarted": "Empezar",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "footer": {
+    "termsOfUse": "Términos de uso",
+    "privacyPolicy": "Política de privacidad",
+    "login": "Iniciar sesión",
+    "language": "Idioma",
+    "copyright": "© 2024 PlayerHub, Inc. Todos los derechos reservados."
+  },
+  "languages": {
+    "en": "Inglés",
+    "nl": "Holandés",
+    "fr": "Francés",
+    "de": "Alemán",
+    "it": "Italiano",
+    "pt": "Portugués",
+    "es": "Español"
+  },
+  "hero": {
+    "title": "Una plataforma de perfiles de jugadores centrada en el atleta",
+    "subtitle": "para mostrar tu historia.",
+    "description": "Muestra tu Perfil de Jugador y cuenta tu historia deportiva, permitiendo que reclutadores, ojeadores, entrenadores y compañeros tengan una visión detallada de tu trayectoria deportiva y narrativa personal, equipándolos con la información y herramientas esenciales para iniciar el proceso de evaluación.",
+    "cta": "Empezar"
+  },
+  "features": {
+    "title": "El primer perfil de jugador gestionado por el atleta.",
+    "subtitle": "Toma el control de tu trayectoria deportiva con nuestra plataforma integral diseñada para atletas.",
+    "personalizedProfile": {
+      "title": "Perfil de Jugador Personalizado",
+      "description": "Crea tu identidad digital única mostrando tus logros, habilidades y trayectoria."
+    },
+    "uploadMedia": {
+      "title": "Sube fotos y videos",
+      "description": "Comparte tus mejores momentos, sesiones de entrenamiento y momentos destacados de partidos con la comunidad."
+    },
+    "expandNetwork": {
+      "title": "Expande tu Red",
+      "description": "Conéctate con entrenadores, reclutadores y otros atletas para aumentar tus oportunidades."
+    },
+    "messageRecruiters": {
+      "title": "Mensajes con Reclutadores",
+      "description": "Comunicación directa con ojeadores y entrenadores interesados en tu talento."
+    }
+  },
+  "sports": {
+    "title": "Para deportistas.",
+    "subtitle": "Actualmente ofrecemos perfiles de jugador para futbolistas. Obtienes contenido de perfil personalizado según el deporte que elijas.",
+    "comingSoon": "Próximamente.",
+    "active": "Activo",
+    "futureUpdate": "Próximamente. Se añadirán más deportes en 2025-2026"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Muestra tu Trayectoria, Capta la Atención, Obtén Tracción",
+      "description": "Tu historia es más que solo estadísticas y momentos destacados: es un viaje de dedicación, crecimiento y ambición. Nuestra plataforma te permite crear un perfil de jugador convincente que resuene con entrenadores y reclutadores. Comparte tu viaje personal, destaca tus logros y deja que tu pasión brille. Ya sea dentro o fuera del campo, tu historia merece ser contada de una manera que refleje verdaderamente quién eres como atleta y como persona."
+    },
+    "section2": {
+      "title": "Videos destacados del jugador",
+      "description": "Sube y comparte tus mejores momentos con reclutadores y entrenadores. PlayerHub muestra tus jugadas clave y habilidades con nuestro sistema Smart Player.",
+      "cta": "Empezar"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Gestión de Talento a Medida para Reclutadores y Entrenadores",
+    "subtitle": "Gestiona eficientemente tu proceso de reclutamiento con nuestras herramientas integrales.",
+    "customBoards": {
+      "title": "Tableros Personalizados para Gestión de Reclutas",
+      "description": "Crea tableros personalizados para organizar y seguir tu proceso de reclutamiento de manera efectiva."
+    },
+    "directMessaging": {
+      "title": "Mensajería Directa para Conexiones Instantáneas",
+      "description": "Conéctate directamente con atletas a través de nuestro sistema de mensajería segura."
+    },
+    "teamAccess": {
+      "title": "Acceso Colaborativo del Equipo",
+      "description": "Comparte perfiles y notas con tu equipo técnico y miembros del equipo."
+    }
+  },
+  "newsletter": {
+    "title": "Suscríbete",
+    "description": "Mantente al día con las últimas funciones y actualizaciones.",
+    "placeholder": "Ingresa tu correo electrónico",
+    "button": "Suscribirse",
+    "success": "¡Gracias por suscribirte!",
+    "successMessage": "Te mantendremos informado sobre las últimas funciones."
+  },
+  "banner": {
+    "title": "Tu Historia. Tu Deporte. Tu Futuro. Lanzamiento el 21 de marzo de 2025",
+    "description": "PlayerHub se lanza para ayudar a los atletas jóvenes a mostrar su trayectoria y conectarse con reclutadores, entrenadores y preparadores."
+  },
+  "getStarted": {
+    "title": "Tu Futuro, Tu Perfil, Tu Camino",
+    "description": "Crea un perfil de jugador que realmente refleje tu pasión y habilidades. En solo unos minutos, puedes unirte a PlayerHub y comenzar a contar tu historia.",
+    "pricing": {
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "freePlan": {
+        "title": "Inicial (Gratis)",
+        "description": "Excelente para que los reclutadores, entrenadores, compañeros y más te vean.",
+        "price": "0",
+        "features": [
+          "Perfil de Jugador",
+          "Nombre de Usuario",
+          "Gestiona tu Perfil: 1 Video y 2 Imágenes"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Mejor si quieres mostrar tu historia y comunicarte con Reclutadores y Entrenadores.",
+        "monthlyPrice": "6",
+        "yearlyPrice": "50",
+        "features": [
+          "Perfil de Jugador",
+          "Nombre de Usuario",
+          "Gestiona tu Perfil: 8 Videos y 40 Imágenes",
+          "Mensajes ilimitados con Reclutadores",
+          "Sin banners publicitarios"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Reclutador/Entrenador",
+        "description": "Todo lo que necesitas para encontrar y comunicarte con jugadores.",
+        "price": "Gratis",
+        "features": [
+          "Panel de Control de Reclutador Personalizado",
+          "Listas de Tableros de Jugadores",
+          "Mensajes ilimitados con Jugadores",
+          "Perfil de Entrenador/Reclutador"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "¿Tienes preguntas, comentarios o necesitas ayuda? Estamos aquí para ayudarte. Ya seas jugador, entrenador, reclutador o simplemente tienes curiosidad sobre nuestra plataforma, no dudes en contactarnos. Nuestro equipo está dedicado a brindarte el apoyo y la información que necesitas para aprovechar al máximo tu experiencia."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "sections": {
+      "general": {
+        "title": "Uso General y Características",
+        "questions": {
+          "security": {
+            "question": "¿Qué tan seguro es PlayerHub?",
+            "answer": "PlayerHub está comprometido con la protección de los datos de los clientes. Construimos nuestra plataforma utilizando las mejores prácticas para aplicaciones en la nube altamente disponibles, escalables y seguras. Monitoreamos y evaluamos regularmente nuestro programa para asegurar que cumple o excede los requisitos de cumplimiento y regulatorios."
+          },
+          "dataProtection": {
+            "question": "¿Cómo protege PlayerHub mis datos?",
+            "answer": "Respetamos tus derechos globales de privacidad y protegemos tus datos a través de sólidos programas de privacidad y seguridad. Para más detalles, visita nuestras páginas de Política de Privacidad y Términos de Uso."
+          },
+          "cancellation": {
+            "question": "¿Cómo cancelo mi suscripción o prueba de PlayerHub?",
+            "answer": "Para cancelar un plan pagado, navega al área de facturación en la configuración de tu perfil de jugador y selecciona Cancelar Plan. Inicia sesión en tu cuenta, haz clic en tu foto de perfil en la barra superior y sigue las instrucciones."
+          }
+        }
+      }
+    }
+  },
+  "cookies": {
+    "message": "Utilizamos cookies para mejorar tu experiencia. Al continuar visitando este sitio, aceptas nuestro uso de cookies. Lee nuestra",
+    "accept": "Aceptar todo"
+  }
+}
