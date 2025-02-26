@@ -1,4 +1,6 @@
+
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   Accordion,
   AccordionContent,
@@ -7,11 +9,13 @@ import {
 } from "@/components/ui/accordion";
 
 const FAQ = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-white py-16 px-4">
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-3xl lg:text-4xl font-extrabold text-center mb-12">
-          Frequently Asked Questions
+          {t('faq.title')}
         </h2>
         
         <div className="max-w-3xl mx-auto space-y-6">
@@ -19,25 +23,25 @@ const FAQ = () => {
           <Accordion type="single" collapsible className="bg-white rounded-lg">
             <AccordionItem value="section-1" className="border-none">
               <AccordionTrigger className="text-xl font-semibold text-left px-4">
-                General Use and Features
+                {t('faq.sections.general.title')}
               </AccordionTrigger>
               <AccordionContent className="px-4 space-y-4">
                 <div className="space-y-2">
-                  <h3 className="font-bold">How secure is PlayerHub?</h3>
+                  <h3 className="font-bold">{t('faq.sections.general.questions.security.question')}</h3>
                   <p className="text-gray-600">
-                    PlayerHub is committed to protecting customer data. We build our platform using best practices for highly available, scalable, and secure cloud applications. We regularly monitor and assess our program to ensure it meets or exceeds compliance and regulatory requirements.
+                    {t('faq.sections.general.questions.security.answer')}
                   </p>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold">How does PlayerHub protect my data?</h3>
+                  <h3 className="font-bold">{t('faq.sections.general.questions.dataProtection.question')}</h3>
                   <p className="text-gray-600">
-                    We honor your global privacy rights and secure your data through robust privacy and security programs. For more details, please visit our Privacy Policy and Terms of Use pages.
+                    {t('faq.sections.general.questions.dataProtection.answer')}
                   </p>
                 </div>
                 <div className="space-y-2">
-                  <h3 className="font-bold">How do I cancel my PlayerHub subscription or trial?</h3>
+                  <h3 className="font-bold">{t('faq.sections.general.questions.cancellation.question')}</h3>
                   <p className="text-gray-600">
-                    To cancel a paid plan, navigate to the billing area in your player profile settings and select <strong>Cancel Plan</strong>. Log in to your account, click your profile photo in the top bar, and follow the instructions.
+                    {t('faq.sections.general.questions.cancellation.answer')}
                   </p>
                 </div>
               </AccordionContent>
