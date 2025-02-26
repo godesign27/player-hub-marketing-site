@@ -1,0 +1,166 @@
+
+{
+  "navigation": {
+    "home": "Accueil",
+    "players": "Joueurs",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "getStarted": "Commencer"
+  },
+  "banner": {
+    "title": "Rejoignez la liste d'attente",
+    "description": "Soyez le premier à savoir quand nous lancerons !",
+    "successMessage": "Vous avez été inscrit avec succès à la liste d'attente !"
+  },
+  "hero": {
+    "title": "Libérez votre potentiel",
+    "subtitle": "sportif",
+    "description": "PlayerHub est la plateforme ultime pour les athlètes qui souhaitent mettre en valeur leur talent et se connecter avec des recruteurs du monde entier.",
+    "cta": "Créez votre profil"
+  },
+  "features": {
+    "title": "Fonctionnalités de la plateforme",
+    "subtitle": "Tout ce dont vous avez besoin pour faire briller votre talent",
+    "personalizedProfile": {
+      "title": "Profil personnalisé",
+      "description": "Créez un profil engageant qui met en avant vos statistiques, vos réussites et vos moments forts."
+    },
+    "uploadMedia": {
+      "title": "Téléchargez des médias",
+      "description": "Importez des vidéos de vos performances, moments forts et meilleurs moments."
+    },
+    "expandNetwork": {
+      "title": "Développez votre réseau",
+      "description": "Connectez-vous avec d'autres athlètes, entraîneurs et recruteurs dans votre discipline."
+    },
+    "messageRecruiters": {
+      "title": "Messagerie avec les recruteurs",
+      "description": "Communiquez directement avec les recruteurs et entraîneurs intéressés par votre profil."
+    }
+  },
+  "sports": {
+    "title": "Sports disponibles",
+    "subtitle": "Commencez avec le football - d'autres sports arrivent bientôt",
+    "active": "Actif",
+    "comingSoon": "Bientôt disponible",
+    "futureUpdate": "D'autres sports seront ajoutés dans les prochaines mises à jour"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Votre avenir, votre profil, votre chemin",
+      "description": "PlayerHub vous offre les outils pour vous démarquer et atteindre le niveau supérieur dans votre carrière sportive."
+    },
+    "section2": {
+      "title": "Commencez votre voyage aujourd'hui",
+      "description": "Ne manquez pas l'opportunité de vous faire remarquer par les recruteurs et les entraîneurs du monde entier.",
+      "cta": "Créez votre profil"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Recruteurs et entraîneurs",
+    "subtitle": "Des outils puissants pour découvrir et gérer les talents",
+    "customBoards": {
+      "title": "Tableaux personnalisés",
+      "description": "Organisez les joueurs dans des tableaux personnalisés pour suivre les talents intéressants."
+    },
+    "directMessaging": {
+      "title": "Messagerie directe",
+      "description": "Communiquez directement avec les joueurs via notre plateforme sécurisée."
+    },
+    "teamAccess": {
+      "title": "Accès d'équipe",
+      "description": "Collaborez avec votre personnel en partageant des notes et des évaluations sur les joueurs."
+    }
+  },
+  "newsletter": {
+    "title": "Restez informé",
+    "description": "Abonnez-vous à notre newsletter pour recevoir des mises à jour sur les nouvelles fonctionnalités et les prochains sports.",
+    "placeholder": "Entrez votre email",
+    "button": "S'abonner",
+    "success": "Inscription réussie !",
+    "successMessage": "Merci de vous être inscrit à notre newsletter !"
+  },
+  "footer": {
+    "termsOfUse": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "copyright": "© 2024 PlayerHub. Tous droits réservés.",
+    "signInLink": "Se connecter"
+  },
+  "languages": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "nl": "Néerlandais",
+    "fr": "Français",
+    "de": "Allemand",
+    "it": "Italien",
+    "pt": "Portugais"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "sections": {
+      "general": {
+        "title": "Utilisation générale et fonctionnalités",
+        "questions": {
+          "security": {
+            "question": "Comment gérez-vous la sécurité des données ?",
+            "answer": "Nous utilisons le chiffrement de bout en bout et suivons les meilleures pratiques de l'industrie pour protéger vos données personnelles et les communications sur la plateforme."
+          },
+          "dataProtection": {
+            "question": "Comment protégez-vous mes données personnelles ?",
+            "answer": "Nous respectons strictement le RGPD et autres réglementations sur la protection des données. Vos données sont stockées de manière sécurisée et ne sont jamais partagées sans votre consentement."
+          },
+          "cancellation": {
+            "question": "Comment puis-je supprimer mon compte ?",
+            "answer": "Vous pouvez supprimer votre compte à tout moment depuis les paramètres de votre profil. Toutes vos données seront supprimées de nos serveurs sous 30 jours."
+          }
+        }
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Choisissez le forfait qui vous convient",
+    "description": "Tous les forfaits incluent un essai gratuit de 14 jours",
+    "pricing": {
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "freePlan": {
+        "title": "Gratuit",
+        "description": "Pour les athlètes qui débutent leur voyage",
+        "price": "0",
+        "features": [
+          "Profil de base",
+          "Téléchargement de 3 vidéos",
+          "Statistiques de base",
+          "Messagerie limitée"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Pour les athlètes sérieux qui veulent se démarquer",
+        "monthlyPrice": "15",
+        "yearlyPrice": "144",
+        "features": [
+          "Tout du forfait Gratuit",
+          "Vidéos illimitées",
+          "Statistiques avancées",
+          "Messagerie illimitée",
+          "Badge vérifié",
+          "Support prioritaire"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Recruteur",
+        "description": "Pour les recruteurs et entraîneurs",
+        "price": "Contactez-nous",
+        "features": [
+          "Accès à tous les profils",
+          "Outils de recherche avancés",
+          "Tableaux personnalisés",
+          "Analyses approfondies",
+          "Accès multi-utilisateurs",
+          "API dédiée"
+        ]
+      }
+    }
+  }
+}
