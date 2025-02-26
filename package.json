@@ -48,6 +48,7 @@
     "flowbite": "^2.5.2",
     "flowbite-react": "^0.10.2",
     "i18next": "^24.2.0",
+    "i18next-browser-languagedetector": "^8.0.4",
     "i18next-http-backend": "^3.0.1",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.462.0",
