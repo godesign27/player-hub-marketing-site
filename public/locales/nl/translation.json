@@ -1,25 +1,167 @@
+
 {
   "navigation": {
     "home": "Home",
     "players": "Spelers",
-    "getStarted": "Aan de slag",
     "pricing": "Prijzen",
-    "contact": "Contact"
+    "contact": "Contact",
+    "getStarted": "Aan de slag"
+  },
+  "banner": {
+    "title": "Kom op de wachtlijst",
+    "description": "Wees de eerste die hoort wanneer we lanceren!",
+    "successMessage": "Je bent succesvol toegevoegd aan de wachtlijst!"
+  },
+  "hero": {
+    "title": "Ontgrendel jouw",
+    "subtitle": "sportieve potentieel",
+    "description": "PlayerHub is het ultieme platform voor atleten om hun talent te showcasen en in contact te komen met scouts van over de hele wereld.",
+    "cta": "Maak je profiel aan"
+  },
+  "features": {
+    "title": "Platform Functies",
+    "subtitle": "Alles wat je nodig hebt om je talent te laten zien",
+    "personalizedProfile": {
+      "title": "Gepersonaliseerd Profiel",
+      "description": "Maak een aantrekkelijk profiel dat je statistieken, prestaties en hoogtepunten presenteert."
+    },
+    "uploadMedia": {
+      "title": "Media uploaden",
+      "description": "Upload video's van je prestaties, hoogtepunten en beste momenten."
+    },
+    "expandNetwork": {
+      "title": "Netwerk uitbreiden",
+      "description": "Maak contact met andere atleten, coaches en scouts in jouw sport."
+    },
+    "messageRecruiters": {
+      "title": "Berichten naar scouts",
+      "description": "Communiceer direct met scouts en coaches die geïnteresseerd zijn in jouw profiel."
+    }
+  },
+  "sports": {
+    "title": "Beschikbare Sporten",
+    "subtitle": "Begin met voetbal - meer sporten komen binnenkort",
+    "active": "Actief",
+    "comingSoon": "Binnenkort beschikbaar",
+    "futureUpdate": "Meer sporten worden toegevoegd in toekomstige updates"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Jouw toekomst, jouw profiel, jouw pad",
+      "description": "PlayerHub biedt je de tools om op te vallen en het volgende niveau te bereiken in je sportcarrière."
+    },
+    "section2": {
+      "title": "Begin je reis vandaag",
+      "description": "Mis de kans niet om ontdekt te worden door scouts en coaches van over de hele wereld.",
+      "cta": "Maak je profiel aan"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Scouts en Coaches",
+    "subtitle": "Krachtige tools voor het ontdekken en beheren van talent",
+    "customBoards": {
+      "title": "Aangepaste Borden",
+      "description": "Organiseer spelers in gepersonaliseerde borden om interessante talenten te volgen."
+    },
+    "directMessaging": {
+      "title": "Direct Berichten",
+      "description": "Communiceer direct met spelers via ons beveiligde platform."
+    },
+    "teamAccess": {
+      "title": "Team Toegang",
+      "description": "Werk samen met je staf door notities en beoordelingen over spelers te delen."
+    }
+  },
+  "newsletter": {
+    "title": "Blijf op de hoogte",
+    "description": "Schrijf je in voor onze nieuwsbrief voor updates over nieuwe functies en aankomende sporten.",
+    "placeholder": "Voer je e-mailadres in",
+    "button": "Inschrijven",
+    "success": "Inschrijving gelukt!",
+    "successMessage": "Bedankt voor je inschrijving op onze nieuwsbrief!"
   },
   "footer": {
     "termsOfUse": "Gebruiksvoorwaarden",
     "privacyPolicy": "Privacybeleid",
-    "login": "Inloggen",
-    "language": "Taal",
-    "copyright": "© 2024 PlayerHub, Inc. Alle rechten voorbehouden."
+    "copyright": "© 2024 PlayerHub. Alle rechten voorbehouden.",
+    "signInLink": "Inloggen",
+    "language": "Taal"
   },
   "languages": {
     "en": "Engels",
+    "es": "Spaans",
     "nl": "Nederlands",
     "fr": "Frans",
     "de": "Duits",
     "it": "Italiaans",
-    "pt": "Portugees",
-    "es": "Spaans"
+    "pt": "Portugees"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "sections": {
+      "general": {
+        "title": "Algemeen gebruik en functionaliteit",
+        "questions": {
+          "security": {
+            "question": "Hoe gaan jullie om met databeveiliging?",
+            "answer": "We gebruiken end-to-end encryptie en volgen de beste praktijken in de industrie om je persoonlijke gegevens en communicatie op het platform te beschermen."
+          },
+          "dataProtection": {
+            "question": "Hoe beschermen jullie mijn persoonlijke gegevens?",
+            "answer": "We houden ons strikt aan de AVG en andere privacyregels. Je gegevens worden veilig opgeslagen en worden nooit zonder je toestemming gedeeld."
+          },
+          "cancellation": {
+            "question": "Hoe kan ik mijn account verwijderen?",
+            "answer": "Je kunt je account op elk moment verwijderen via je profielinstellingen. Al je gegevens worden binnen 30 dagen van onze servers verwijderd."
+          }
+        }
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Kies het plan dat bij je past",
+    "description": "Alle plannen hebben een gratis proefperiode van 14 dagen",
+    "pricing": {
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "freePlan": {
+        "title": "Gratis",
+        "description": "Voor atleten die hun reis beginnen",
+        "price": "0",
+        "features": [
+          "Basisprofiel",
+          "3 video-uploads",
+          "Basisstatistieken",
+          "Beperkte berichten"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Voor serieuze atleten die willen opvallen",
+        "monthlyPrice": "15",
+        "yearlyPrice": "144",
+        "features": [
+          "Alles van het Gratis plan",
+          "Onbeperkt video's",
+          "Geavanceerde statistieken",
+          "Onbeperkte berichten",
+          "Geverifieerde badge",
+          "Prioriteitsondersteuning"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Scout",
+        "description": "Voor scouts en coaches",
+        "price": "Neem contact op",
+        "features": [
+          "Toegang tot alle profielen",
+          "Geavanceerde zoektools",
+          "Aangepaste borden",
+          "Gedetailleerde analyses",
+          "Multi-user toegang",
+          "Toegewijde API"
+        ]
+      }
+    }
   }
 }
