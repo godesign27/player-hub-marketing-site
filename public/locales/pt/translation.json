@@ -1,0 +1,167 @@
+
+{
+  "navigation": {
+    "home": "Início",
+    "players": "Jogadores",
+    "pricing": "Preços",
+    "contact": "Contato",
+    "getStarted": "Começar"
+  },
+  "banner": {
+    "title": "Entre na lista de espera",
+    "description": "Seja o primeiro a saber quando lançarmos!",
+    "successMessage": "Você foi adicionado com sucesso à lista de espera!"
+  },
+  "hero": {
+    "title": "Destrave seu",
+    "subtitle": "potencial esportivo",
+    "description": "PlayerHub é a plataforma definitiva para atletas mostrarem seu talento e se conectarem com olheiros do mundo todo.",
+    "cta": "Crie seu perfil"
+  },
+  "features": {
+    "title": "Funcionalidades da Plataforma",
+    "subtitle": "Tudo que você precisa para mostrar seu talento",
+    "personalizedProfile": {
+      "title": "Perfil Personalizado",
+      "description": "Crie um perfil atraente que apresente suas estatísticas, conquistas e momentos destacados."
+    },
+    "uploadMedia": {
+      "title": "Upload de Mídia",
+      "description": "Envie vídeos de suas performances, destaques e melhores momentos."
+    },
+    "expandNetwork": {
+      "title": "Expanda sua Rede",
+      "description": "Conecte-se com outros atletas, treinadores e olheiros em seu esporte."
+    },
+    "messageRecruiters": {
+      "title": "Mensagens para Olheiros",
+      "description": "Comunique-se diretamente com olheiros e treinadores interessados em seu perfil."
+    }
+  },
+  "sports": {
+    "title": "Esportes Disponíveis",
+    "subtitle": "Comece com futebol - mais esportes em breve",
+    "active": "Ativo",
+    "comingSoon": "Em breve",
+    "futureUpdate": "Mais esportes serão adicionados em atualizações futuras"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Seu futuro, seu perfil, seu caminho",
+      "description": "PlayerHub oferece as ferramentas para você se destacar e alcançar o próximo nível em sua carreira esportiva."
+    },
+    "section2": {
+      "title": "Comece sua jornada hoje",
+      "description": "Não perca a chance de ser descoberto por olheiros e treinadores de todo o mundo.",
+      "cta": "Crie seu perfil"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Olheiros e Treinadores",
+    "subtitle": "Ferramentas poderosas para descobrir e gerenciar talentos",
+    "customBoards": {
+      "title": "Quadros Personalizados",
+      "description": "Organize jogadores em quadros personalizados para acompanhar talentos interessantes."
+    },
+    "directMessaging": {
+      "title": "Mensagens Diretas",
+      "description": "Comunique-se diretamente com jogadores através de nossa plataforma segura."
+    },
+    "teamAccess": {
+      "title": "Acesso em Equipe",
+      "description": "Colabore com sua equipe compartilhando notas e avaliações sobre jogadores."
+    }
+  },
+  "newsletter": {
+    "title": "Fique por dentro",
+    "description": "Assine nossa newsletter para atualizações sobre novos recursos e esportes futuros.",
+    "placeholder": "Digite seu e-mail",
+    "button": "Assinar",
+    "success": "Inscrição realizada!",
+    "successMessage": "Obrigado por se inscrever em nossa newsletter!"
+  },
+  "footer": {
+    "termsOfUse": "Termos de Uso",
+    "privacyPolicy": "Política de Privacidade",
+    "copyright": "© 2024 PlayerHub. Todos os direitos reservados.",
+    "signInLink": "Entrar",
+    "language": "Idioma"
+  },
+  "languages": {
+    "en": "Inglês",
+    "es": "Espanhol",
+    "nl": "Holandês",
+    "fr": "Francês",
+    "de": "Alemão",
+    "it": "Italiano",
+    "pt": "Português"
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "sections": {
+      "general": {
+        "title": "Uso Geral e Funcionalidades",
+        "questions": {
+          "security": {
+            "question": "Como vocês lidam com a segurança dos dados?",
+            "answer": "Utilizamos criptografia de ponta a ponta e seguimos as melhores práticas da indústria para proteger seus dados pessoais e comunicações na plataforma."
+          },
+          "dataProtection": {
+            "question": "Como vocês protegem meus dados pessoais?",
+            "answer": "Seguimos rigorosamente a LGPD e outras regulamentações de proteção de dados. Seus dados são armazenados com segurança e nunca são compartilhados sem seu consentimento."
+          },
+          "cancellation": {
+            "question": "Como posso excluir minha conta?",
+            "answer": "Você pode excluir sua conta a qualquer momento nas configurações do perfil. Todos os seus dados serão removidos de nossos servidores em até 30 dias."
+          }
+        }
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Escolha o plano que combina com você",
+    "description": "Todos os planos incluem teste gratuito de 14 dias",
+    "pricing": {
+      "monthly": "Mensal",
+      "yearly": "Anual",
+      "freePlan": {
+        "title": "Gratuito",
+        "description": "Para atletas iniciando sua jornada",
+        "price": "0",
+        "features": [
+          "Perfil básico",
+          "3 uploads de vídeos",
+          "Estatísticas básicas",
+          "Mensagens limitadas"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Para atletas sérios que querem se destacar",
+        "monthlyPrice": "15",
+        "yearlyPrice": "144",
+        "features": [
+          "Tudo do plano Gratuito",
+          "Vídeos ilimitados",
+          "Estatísticas avançadas",
+          "Mensagens ilimitadas",
+          "Selo verificado",
+          "Suporte prioritário"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Olheiro",
+        "description": "Para olheiros e treinadores",
+        "price": "Entre em contato",
+        "features": [
+          "Acesso a todos os perfis",
+          "Ferramentas avançadas de busca",
+          "Quadros personalizados",
+          "Análises detalhadas",
+          "Acesso multi-usuário",
+          "API dedicada"
+        ]
+      }
+    }
+  }
+}
