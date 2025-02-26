@@ -1,0 +1,166 @@
+
+{
+  "navigation": {
+    "home": "Startseite",
+    "players": "Spieler",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "getStarted": "Loslegen"
+  },
+  "banner": {
+    "title": "Tritt der Warteliste bei",
+    "description": "Sei der Erste, der erfährt, wenn wir starten!",
+    "successMessage": "Du wurdest erfolgreich zur Warteliste hinzugefügt!"
+  },
+  "hero": {
+    "title": "Entfalte dein",
+    "subtitle": "sportliches Potenzial",
+    "description": "PlayerHub ist die ultimative Plattform für Athleten, die ihr Talent präsentieren und sich mit Scouts aus der ganzen Welt vernetzen möchten.",
+    "cta": "Erstelle dein Profil"
+  },
+  "features": {
+    "title": "Plattform-Funktionen",
+    "subtitle": "Alles, was du brauchst, um dein Talent zu zeigen",
+    "personalizedProfile": {
+      "title": "Personalisiertes Profil",
+      "description": "Erstelle ein ansprechendes Profil, das deine Statistiken, Erfolge und Highlights präsentiert."
+    },
+    "uploadMedia": {
+      "title": "Medien hochladen",
+      "description": "Lade Videos von deinen Leistungen, Highlights und besten Momenten hoch."
+    },
+    "expandNetwork": {
+      "title": "Netzwerk erweitern",
+      "description": "Vernetze dich mit anderen Athleten, Trainern und Scouts in deiner Sportart."
+    },
+    "messageRecruiters": {
+      "title": "Mit Scouts kommunizieren",
+      "description": "Kommuniziere direkt mit Scouts und Trainern, die an deinem Profil interessiert sind."
+    }
+  },
+  "sports": {
+    "title": "Verfügbare Sportarten",
+    "subtitle": "Starte mit Fußball - weitere Sportarten folgen in Kürze",
+    "active": "Aktiv",
+    "comingSoon": "Demnächst verfügbar",
+    "futureUpdate": "Weitere Sportarten werden in zukünftigen Updates hinzugefügt"
+  },
+  "playerJourney": {
+    "section1": {
+      "title": "Deine Zukunft, dein Profil, dein Weg",
+      "description": "PlayerHub bietet dir die Werkzeuge, um dich von der Masse abzuheben und in deiner sportlichen Karriere das nächste Level zu erreichen."
+    },
+    "section2": {
+      "title": "Starte deine Reise heute",
+      "description": "Verpasse nicht die Chance, von Scouts und Trainern aus aller Welt entdeckt zu werden.",
+      "cta": "Erstelle dein Profil"
+    }
+  },
+  "recruiterFeatures": {
+    "title": "Scouts und Trainer",
+    "subtitle": "Leistungsstarke Tools zum Entdecken und Verwalten von Talenten",
+    "customBoards": {
+      "title": "Individuelle Boards",
+      "description": "Organisiere Spieler in personalisierten Boards, um interessante Talente im Auge zu behalten."
+    },
+    "directMessaging": {
+      "title": "Direkte Kommunikation",
+      "description": "Kommuniziere direkt mit Spielern über unsere sichere Plattform."
+    },
+    "teamAccess": {
+      "title": "Team-Zugang",
+      "description": "Arbeite mit deinem Personal zusammen, indem ihr Notizen und Bewertungen zu Spielern teilt."
+    }
+  },
+  "newsletter": {
+    "title": "Bleib informiert",
+    "description": "Abonniere unseren Newsletter für Updates zu neuen Funktionen und kommenden Sportarten.",
+    "placeholder": "E-Mail-Adresse eingeben",
+    "button": "Abonnieren",
+    "success": "Anmeldung erfolgreich!",
+    "successMessage": "Vielen Dank für deine Newsletter-Anmeldung!"
+  },
+  "footer": {
+    "termsOfUse": "Nutzungsbedingungen",
+    "privacyPolicy": "Datenschutzerklärung",
+    "copyright": "© 2024 PlayerHub. Alle Rechte vorbehalten.",
+    "signInLink": "Anmelden"
+  },
+  "languages": {
+    "en": "Englisch",
+    "es": "Spanisch",
+    "nl": "Niederländisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "it": "Italienisch",
+    "pt": "Portugiesisch"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "sections": {
+      "general": {
+        "title": "Allgemeine Nutzung und Funktionen",
+        "questions": {
+          "security": {
+            "question": "Wie handhabt ihr die Datensicherheit?",
+            "answer": "Wir verwenden Ende-zu-Ende-Verschlüsselung und folgen den Best Practices der Branche zum Schutz deiner persönlichen Daten und Kommunikation auf der Plattform."
+          },
+          "dataProtection": {
+            "question": "Wie schützt ihr meine persönlichen Daten?",
+            "answer": "Wir halten uns strikt an die DSGVO und andere Datenschutzbestimmungen. Deine Daten werden sicher gespeichert und niemals ohne deine Einwilligung weitergegeben."
+          },
+          "cancellation": {
+            "question": "Wie kann ich meinen Account löschen?",
+            "answer": "Du kannst deinen Account jederzeit in den Profileinstellungen löschen. Alle deine Daten werden innerhalb von 30 Tagen von unseren Servern gelöscht."
+          }
+        }
+      }
+    }
+  },
+  "getStarted": {
+    "title": "Wähle den passenden Tarif",
+    "description": "Alle Tarife beinhalten eine 14-tägige kostenlose Testphase",
+    "pricing": {
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "freePlan": {
+        "title": "Kostenlos",
+        "description": "Für Athleten, die ihre Reise beginnen",
+        "price": "0",
+        "features": [
+          "Basis-Profil",
+          "3 Video-Uploads",
+          "Basis-Statistiken",
+          "Limitierte Nachrichten"
+        ]
+      },
+      "proPlan": {
+        "title": "Pro",
+        "description": "Für ambitionierte Athleten, die sich abheben möchten",
+        "monthlyPrice": "15",
+        "yearlyPrice": "144",
+        "features": [
+          "Alle Funktionen des kostenlosen Tarifs",
+          "Unbegrenzte Videos",
+          "Erweiterte Statistiken",
+          "Unbegrenzte Nachrichten",
+          "Verifiziertes Badge",
+          "Prioritäts-Support"
+        ]
+      },
+      "recruiterPlan": {
+        "title": "Scout",
+        "description": "Für Scouts und Trainer",
+        "price": "Kontaktiere uns",
+        "features": [
+          "Zugriff auf alle Profile",
+          "Erweiterte Suchtools",
+          "Individuelle Boards",
+          "Detaillierte Analysen",
+          "Multi-User-Zugang",
+          "Dedizierte API"
+        ]
+      }
+    }
+  }
+}
