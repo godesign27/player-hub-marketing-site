@@ -1,19 +1,23 @@
+
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 const PlayerJourneySection2 = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-left">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-              Player highlight videos
+              {t('playerJourney.section2.title')}
             </h2>
             <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-8">
-              Upload and share your best moments with recruiters and coaches. PlayerHub showcases your key plays and skills with our Smart Player system.
+              {t('playerJourney.section2.description')}
             </p>
             <Button size="lg" className="w-full sm:w-auto">
-              Get Started
+              {t('playerJourney.section2.cta')}
             </Button>
           </div>
           <div className="w-full">

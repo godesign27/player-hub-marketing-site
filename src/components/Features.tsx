@@ -1,38 +1,42 @@
-import { UserCircle, Upload, Users, MessageSquare } from "lucide-react";
 
-const features = [
-  {
-    icon: <UserCircle className="h-8 w-8 text-primary" />,
-    title: "Personalized Player Profile",
-    description: "Create your unique digital identity showcasing your achievements, skills, and journey."
-  },
-  {
-    icon: <Upload className="h-8 w-8 text-primary" />,
-    title: "Upload photos and videos",
-    description: "Share your best moments, training sessions, and match highlights with the community."
-  },
-  {
-    icon: <Users className="h-8 w-8 text-primary" />,
-    title: "Expand your Network",
-    description: "Connect with coaches, recruiters, and fellow athletes to grow your opportunities."
-  },
-  {
-    icon: <MessageSquare className="h-8 w-8 text-primary" />,
-    title: "Message with Recruiters",
-    description: "Direct communication with scouts and coaches interested in your talent."
-  }
-];
+import { UserCircle, Upload, Users, MessageSquare } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Features = () => {
+  const { t } = useTranslation();
+  
+  const features = [
+    {
+      icon: <UserCircle className="h-8 w-8 text-primary" />,
+      title: t('features.personalizedProfile.title'),
+      description: t('features.personalizedProfile.description')
+    },
+    {
+      icon: <Upload className="h-8 w-8 text-primary" />,
+      title: t('features.uploadMedia.title'),
+      description: t('features.uploadMedia.description')
+    },
+    {
+      icon: <Users className="h-8 w-8 text-primary" />,
+      title: t('features.expandNetwork.title'),
+      description: t('features.expandNetwork.description')
+    },
+    {
+      icon: <MessageSquare className="h-8 w-8 text-primary" />,
+      title: t('features.messageRecruiters.title'),
+      description: t('features.messageRecruiters.description')
+    }
+  ];
+
   return (
     <section id="features" className="py-20 bg-[#F9FAFB]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            The first ever athlete managed player profile.
+            {t('features.title')}
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
-            Take control of your sporting journey with our comprehensive platform designed for athletes.
+            {t('features.subtitle')}
           </p>
         </div>
 
