@@ -1,3 +1,4 @@
+
 import React from "react";
 import WaitlistForm from "./WaitlistForm";
 
@@ -11,7 +12,7 @@ const Banner = () => {
           className="mx-auto h-32 md:h-40 mb-8"
         />
         <h2 className="text-2xl md:text-3xl font-normal mb-2">
-          Your Story. Your Sport. Your Future. Launching February 28th, 2025
+          Your Story. Your Sport. Your Future. Launching March 21st, 2025
         </h2>
         <p className="text-lg md:text-xl mb-8">
           PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers.
