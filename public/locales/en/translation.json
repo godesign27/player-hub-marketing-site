@@ -1,4 +1,3 @@
-
 {
   "navigation": {
     "home": "Home",
@@ -125,7 +124,7 @@
         ]
       },
       "recruiterPlan": {
-        "title": "Recruiter/Coach",
+        "title": "Recruiter/Coach/Trainers",
         "description": "Everything you need to find and communicate with players.",
         "price": "Free",
         "features": [

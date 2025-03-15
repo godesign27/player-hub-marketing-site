@@ -1,4 +1,3 @@
-
 {
   "navigation": {
     "home": "Inicio",
@@ -125,7 +124,7 @@
         ]
       },
       "recruiterPlan": {
-        "title": "Reclutador/Entrenador",
+        "title": "Reclutador/Entrenador/Preparadores",
         "description": "Todo lo que necesitas para encontrar y comunicarte con jugadores.",
         "price": "Gratis",
         "features": [
