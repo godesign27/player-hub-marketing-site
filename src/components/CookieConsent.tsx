@@ -1,24 +1,35 @@
+
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "./ui/button";
 
 const CookieConsent = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const location = useLocation();
+  
+  // Skip cookie consent on the home page
+  const isHomePage = location.pathname === "/" || location.pathname === "/index";
 
   useEffect(() => {
+    // Don't show cookies on the home page
+    if (isHomePage) {
+      return;
+    }
+    
     const hasAcceptedCookies = localStorage.getItem("cookiesAccepted");
     if (!hasAcceptedCookies) {
       // Small delay to ensure animation works on first load
       setTimeout(() => setIsVisible(true), 500);
     }
-  }, []);
+  }, [isHomePage]);
 
   const handleAccept = () => {
     localStorage.setItem("cookiesAccepted", "true");
     setIsVisible(false);
   };
 
-  if (!isVisible) return null;
+  // Don't render anything on the home page
+  if (isHomePage || !isVisible) return null;
 
   return (
     <div className={`fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg transform transition-transform duration-300 ease-in-out ${isVisible ? 'translate-y-0' : 'translate-y-full'}`}>

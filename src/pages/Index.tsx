@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Banner from "@/components/Banner";
 import Hero from "@/components/Hero";
@@ -8,7 +9,7 @@ import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
 import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
 import Footer from "@/components/Footer";
-import CookieConsent from "@/components/CookieConsent";
+// CookieConsent component removed from imports
 
 const Index = () => {
   return (
@@ -23,7 +24,7 @@ const Index = () => {
       <RecruiterFeatures />
       <Newsletter />
       <Footer activePage="home" />
-      <CookieConsent />
+      {/* CookieConsent component removed from rendering */}
     </div>
   );
 };
