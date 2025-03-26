@@ -16,21 +16,30 @@ const Recruiters = () => {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Navigation />
       
-      {/* Hero Section - Using home page hero style */}
-      <section className="relative overflow-hidden bg-accent pt-32 pb-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
+      {/* Hero Section with split layout and image */}
+      <section className="overflow-hidden relative bg-accent">
+        <div className="gap-8 pt-32 pb-20 px-4 mx-auto max-w-7xl lg:py-16 xl:grid xl:grid-cols-12">
+          <div className="col-span-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-up">
               Discover Top Talent, <span className="text-primary">Instantly.</span>
             </h1>
-            <p className="max-w-2xl mx-auto text-base sm:text-xl text-gray-600 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+            <p className="max-w-2xl text-base sm:text-xl text-gray-600 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
               Every player profile on PlayerHub includes highlight reels, performance data, and player goals—everything you need to scout smarter.
             </p>
-            <Link to="/get-started">
-              <Button className="px-6 py-6 rounded-full text-base animate-fade-up" style={{ animationDelay: "0.2s" }}>
-                Get Your Free Recruiter Account
-              </Button>
-            </Link>
+            <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
+              <Link to="/get-started">
+                <Button className="px-6 py-6 rounded-full text-base">
+                  Get Your Free Recruiter Account
+                </Button>
+              </Link>
+            </div>
+          </div>
+          <div className="hidden absolute top-0 right-0 w-1/3 h-full xl:block">
+            <img 
+              className="object-cover w-full h-full" 
+              src="/lovable-uploads/ad921ee8-0906-4d20-98b0-d92a23322b43.png" 
+              alt="Youth soccer player in action"
+            />
           </div>
         </div>
       </section>
