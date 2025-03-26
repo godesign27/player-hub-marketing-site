@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="mt-16 animate-fade-up flex justify-center" style={{ animationDelay: "0.3s" }}>
           <div className="relative w-full max-w-[130%] max-w-4xl">
             <img
-              src="/lovable-uploads/107115a9-1724-4d7a-8e27-e5c8a1eaab98.png"
+              src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjU2NywiZXhwIjoxNzc0NTU4NTY3fQ.qn_M_vi7YQ8D7jcLBufj8KY-VlCH8CNJY4rJ15OLlB8"
               alt="PlayerHub Platform Preview"
               className="w-full rounded-lg scale-100"
             />

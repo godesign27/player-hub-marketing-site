@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -42,8 +43,8 @@ const Coaches = () => {
                   <CarouselItem>
                     <div className="overflow-hidden rounded-lg shadow-lg">
                       <img 
-                        src="/lovable-uploads/e6bf3dac-c074-4484-8dcb-2a7267697243.png" 
-                        alt="PlayerHub Coach Dashboard" 
+                        src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjU2NywiZXhwIjoxNzc0NTU4NTY3fQ.qn_M_vi7YQ8D7jcLBufj8KY-VlCH8CNJY4rJ15OLlB8" 
+                        alt="Coach Dashboard" 
                         className="w-full object-cover" 
                       />
                     </div>
