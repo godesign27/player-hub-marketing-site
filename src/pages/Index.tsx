@@ -5,11 +5,11 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Sports from "@/components/Sports";
 import RecruiterFeatures from "@/components/RecruiterFeatures";
+import CoachesFeatures from "@/components/CoachesFeatures";
 import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
 import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
 import Footer from "@/components/Footer";
-// CookieConsent component removed from imports
 
 const Index = () => {
   return (
@@ -22,9 +22,9 @@ const Index = () => {
       <PlayerJourneySection />
       <PlayerJourneySection2 />
       <RecruiterFeatures />
+      <CoachesFeatures />
       <Newsletter />
       <Footer activePage="home" />
-      {/* CookieConsent component removed from rendering */}
     </div>
   );
 };

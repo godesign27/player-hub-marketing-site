@@ -13,6 +13,7 @@ import Terms from "@/pages/Terms";
 import Players from "@/pages/Players";
 import Pricing from "@/pages/Pricing";
 import Recruiters from "@/pages/Recruiters";
+import Coaches from "@/pages/Coaches";
 import ScrollToTop from "@/components/ScrollToTop";
 import HubspotTracking from "@/components/HubspotTracking";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
@@ -38,6 +39,7 @@ const App = () => {
             <Route path="/players" element={<Players />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/recruiters" element={<Recruiters />} />
+            <Route path="/coaches" element={<Coaches />} />
           </Routes>
         </BrowserRouter>
       </TooltipProvider>
