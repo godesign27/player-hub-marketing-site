@@ -30,7 +30,7 @@ const Coaches = () => {
                 
                 <div className="mt-8 animate-fade-up" style={{ animationDelay: "0.2s" }}>
                   <Button size="lg" className="flex items-center gap-2">
-                    <span>🆓 Create Your Free Coach Account</span>
+                    <span>Create Your Free Coach Account</span>
                     <ArrowRight className="h-4 w-4" />
                   </Button>
                 </div>
@@ -81,8 +81,8 @@ const Coaches = () => {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <Badge variant="primary" className="mb-3">🔥 Primary Feature #1</Badge>
-              <h2 className="text-3xl font-bold mb-4">🎥 All the Right Details. All in One Place.</h2>
+              <Badge variant="primary" className="mb-3">Primary Feature #1</Badge>
+              <h2 className="text-3xl font-bold mb-4">All the Right Details. All in One Place.</h2>
               <p className="text-lg text-gray-700 mb-6">
                 Each player profile gives you a full-picture view of the athlete—not just their stats.
               </p>
@@ -123,8 +123,8 @@ const Coaches = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <Badge variant="primary" className="mb-3">🔥 Primary Feature #2</Badge>
-              <h2 className="text-3xl font-bold mb-4">🧩 Coach Boards That Match How You Actually Work</h2>
+              <Badge variant="primary" className="mb-3">Primary Feature #2</Badge>
+              <h2 className="text-3xl font-bold mb-4">Coach Boards That Match How You Actually Work</h2>
               <p className="text-lg text-gray-700 mb-6">
                 Move players through the evaluation process with three flexible board types:
               </p>
@@ -167,44 +167,44 @@ const Coaches = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <Badge variant="blue" className="mb-2">✨ Supporting Features</Badge>
+            <Badge variant="blue" className="mb-2">Supporting Features</Badge>
             <h2 className="text-3xl font-bold">Everything You Need as a Coach</h2>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <UserCircle className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">👤 Private Coach Profile</h3>
+              <h3 className="text-xl font-semibold mb-2">Private Coach Profile</h3>
               <p>Only visible to players you contact. No distractions or unwanted messages.</p>
             </div>
             
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <MessageSquare className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">💬 In-App Messaging with Alerts</h3>
+              <h3 className="text-xl font-semibold mb-2">In-App Messaging with Alerts</h3>
               <p>Send direct messages and get email notifications when players reply.</p>
             </div>
             
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <FileText className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">📝 Player Notes</h3>
+              <h3 className="text-xl font-semibold mb-2">Player Notes</h3>
               <p>Add coaching insights, development plans, or feedback for each player.</p>
             </div>
             
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <FolderOpen className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">📂 Unlimited Boards</h3>
+              <h3 className="text-xl font-semibold mb-2">Unlimited Boards</h3>
               <p>Run multiple age groups or programs at once—without limits.</p>
             </div>
             
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <Share2 className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">🤝 Share Boards with Staff</h3>
+              <h3 className="text-xl font-semibold mb-2">Share Boards with Staff</h3>
               <p>Loop in your assistants or directors with secure board-sharing.</p>
             </div>
             
             <div className="bg-accent p-6 rounded-xl shadow-sm">
               <Bell className="h-10 w-10 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">✅ Why Coaches Love Us</h3>
+              <h3 className="text-xl font-semibold mb-2">Why Coaches Love Us</h3>
               <p>Private profiles, organize tryouts, track development, communicate with purpose—all free!</p>
             </div>
           </div>
@@ -234,7 +234,7 @@ const Coaches = () => {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-6">Bring structure to your chaos.</h2>
           <Button size="lg" className="flex items-center gap-2 mx-auto">
-            <span>🆓 Start building smarter teams—free for coaches</span>
+            <span>Start building smarter teams—free for coaches</span>
             <ArrowRight className="h-4 w-4" />
           </Button>
         </div>
