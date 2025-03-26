@@ -12,7 +12,7 @@ const CoachesFeatures = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Build Smarter Teams. Manage with Precision.
+            Coaches: Build Smarter Teams. Manage with Precision.
           </h2>
           <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">
             From evaluating talent to finalizing your roster, PlayerHub helps coaches organize, track, and develop players like never before.
