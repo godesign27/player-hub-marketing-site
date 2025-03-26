@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -39,27 +38,6 @@ const Recruiters = () => {
                     Get Your Free Recruiter Account
                   </Button>
                 </Link>
-                
-                <Link to="#features">
-                  <Button variant="outline" className="w-full sm:w-auto px-6 py-6 rounded-lg text-base flex items-center gap-2">
-                    <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
-                    </svg>
-                    See How It Works
-                  </Button>
-                </Link>
-              </div>
-
-              <div className="mt-4 sm:border-t sm:border-gray-100 sm:mt-8 sm:pt-8">
-                <p className="hidden text-base font-medium text-gray-500 sm:block">
-                  Trusted by leading programs:
-                </p>
-
-                <div className="flex items-center mt-3">
-                  <img className="w-auto h-8 md:h-10 mr-6" src="/lovable-uploads/6746630b-9c98-4ba7-8c5a-bc0d28548c6f.png" alt="University logo" />
-                  <img className="w-auto h-8 md:h-10 mr-6" src="/lovable-uploads/20778281-954a-4cac-9ac5-392134c008e6.png" alt="Club logo" />
-                  <img className="w-auto h-8 md:h-10" src="/lovable-uploads/4a7ad64b-21a1-47ac-a31f-de89e45864e9.png" alt="Academy logo" />
-                </div>
               </div>
             </div>
             
