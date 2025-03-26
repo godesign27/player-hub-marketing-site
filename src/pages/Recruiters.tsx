@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import {
   LockKeyhole, 
   MessageSquare, 
@@ -25,8 +26,13 @@ const Recruiters = () => {
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Navigation />
       
+      {/* Badge above the hero */}
+      <div className="flex justify-center pt-20">
+        <Badge variant="secondary" className="font-medium text-sm px-3 py-1">Recruiters</Badge>
+      </div>
+      
       {/* Hero Section with flex layout and carousel */}
-      <section className="bg-accent pt-24 pb-12 antialiased">
+      <section className="bg-accent pt-12 pb-12 antialiased">
         <div className="max-w-7xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-12">
           <div className="flex flex-col gap-8 lg:items-center lg:gap-16 lg:flex-row">
             <div className="lg:max-w-xl">
