@@ -1,4 +1,3 @@
-
 import { MessageSquare, Users, Search, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
