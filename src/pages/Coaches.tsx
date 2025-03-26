@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -6,14 +5,13 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ClipboardList, MessageSquare, Users, UserCircle, Bell, FileText, FolderOpen, Share2, ArrowRight, CheckCircle2 } from "lucide-react";
 import FAQ from "@/components/FAQ";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const Coaches = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Navigation />
       
-      {/* Hero Section with flex layout and carousel */}
+      {/* Hero Section with flex layout */}
       <section className="bg-accent pt-24 pb-12 antialiased">
         <div className="max-w-7xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-12">
           <div className="flex flex-col gap-8 lg:items-center lg:gap-16 lg:flex-row">
@@ -38,30 +36,13 @@ const Coaches = () => {
             </div>
             
             <div className="lg:w-1/2">
-              <Carousel className="w-full">
-                <CarouselContent>
-                  <CarouselItem>
-                    <div className="overflow-hidden rounded-lg shadow-lg">
-                      <img 
-                        src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjU2NywiZXhwIjoxNzc0NTU4NTY3fQ.qn_M_vi7YQ8D7jcLBufj8KY-VlCH8CNJY4rJ15OLlB8" 
-                        alt="Coach Dashboard" 
-                        className="w-full object-cover" 
-                      />
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className="overflow-hidden rounded-lg shadow-lg">
-                      <img 
-                        src="/lovable-uploads/f97efc51-6f9a-4aa2-a426-4e61fd8bb014.png" 
-                        alt="PlayerHub Analytics" 
-                        className="w-full object-cover" 
-                      />
-                    </div>
-                  </CarouselItem>
-                </CarouselContent>
-                <CarouselPrevious className="left-2" />
-                <CarouselNext className="right-2" />
-              </Carousel>
+              <div className="overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Flux_Dev_A_highly_detailed_and_lifelike_image_of_a_professiona_2.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvRmx1eF9EZXZfQV9oaWdobHlfZGV0YWlsZWRfYW5kX2xpZmVsaWtlX2ltYWdlX29mX2FfcHJvZmVzc2lvbmFfMi5qcGVnIiwiaWF0IjoxNzQzMDIyNzI3LCJleHAiOjE3NzQ1NTg3Mjd9.JS53bLOeibb6pmNPn_WKMIyxf3ILppLXW8gB8KKiX1E" 
+                  alt="Professional Coach" 
+                  className="w-full object-cover" 
+                />
+              </div>
             </div>
           </div>
         </div>

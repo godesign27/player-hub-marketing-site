@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="mt-16 animate-fade-up flex justify-center" style={{ animationDelay: "0.3s" }}>
           <div className="relative w-full max-w-[130%] max-w-4xl">
             <img
-              src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjU2NywiZXhwIjoxNzc0NTU4NTY3fQ.qn_M_vi7YQ8D7jcLBufj8KY-VlCH8CNJY4rJ15OLlB8"
+              src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Flux_Dev_A_highly_detailed_and_lifelike_image_of_a_professiona_2.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvRmx1eF9EZXZfQV9oaWdobHlfZGV0YWlsZWRfYW5kX2xpZmVsaWtlX2ltYWdlX29mX2FfcHJvZmVzc2lvbmFfMi5qcGVnIiwiaWF0IjoxNzQzMDIyNzI3LCJleHAiOjE3NzQ1NTg3Mjd9.JS53bLOeibb6pmNPn_WKMIyxf3ILppLXW8gB8KKiX1E"
               alt="PlayerHub Platform Preview"
               className="w-full rounded-lg scale-100"
             />
