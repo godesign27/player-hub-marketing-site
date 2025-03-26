@@ -39,8 +39,8 @@ const Coaches = () => {
             <div className="lg:w-1/2">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Flux_Dev_A_highly_detailed_photorealistic_image_of_a_mens_socc_1.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvRmx1eF9EZXZfQV9oaWdobHlfZGV0YWlsZWRfcGhvdG9yZWFsaXN0aWNfaW1hZ2Vfb2ZfYV9tZW5zX3NvY2NfMS5qcGVnIiwiaWF0IjoxNzQzMDIzMDM1LCJleHAiOjE3NzQ1NTkwMzV9.8oKr3cLBv_MsLBksANy5K8siFqqBmjdZ0RgGo2Qtr6A" 
-                  alt="Soccer Team Coach" 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/pexels-franco-monsalvo-252430633-30584996.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGV4ZWxzLWZyYW5jby1tb25zYWx2by0yNTI0MzA2MzMtMzA1ODQ5OTYuanBnIiwiaWF0IjoxNzQzMDIzNzY0LCJleHAiOjE3NzQ1NTk3NjR9.GHd2eu6XuSdQwqMqLpOwCExHzfKUcf2sPDa-ijvRzaM" 
+                  alt="Soccer Players in Action" 
                   className="w-full object-cover" 
                 />
               </div>
