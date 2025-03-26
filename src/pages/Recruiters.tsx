@@ -34,9 +34,9 @@ const Recruiters = () => {
               </Link>
             </div>
           </div>
-          <div className="hidden absolute top-0 right-0 w-1/3 h-full xl:block">
+          <div className="hidden xl:block xl:col-span-4 relative h-full">
             <img 
-              className="object-cover w-full h-full" 
+              className="object-cover w-full h-[calc(100%+96px)] mt-[-96px]" 
               src="/lovable-uploads/ad921ee8-0906-4d20-98b0-d92a23322b43.png" 
               alt="Youth soccer player in action"
             />
