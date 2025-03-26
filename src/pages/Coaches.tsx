@@ -39,8 +39,8 @@ const Coaches = () => {
             <div className="lg:w-1/2">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjk2MCwiZXhwIjoxNzc0NTU4OTYwfQ.1qaEB9v9xU9ZB98ZDFLv83F6Xy49iGzwsr_hA9xY_Hw" 
-                  alt="Coach Dashboard" 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Flux_Dev_A_highly_detailed_photorealistic_image_of_a_mens_socc_1.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvRmx1eF9EZXZfQV9oaWdobHlfZGV0YWlsZWRfcGhvdG9yZWFsaXN0aWNfaW1hZ2Vfb2ZfYV9tZW5zX3NvY2NfMS5qcGVnIiwiaWF0IjoxNzQzMDIzMDM1LCJleHAiOjE3NzQ1NTkwMzV9.8oKr3cLBv_MsLBksANy5K8siFqqBmjdZ0RgGo2Qtr6A" 
+                  alt="Soccer Team Coach" 
                   className="w-full object-cover" 
                 />
               </div>
