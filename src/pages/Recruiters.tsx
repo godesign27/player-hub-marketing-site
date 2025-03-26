@@ -4,51 +4,34 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
-import { Home, LockKeyhole, MessageSquare, ClipboardList, FolderArchive, Users } from "lucide-react";
+  LockKeyhole, 
+  MessageSquare, 
+  ClipboardList, 
+  FolderArchive, 
+  Users
+} from "lucide-react";
 
 const Recruiters = () => {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-800">
       <Navigation />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-8">
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link to="/">
-                  <Home className="h-4 w-4 mr-1" />
-                  Home
-                </Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>Recruiters</BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-      </div>
-      
-      {/* Hero Section */}
-      <section className="bg-white py-16 px-6 text-center">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="text-4xl font-bold mb-4">Discover Top Talent, Instantly.</h1>
-          <p className="text-lg mb-8 text-gray-600">
-            Every player profile on PlayerHub includes highlight reels, performance data, and player goals—everything you need to scout smarter.
-          </p>
-          <Link to="/get-started">
-            <Button className="px-6 py-6 rounded-full text-base">
-              Get Your Free Recruiter Account
-            </Button>
-          </Link>
+      {/* Hero Section - Using home page hero style */}
+      <section className="relative overflow-hidden bg-accent pt-32 pb-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 animate-fade-up">
+              Discover Top Talent, <span className="text-primary">Instantly.</span>
+            </h1>
+            <p className="max-w-2xl mx-auto text-base sm:text-xl text-gray-600 mb-8 animate-fade-up" style={{ animationDelay: "0.1s" }}>
+              Every player profile on PlayerHub includes highlight reels, performance data, and player goals—everything you need to scout smarter.
+            </p>
+            <Link to="/get-started">
+              <Button className="px-6 py-6 rounded-full text-base animate-fade-up" style={{ animationDelay: "0.2s" }}>
+                Get Your Free Recruiter Account
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
