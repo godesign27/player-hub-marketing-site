@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -203,21 +202,6 @@ const Coaches = () => {
               <Bell className="h-10 w-10 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Why Coaches Love Us</h3>
               <p>Private profiles, organize tryouts, track development, communicate with purpose—all free!</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Coach Quote */}
-      <section className="py-16 bg-accent">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white p-8 rounded-xl shadow-md">
-            <div className="flex flex-col items-center text-center">
-              <div className="text-4xl mb-6">📣</div>
-              <blockquote className="text-xl italic text-gray-700 mb-4">
-                "With PlayerHub, I can track player growth from pool to team across seasons. It's changed the way I plan my roster."
-              </blockquote>
-              <cite className="font-medium">— U14 Head Coach, MLS Next Program</cite>
             </div>
           </div>
         </div>
