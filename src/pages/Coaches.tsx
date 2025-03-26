@@ -67,7 +67,7 @@ const Coaches = () => {
         </div>
       </section>
 
-      {/* Primary Feature #1: Rich Player Profiles */}
+      {/* Rich Player Profiles */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12">
@@ -81,7 +81,6 @@ const Coaches = () => {
               </div>
             </div>
             <div className="lg:w-1/2">
-              <Badge variant="primary" className="mb-3">Primary Feature #1</Badge>
               <h2 className="text-3xl font-bold mb-4">All the Right Details. All in One Place.</h2>
               <p className="text-lg text-gray-700 mb-6">
                 Each player profile gives you a full-picture view of the athlete—not just their stats.
@@ -118,12 +117,11 @@ const Coaches = () => {
         </div>
       </section>
 
-      {/* Primary Feature #2: Organize by Recruiting, Pools & Teams */}
+      {/* Organize by Recruiting, Pools & Teams */}
       <section className="py-16 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col-reverse lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-              <Badge variant="primary" className="mb-3">Primary Feature #2</Badge>
               <h2 className="text-3xl font-bold mb-4">Coach Boards That Match How You Actually Work</h2>
               <p className="text-lg text-gray-700 mb-6">
                 Move players through the evaluation process with three flexible board types:
@@ -167,7 +165,6 @@ const Coaches = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <Badge variant="blue" className="mb-2">Supporting Features</Badge>
             <h2 className="text-3xl font-bold">Everything You Need as a Coach</h2>
           </div>
           
