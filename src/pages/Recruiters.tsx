@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -9,9 +10,15 @@ import {
   FolderArchive, 
   Users,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Video,
+  History,
+  LineChart,
+  Target,
+  Compass
 } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const Recruiters = () => {
   return (
@@ -76,16 +83,66 @@ const Recruiters = () => {
 
       {/* Key Feature: Player Profiles */}
       <section className="py-16 px-6 bg-white" id="features">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">🎥 All the Right Details. All in One Place.</h2>
-          <p className="mb-8 text-lg text-gray-700">Each PlayerHub profile is packed with rich, recruiter-ready data:</p>
-          <ul className="text-left max-w-xl mx-auto space-y-4 bg-accent p-8 rounded-xl shadow-sm">
-            <li className="flex items-center gap-2 text-gray-700">• Match + highlight videos</li>
-            <li className="flex items-center gap-2 text-gray-700">• Club and academy history</li>
-            <li className="flex items-center gap-2 text-gray-700">• Stats, positions, & physical data</li>
-            <li className="flex items-center gap-2 text-gray-700">• Player-written goals and mindset</li>
-            <li className="flex items-center gap-2 text-gray-700">• Playing philosophy & training insights</li>
-          </ul>
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            {/* Left side - Placeholder Image */}
+            <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src="/placeholder.svg" 
+                alt="Player profile dashboard"
+                className="w-full h-auto object-cover aspect-video bg-gray-100"
+              />
+            </div>
+            
+            {/* Right side - Feature description */}
+            <div className="md:w-1/2">
+              <div className="text-primary mb-2">🎥 Player Profiles</div>
+              <h2 className="text-3xl font-bold mb-4">All the Right Details. All in One Place.</h2>
+              <p className="mb-8 text-lg text-gray-700">Each PlayerHub profile is packed with rich, recruiter-ready data:</p>
+              
+              <div className="space-y-6">
+                <div className="flex items-start gap-3">
+                  <Video className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Match + highlight videos</p>
+                    <p className="text-gray-600">Review game highlights, skills demos, and training footage</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <History className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Club and academy history</p>
+                    <p className="text-gray-600">Trace player development path and coaching influences</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <LineChart className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Stats, positions, & physical data</p>
+                    <p className="text-gray-600">Analyze key metrics, versatility, and athletic attributes</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <Target className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Player-written goals and mindset</p>
+                    <p className="text-gray-600">Understand motivation, character, and ambition</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-start gap-3">
+                  <Compass className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="font-medium">Playing philosophy & training insights</p>
+                    <p className="text-gray-600">Get a sense of playing style and work ethic</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
