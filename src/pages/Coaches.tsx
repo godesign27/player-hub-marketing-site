@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -38,8 +39,8 @@ const Coaches = () => {
             <div className="lg:w-1/2">
               <div className="overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Flux_Dev_A_highly_detailed_and_lifelike_image_of_a_professiona_2.jpeg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvRmx1eF9EZXZfQV9oaWdobHlfZGV0YWlsZWRfYW5kX2xpZmVsaWtlX2ltYWdlX29mX2FfcHJvZmVzc2lvbmFfMi5qcGVnIiwiaWF0IjoxNzQzMDIyNzI3LCJleHAiOjE3NzQ1NTg3Mjd9.JS53bLOeibb6pmNPn_WKMIyxf3ILppLXW8gB8KKiX1E" 
-                  alt="Professional Coach" 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0MzAyMjk2MCwiZXhwIjoxNzc0NTU4OTYwfQ.1qaEB9v9xU9ZB98ZDFLv83F6Xy49iGzwsr_hA9xY_Hw" 
+                  alt="Coach Dashboard" 
                   className="w-full object-cover" 
                 />
               </div>
