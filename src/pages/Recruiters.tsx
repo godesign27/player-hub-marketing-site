@@ -152,19 +152,14 @@ const Recruiters = () => {
           <h2 className="text-3xl font-bold mb-10 text-center">Powerful Tools for Recruiters</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <LockKeyhole className="h-8 w-8 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Private Recruiter Profile</h3>
-              <p className="text-gray-600">Only visible to players you message—your privacy, your strategy.</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
               <FolderArchive className="h-8 w-8 text-primary mb-4" />
               <h3 className="text-xl font-semibold mb-2">Player Boards</h3>
               <p className="text-gray-600">Create and organize boards by age, position, or recruiting class.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <MessageSquare className="h-8 w-8 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Built-in Messaging</h3>
-              <p className="text-gray-600">Directly message players and get email alerts when they respond.</p>
+              <Users className="h-8 w-8 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Share Boards</h3>
+              <p className="text-gray-600">Securely share boards with your staff for collaborative scouting.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
               <ClipboardList className="h-8 w-8 text-primary mb-4" />
@@ -172,20 +167,17 @@ const Recruiters = () => {
               <p className="text-gray-600">Keep personalized scouting notes right on each player's profile.</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <Users className="h-8 w-8 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Share Boards</h3>
-              <p className="text-gray-600">Securely share boards with your staff for collaborative scouting.</p>
+              <MessageSquare className="h-8 w-8 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Built-in Messaging</h3>
+              <p className="text-gray-600">Directly message players and get email alerts when they respond.</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <LockKeyhole className="h-8 w-8 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-2">Private Recruiter Profile</h3>
+              <p className="text-gray-600">Only visible to players you message—your privacy, your strategy.</p>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Recruiter Quote */}
-      <section className="bg-blue-50 py-12 px-6 text-center">
-        <blockquote className="text-xl italic max-w-3xl mx-auto text-gray-700">
-          "We found two players through PlayerHub that we would've missed. The profile format is exactly what I wish every kid had."
-          <span className="block mt-4 font-semibold">— Regional Club Scout</span>
-        </blockquote>
       </section>
 
       {/* FAQs */}
