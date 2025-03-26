@@ -1,6 +1,8 @@
 
-import { MessageSquare, Users, Search } from "lucide-react";
+import { MessageSquare, Users, Search, ArrowRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const RecruiterFeatures = () => {
   const { t } = useTranslation();
@@ -47,6 +49,15 @@ const RecruiterFeatures = () => {
               {t('recruiterFeatures.teamAccess.description')}
             </p>
           </div>
+        </div>
+        
+        <div className="mt-12 text-center">
+          <Link to="/recruiters">
+            <Button className="flex items-center gap-2">
+              Learn More
+              <ArrowRight className="h-4 w-4" />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>
