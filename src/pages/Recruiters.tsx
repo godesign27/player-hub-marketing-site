@@ -85,12 +85,12 @@ const Recruiters = () => {
       <section className="py-16 px-6 bg-white" id="features">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row gap-12 items-center">
-            {/* Left side - Placeholder Image */}
+            {/* Left side - Image from Supabase */}
             <div className="md:w-1/2 rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="/placeholder.svg" 
+                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0Mjk5NDEzMCwiZXhwIjoxNzc0NTMwMTMwfQ.r_3Ds6Xsc7fdOKgRY1omwdStknsmlDquCni3zm3GCt0" 
                 alt="Player profile dashboard"
-                className="w-full h-auto object-cover aspect-video bg-gray-100"
+                className="w-full h-auto object-cover"
               />
             </div>
             
