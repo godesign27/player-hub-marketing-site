@@ -1,4 +1,3 @@
-
 {
   "navigation": {
     "home": "Startseite",
@@ -8,8 +7,8 @@
     "getStarted": "Loslegen"
   },
   "banner": {
-    "title": "Tritt der Warteliste bei",
-    "description": "Sei der Erste, der erfährt, wenn wir starten!",
+    "title": "Your Story. Your Sport. Your Future. Launching April 30th, 2025",
+    "description": "PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers.",
     "successMessage": "Du wurdest erfolgreich zur Warteliste hinzugefügt!"
   },
   "hero": {
