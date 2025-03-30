@@ -26,8 +26,8 @@ const Hero = () => {
         <div className="mt-16 animate-fade-up flex justify-center" style={{ animationDelay: "0.3s" }}>
           <div className="relative w-full max-w-[130%] max-w-4xl">
             <img
-              src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/pexels-franco-monsalvo-252430633-30584996.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGV4ZWxzLWZyYW5jby1tb25zYWx2by0yNTI0MzA2MzMtMzA1ODQ5OTYuanBnIiwiaWF0IjoxNzQzMDIzNzY0LCJleHAiOjE3NzQ1NTk3NjR9.GHd2eu6XuSdQwqMqLpOwCExHzfKUcf2sPDa-ijvRzaM"
-              alt="Soccer Players in Action"
+              src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/hero-image2.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvaGVyby1pbWFnZTIucG5nIiwiaWF0IjoxNzQzMzQwNjI0LCJleHAiOjE3NzQ4NzY2MjR9.wxqVjI1nJ48HAV7q0ALmtjK5PjDtUEvOJJOX-o4Cjc4"
+              alt="PlayerHub Platform Preview"
               className="w-full rounded-lg scale-100"
             />
           </div>
