@@ -4,7 +4,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ClipboardList, MessageSquare, Users, UserCircle, Bell, FileText, FolderOpen, Share2, ArrowRight, CheckCircle2 } from "lucide-react";
+import { ClipboardList, MessageSquare, Users, UserCircle, Bell, FileText, FolderOpen, Share2, ArrowRight, CheckCircle2, ClipboardCheck, Users2, Layers } from "lucide-react";
 import FAQ from "@/components/FAQ";
 
 const Coaches = () => {
@@ -110,19 +110,28 @@ const Coaches = () => {
               </p>
               
               <div className="space-y-4">
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h3 className="font-bold">Recruiting Boards</h3>
-                  <p>Track athletes you're interested in scouting.</p>
+                <div className="p-4 rounded-lg">
+                  <div className="flex items-center gap-3">
+                    <ClipboardCheck className="h-6 w-6 text-primary flex-shrink-0" />
+                    <h3 className="font-bold">Recruiting Boards</h3>
+                  </div>
+                  <p className="pl-9">Track athletes you're interested in scouting.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h3 className="font-bold">Player Pools</h3>
-                  <p>Organize tryout groups or evaluate potential team fits.</p>
+                <div className="p-4 rounded-lg">
+                  <div className="flex items-center gap-3">
+                    <Users2 className="h-6 w-6 text-primary flex-shrink-0" />
+                    <h3 className="font-bold">Player Pools</h3>
+                  </div>
+                  <p className="pl-9">Organize tryout groups or evaluate potential team fits.</p>
                 </div>
                 
-                <div className="bg-white p-4 rounded-lg shadow-sm">
-                  <h3 className="font-bold">Team Boards</h3>
-                  <p>Finalize your rosters when you're ready to commit.</p>
+                <div className="p-4 rounded-lg">
+                  <div className="flex items-center gap-3">
+                    <Layers className="h-6 w-6 text-primary flex-shrink-0" />
+                    <h3 className="font-bold">Team Boards</h3>
+                  </div>
+                  <p className="pl-9">Finalize your rosters when you're ready to commit.</p>
                 </div>
               </div>
               
@@ -133,7 +142,7 @@ const Coaches = () => {
             <div className="lg:w-1/2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/lovable-uploads/107115a9-1724-4d7a-8e27-e5c8a1eaab98.png" 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/coaches-pool-board.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvY29hY2hlcy1wb29sLWJvYXJkLnBuZyIsImlhdCI6MTc0MzQyMjc4MSwiZXhwIjoxNzc0OTU4NzgxfQ.A1JjTi-X0ARC1iAdpf0PjMkx9bsRo57ZqYjbnMSVVAY" 
                   alt="Coach Boards" 
                   className="w-full object-cover"
                 />
