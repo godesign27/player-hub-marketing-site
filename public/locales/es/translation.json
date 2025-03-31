@@ -92,7 +92,7 @@
     "successMessage": "Te mantendremos informado sobre las últimas funciones."
   },
   "banner": {
-    "title": "Tu Historia. Tu Deporte. Tu Futuro. Lanzamiento el 15 de abril de 2025",
+    "title": "Tu Historia. Tu Deporte. Tu Futuro. Lanzamiento el 30 de abril de 2025",
     "description": "PlayerHub se lanza para ayudar a los atletas jóvenes a mostrar su trayectoria y conectarse con reclutadores, entrenadores y preparadores."
   },
   "getStarted": {
@@ -166,5 +166,157 @@
   "cookies": {
     "message": "Utilizamos cookies para mejorar tu experiencia. Al continuar visitando este sitio, aceptas nuestro uso de cookies. Lee nuestra",
     "accept": "Aceptar todo"
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Entrenadores",
+      "title": "Construye Equipos más Inteligentes. Gestiona con Precisión.",
+      "description": "Desde evaluar talento hasta finalizar tu plantilla, PlayerHub ayuda a los entrenadores a organizar, seguir y desarrollar jugadores como nunca antes.",
+      "cta": "Crea Tu Cuenta Gratuita de Entrenador"
+    },
+    "playerProfiles": {
+      "title": "Todos los Detalles Correctos. Todo en Un Solo Lugar.",
+      "description": "Cada perfil de jugador te ofrece una visión completa del atleta—no solo sus estadísticas.",
+      "features": {
+        "videos": "Videos de partidos + momentos destacados",
+        "history": "Historial de academia y club",
+        "stats": "Estadísticas, posiciones y atributos físicos",
+        "goals": "Objetivos y mentalidad escritos por el jugador",
+        "philosophy": "Metodología, filosofía de juego y perspectivas de entrenamiento"
+      },
+      "conclusion": "Sin adornos. Solo la información que necesitas para evaluar compatibilidad, necesidades de desarrollo y potencial de crecimiento."
+    },
+    "coachBoards": {
+      "title": "Tableros de Entrenador Que se Adaptan a Tu Forma Real de Trabajar",
+      "description": "Mueve jugadores a través del proceso de evaluación con tres tipos flexibles de tableros:",
+      "boards": {
+        "recruiting": {
+          "title": "Tableros de Reclutamiento",
+          "description": "Haz seguimiento de atletas que te interesa observar."
+        },
+        "pools": {
+          "title": "Grupos de Jugadores",
+          "description": "Organiza grupos de prueba o evalúa posibles encajes en el equipo."
+        },
+        "teams": {
+          "title": "Tableros de Equipo",
+          "description": "Finaliza tus plantillas cuando estés listo para comprometerte."
+        }
+      },
+      "conclusion": "Arrastra y suelta entre tableros a medida que evolucionan tus decisiones. Piensa en ello como tu sala de estrategia digital."
+    },
+    "features": {
+      "title": "Todo Lo Que Necesitas Como Entrenador",
+      "coachProfile": {
+        "title": "Perfil de Entrenador Privado",
+        "description": "Solo visible para jugadores que contactas. Sin distracciones ni mensajes no deseados."
+      },
+      "messaging": {
+        "title": "Mensajería En-App con Alertas",
+        "description": "Envía mensajes directos y recibe notificaciones por correo cuando los jugadores responden."
+      },
+      "notes": {
+        "title": "Notas de Jugadores",
+        "description": "Añade perspectivas de entrenamiento, planes de desarrollo o retroalimentación para cada jugador."
+      },
+      "boards": {
+        "title": "Tableros Ilimitados",
+        "description": "Gestiona múltiples categorías de edad o programas a la vez—sin límites."
+      },
+      "sharing": {
+        "title": "Compartir Tableros con Personal",
+        "description": "Incluye a tus asistentes o directores con compartición segura de tableros."
+      },
+      "whyLove": {
+        "title": "Por Qué los Entrenadores Nos Aman",
+        "description": "Perfiles privados, organiza pruebas, seguimiento de desarrollo, comunicación con propósito—¡todo gratis!"
+      }
+    },
+    "cta": {
+      "title": "Trae estructura a tu caos.",
+      "button": "Comienza a construir equipos más inteligentes—gratis para entrenadores"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Reclutadores",
+      "title": "Descubre Talento Top, Al Instante.",
+      "description": "Cada perfil de jugador en PlayerHub incluye videos destacados, datos de rendimiento y objetivos del jugador—todo lo que necesitas para reclutar de forma más inteligente.",
+      "cta": "Obtén Tu Cuenta Gratuita de Reclutador"
+    },
+    "playerProfiles": {
+      "title": "Todos los Detalles Correctos. Todo en Un Solo Lugar.",
+      "description": "Cada perfil de PlayerHub está repleto de datos ricos, listos para reclutadores:",
+      "features": {
+        "videos": {
+          "title": "Videos de partidos + momentos destacados",
+          "description": "Revisa momentos destacados de partidos, demostraciones de habilidades y metraje de entrenamiento"
+        },
+        "history": {
+          "title": "Historial de club y academia",
+          "description": "Rastrea la trayectoria de desarrollo del jugador e influencias de entrenadores"
+        },
+        "stats": {
+          "title": "Estadísticas, posiciones y datos físicos",
+          "description": "Analiza métricas clave, versatilidad y atributos atléticos"
+        },
+        "goals": {
+          "title": "Objetivos y mentalidad escritos por el jugador",
+          "description": "Comprende motivación, carácter y ambición"
+        },
+        "philosophy": {
+          "title": "Filosofía de juego y perspectivas de entrenamiento",
+          "description": "Obtén una idea del estilo de juego y ética de trabajo"
+        }
+      }
+    },
+    "features": {
+      "title": "Herramientas Poderosas para Reclutadores",
+      "boards": {
+        "title": "Tableros de Jugadores",
+        "description": "Crea y organiza tableros por edad, posición o clase de reclutamiento."
+      },
+      "sharing": {
+        "title": "Compartir Tableros",
+        "description": "Comparte tableros de forma segura con tu personal para reclutamiento colaborativo."
+      },
+      "notes": {
+        "title": "Notas de Reclutador",
+        "description": "Mantén notas personalizadas de reclutamiento directamente en el perfil de cada jugador."
+      },
+      "messaging": {
+        "title": "Mensajería Integrada",
+        "description": "Envía mensajes directamente a jugadores y recibe alertas por correo cuando responden."
+      },
+      "profile": {
+        "title": "Perfil de Reclutador Privado",
+        "description": "Solo visible para jugadores a los que envías mensajes—tu privacidad, tu estrategia."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "questions": {
+        "info": {
+          "question": "P: ¿Qué tipo de información hay en un perfil de jugador?",
+          "answer": "R: Videos destacados, estadísticas, objetivos, antecedentes de club y más."
+        },
+        "free": {
+          "question": "P: ¿Es PlayerHub realmente gratis para reclutadores?",
+          "answer": "R: Sí, 100% gratuito. No se requiere tarjeta de crédito."
+        },
+        "messages": {
+          "question": "P: ¿Pueden los jugadores enviarme mensajes primero?",
+          "answer": "R: No, solo los jugadores que contactes pueden ver tu perfil y responder."
+        },
+        "collaborate": {
+          "question": "P: ¿Puedo colaborar con otros reclutadores?",
+          "answer": "R: ¡Absolutamente! Comparte tableros de forma segura con el personal técnico."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Comienza a reclutar de forma más inteligente, rápida y con mayor confianza.",
+      "button": "Crea Tu Cuenta Gratuita de Reclutador"
+    }
   }
 }

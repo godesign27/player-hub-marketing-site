@@ -163,5 +163,157 @@
         ]
       }
     }
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Coaches",
+      "title": "Bouw Slimmere Teams. Beheer met Precisie.",
+      "description": "Van het evalueren van talent tot het afwerken van je selectie, PlayerHub helpt coaches om spelers beter te organiseren, volgen en ontwikkelen.",
+      "cta": "Maak Jouw Gratis Coach Account"
+    },
+    "playerProfiles": {
+      "title": "Alle Juiste Details. Alles op Één Plek.",
+      "description": "Elk spelersprofiel geeft je een volledig beeld van de atleet — niet alleen hun statistieken.",
+      "features": {
+        "videos": "Match + highlight video's",
+        "history": "Academie- en clubgeschiedenis",
+        "stats": "Statistieken, posities & fysieke kenmerken",
+        "goals": "Doelen & mindset geschreven door de speler",
+        "philosophy": "Methodologie, speelfilosofie & trainingsinzichten"
+      },
+      "conclusion": "Geen overbodige informatie. Alleen de gegevens die je nodig hebt om geschiktheid, ontwikkelingsbehoeften en groeipotentieel te beoordelen."
+    },
+    "coachBoards": {
+      "title": "Coach Borden Die Passen Bij Hoe Je Daadwerkelijk Werkt",
+      "description": "Verplaats spelers door het evaluatieproces met drie flexibele bordtypes:",
+      "boards": {
+        "recruiting": {
+          "title": "Wervingsborden",
+          "description": "Houd atleten bij waarin je geïnteresseerd bent om te scouten."
+        },
+        "pools": {
+          "title": "Spelerspools",
+          "description": "Organiseer selectiegroepen of evalueer potentiële teamfits."
+        },
+        "teams": {
+          "title": "Teamborden",
+          "description": "Maak je selecties definitief wanneer je klaar bent om je te committeren."
+        }
+      },
+      "conclusion": "Sleep en drop tussen borden terwijl je beslissingen evolueren. Zie het als je digitale commandocentrum."
+    },
+    "features": {
+      "title": "Alles Wat Je Nodig Hebt als Coach",
+      "coachProfile": {
+        "title": "Privé Coach Profiel",
+        "description": "Alleen zichtbaar voor spelers die je contacteert. Geen afleidingen of ongewenste berichten."
+      },
+      "messaging": {
+        "title": "In-App Berichten met Waarschuwingen",
+        "description": "Stuur directe berichten en ontvang e-mailmeldingen wanneer spelers reageren."
+      },
+      "notes": {
+        "title": "Speler Notities",
+        "description": "Voeg coaching inzichten, ontwikkelingsplannen of feedback toe voor elke speler."
+      },
+      "boards": {
+        "title": "Onbeperkte Borden",
+        "description": "Run meerdere leeftijdsgroepen of programma's tegelijkertijd — zonder beperkingen."
+      },
+      "sharing": {
+        "title": "Deel Borden met Staf",
+        "description": "Betrek je assistenten of directeuren met veilig delen van borden."
+      },
+      "whyLove": {
+        "title": "Waarom Coaches van Ons Houden",
+        "description": "Privéprofielen, organiseer selecties, volg ontwikkeling, communiceer doelgericht — allemaal gratis!"
+      }
+    },
+    "cta": {
+      "title": "Breng structuur in je chaos.",
+      "button": "Begin met het bouwen van slimmere teams — gratis voor coaches"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Scouts",
+      "title": "Ontdek Toptalent, Direct.",
+      "description": "Elk spelersprofiel op PlayerHub bevat highlight reels, prestatiegegevens en spelersdoelen — alles wat je nodig hebt om slimmer te scouten.",
+      "cta": "Krijg Je Gratis Scout Account"
+    },
+    "playerProfiles": {
+      "title": "Alle Juiste Details. Alles op Één Plek.",
+      "description": "Elk PlayerHub-profiel zit vol met rijke, scout-ready data:",
+      "features": {
+        "videos": {
+          "title": "Match + highlight video's",
+          "description": "Bekijk wedstrijdhoogtepunten, vaardighedendemo's en trainingsbeelden"
+        },
+        "history": {
+          "title": "Club- en academiegeschiedenis",
+          "description": "Volg het ontwikkelingstraject van de speler en coachingsinvloeden"
+        },
+        "stats": {
+          "title": "Statistieken, posities & fysieke gegevens",
+          "description": "Analyseer belangrijke metrieken, veelzijdigheid en atletische kenmerken"
+        },
+        "goals": {
+          "title": "Door speler geschreven doelen en mindset",
+          "description": "Begrijp motivatie, karakter en ambitie"
+        },
+        "philosophy": {
+          "title": "Speelfilosofie & trainingsinzichten",
+          "description": "Krijg een idee van speelstijl en werkethiek"
+        }
+      }
+    },
+    "features": {
+      "title": "Krachtige Tools voor Scouts",
+      "boards": {
+        "title": "Spelersoverzichten",
+        "description": "Maak en organiseer overzichten op basis van leeftijd, positie of wervingsklasse."
+      },
+      "sharing": {
+        "title": "Deel Overzichten",
+        "description": "Deel overzichten veilig met je staf voor gezamenlijke scouting."
+      },
+      "notes": {
+        "title": "Scout Notities",
+        "description": "Houd persoonlijke scoutingnotities direct bij het profiel van elke speler."
+      },
+      "messaging": {
+        "title": "Ingebouwde Berichten",
+        "description": "Stuur direct berichten naar spelers en ontvang e-mailwaarschuwingen wanneer ze reageren."
+      },
+      "profile": {
+        "title": "Privé Scout Profiel",
+        "description": "Alleen zichtbaar voor spelers die je berichten stuurt — jouw privacy, jouw strategie."
+      }
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "questions": {
+        "info": {
+          "question": "V: Welke informatie staat er in een spelersprofiel?",
+          "answer": "A: Videohoogtepunten, statistieken, doelen, clubachtergrond en meer."
+        },
+        "free": {
+          "question": "V: Is PlayerHub echt gratis voor scouts?",
+          "answer": "A: Ja, 100% gratis. Geen creditcard vereist."
+        },
+        "messages": {
+          "question": "V: Kunnen spelers mij eerst berichten sturen?",
+          "answer": "A: Nee, alleen spelers die jij berichten stuurt kunnen je profiel zien en reageren."
+        },
+        "collaborate": {
+          "question": "V: Kan ik samenwerken met andere scouts?",
+          "answer": "A: Absoluut! Deel overzichten veilig met coachingstaf."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Begin slimmer, sneller en met meer vertrouwen te scouten.",
+      "button": "Maak Je Gratis Scout Account"
+    }
   }
 }

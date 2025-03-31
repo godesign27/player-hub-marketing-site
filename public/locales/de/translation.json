@@ -1,3 +1,4 @@
+
 {
   "navigation": {
     "home": "Startseite",
@@ -7,8 +8,8 @@
     "getStarted": "Loslegen"
   },
   "banner": {
-    "title": "Your Story. Your Sport. Your Future. Launching April 30th, 2025",
-    "description": "PlayerHub launches to help youth athletes showcase their journey and connect with recruiters, coaches and trainers.",
+    "title": "Deine Geschichte. Dein Sport. Deine Zukunft. Einführung am 30. April 2025",
+    "description": "PlayerHub startet, um jungen Athleten zu helfen, ihre Reise zu präsentieren und sich mit Rekrutierern, Trainern und Ausbildern zu vernetzen.",
     "successMessage": "Du wurdest erfolgreich zur Warteliste hinzugefügt!"
   },
   "hero": {
@@ -83,7 +84,8 @@
     "termsOfUse": "Nutzungsbedingungen",
     "privacyPolicy": "Datenschutzerklärung",
     "copyright": "© 2024 PlayerHub. Alle Rechte vorbehalten.",
-    "signInLink": "Anmelden"
+    "signInLink": "Anmelden",
+    "language": "Sprache"
   },
   "languages": {
     "en": "Englisch",
@@ -160,6 +162,158 @@
           "Dedizierte API"
         ]
       }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Trainer",
+      "title": "Intelligentere Teams aufbauen. Mit Präzision managen.",
+      "description": "Von der Bewertung von Talenten bis zur Finalisierung deines Kaders hilft PlayerHub Trainern, Spieler wie nie zuvor zu organisieren, zu verfolgen und zu entwickeln.",
+      "cta": "Erstelle dein kostenloses Trainer-Konto"
+    },
+    "playerProfiles": {
+      "title": "Alle wichtigen Details. Alles an einem Ort.",
+      "description": "Jedes Spielerprofil gibt dir einen umfassenden Blick auf den Athleten — nicht nur auf seine Statistiken.",
+      "features": {
+        "videos": "Match + Highlight-Videos",
+        "history": "Akademie- und Vereinshistorie",
+        "stats": "Statistiken, Positionen & physische Attribute",
+        "goals": "Vom Spieler formulierte Ziele & Mindset",
+        "philosophy": "Methodologie, Spielphilosophie & Trainingseinblicke"
+      },
+      "conclusion": "Kein überflüssiger Inhalt. Nur die Informationen, die du benötigst, um Eignung, Entwicklungsbedarf und Wachstumspotenzial zu beurteilen."
+    },
+    "coachBoards": {
+      "title": "Trainer-Boards, die zu deiner tatsächlichen Arbeitsweise passen",
+      "description": "Bewege Spieler durch den Evaluierungsprozess mit drei flexiblen Board-Typen:",
+      "boards": {
+        "recruiting": {
+          "title": "Recruiting-Boards",
+          "description": "Verfolge Athleten, an deren Scouting du interessiert bist."
+        },
+        "pools": {
+          "title": "Spieler-Pools",
+          "description": "Organisiere Probetraining-Gruppen oder evaluiere potenzielle Team-Passungen."
+        },
+        "teams": {
+          "title": "Team-Boards",
+          "description": "Finalisiere deine Kader, wenn du bereit bist, dich festzulegen."
+        }
+      },
+      "conclusion": "Ziehe und lege Spieler zwischen Boards ab, während sich deine Entscheidungen entwickeln. Betrachte es als deinen digitalen Kommandoraum."
+    },
+    "features": {
+      "title": "Alles, was du als Trainer brauchst",
+      "coachProfile": {
+        "title": "Privates Trainer-Profil",
+        "description": "Nur sichtbar für Spieler, die du kontaktierst. Keine Ablenkungen oder unerwünschten Nachrichten."
+      },
+      "messaging": {
+        "title": "In-App-Messaging mit Benachrichtigungen",
+        "description": "Sende direkte Nachrichten und erhalte E-Mail-Benachrichtigungen, wenn Spieler antworten."
+      },
+      "notes": {
+        "title": "Spieler-Notizen",
+        "description": "Füge Trainingserkenntnisse, Entwicklungspläne oder Feedback für jeden Spieler hinzu."
+      },
+      "boards": {
+        "title": "Unbegrenzte Boards",
+        "description": "Führe mehrere Altersgruppen oder Programme gleichzeitig — ohne Einschränkungen."
+      },
+      "sharing": {
+        "title": "Teile Boards mit deinem Team",
+        "description": "Beziehe deine Assistenten oder Direktoren durch sicheres Board-Sharing mit ein."
+      },
+      "whyLove": {
+        "title": "Warum Trainer uns lieben",
+        "description": "Private Profile, Probetrainings organisieren, Entwicklung verfolgen, zielgerichtet kommunizieren — alles kostenlos!"
+      }
+    },
+    "cta": {
+      "title": "Bringe Struktur in dein Chaos.",
+      "button": "Beginne intelligentere Teams aufzubauen — kostenlos für Trainer"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Scouts",
+      "title": "Entdecke Top-Talente, sofort.",
+      "description": "Jedes Spielerprofil auf PlayerHub enthält Highlight-Reels, Leistungsdaten und Spielerziele — alles, was du brauchst, um intelligenter zu scouten.",
+      "cta": "Hol dir dein kostenloses Scout-Konto"
+    },
+    "playerProfiles": {
+      "title": "Alle wichtigen Details. Alles an einem Ort.",
+      "description": "Jedes PlayerHub-Profil ist vollgepackt mit reichhaltigen, scout-ready Daten:",
+      "features": {
+        "videos": {
+          "title": "Match + Highlight-Videos",
+          "description": "Sichte Spielhöhepunkte, Skills-Demos und Trainingsmaterial"
+        },
+        "history": {
+          "title": "Vereins- und Akademiehistorie",
+          "description": "Verfolge den Entwicklungsweg des Spielers und Trainer-Einflüsse"
+        },
+        "stats": {
+          "title": "Statistiken, Positionen & physische Daten",
+          "description": "Analysiere Schlüsselkennzahlen, Vielseitigkeit und athletische Attribute"
+        },
+        "goals": {
+          "title": "Vom Spieler formulierte Ziele und Mindset",
+          "description": "Verstehe Motivation, Charakter und Ambitionen"
+        },
+        "philosophy": {
+          "title": "Spielphilosophie & Trainingseinblicke",
+          "description": "Bekomme ein Gefühl für Spielstil und Arbeitsmoral"
+        }
+      }
+    },
+    "features": {
+      "title": "Leistungsstarke Tools für Scouts",
+      "boards": {
+        "title": "Spieler-Boards",
+        "description": "Erstelle und organisiere Boards nach Alter, Position oder Recruiting-Klasse."
+      },
+      "sharing": {
+        "title": "Boards teilen",
+        "description": "Teile Boards sicher mit deinem Team für kollaboratives Scouting."
+      },
+      "notes": {
+        "title": "Scout-Notizen",
+        "description": "Führe persönliche Scouting-Notizen direkt am Profil jedes Spielers."
+      },
+      "messaging": {
+        "title": "Integrierte Messaging-Funktion",
+        "description": "Sende direkte Nachrichten an Spieler und erhalte E-Mail-Benachrichtigungen, wenn sie antworten."
+      },
+      "profile": {
+        "title": "Privates Scout-Profil",
+        "description": "Nur sichtbar für Spieler, denen du Nachrichten sendest — deine Privatsphäre, deine Strategie."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "questions": {
+        "info": {
+          "question": "F: Welche Art von Informationen enthält ein Spielerprofil?",
+          "answer": "A: Video-Highlights, Statistiken, Ziele, Vereinshintergrund und mehr."
+        },
+        "free": {
+          "question": "F: Ist PlayerHub wirklich kostenlos für Scouts?",
+          "answer": "A: Ja, 100% kostenlos. Keine Kreditkarte erforderlich."
+        },
+        "messages": {
+          "question": "F: Können Spieler mich zuerst kontaktieren?",
+          "answer": "A: Nein, nur Spieler, die du kontaktierst, können dein Profil sehen und antworten."
+        },
+        "collaborate": {
+          "question": "F: Kann ich mit anderen Scouts zusammenarbeiten?",
+          "answer": "A: Absolut! Teile Boards sicher mit dem Trainerteam."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Beginne intelligenter, schneller und selbstbewusster zu scouten.",
+      "button": "Erstelle dein kostenloses Scout-Konto"
     }
   }
 }

@@ -8,8 +8,8 @@
     "getStarted": "Inizia ora"
   },
   "banner": {
-    "title": "Unisciti alla lista d'attesa",
-    "description": "Sii il primo a sapere quando lanceremo!",
+    "title": "La Tua Storia. Il Tuo Sport. Il Tuo Futuro. Lancio il 30 aprile 2025",
+    "description": "PlayerHub si lancia per aiutare i giovani atleti a mostrare il loro percorso e connettersi con reclutatori, allenatori e preparatori.",
     "successMessage": "Ti sei iscritto con successo alla lista d'attesa!"
   },
   "hero": {
@@ -84,7 +84,8 @@
     "termsOfUse": "Termini di utilizzo",
     "privacyPolicy": "Privacy Policy",
     "copyright": "© 2024 PlayerHub. Tutti i diritti riservati.",
-    "signInLink": "Accedi"
+    "signInLink": "Accedi",
+    "language": "Lingua"
   },
   "languages": {
     "en": "Inglese",
@@ -161,6 +162,158 @@
           "API dedicata"
         ]
       }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Allenatori",
+      "title": "Costruisci Squadre più Intelligenti. Gestisci con Precisione.",
+      "description": "Dalla valutazione del talento alla finalizzazione della tua squadra, PlayerHub aiuta gli allenatori a organizzare, monitorare e sviluppare i giocatori come mai prima d'ora.",
+      "cta": "Crea il Tuo Account Allenatore Gratuito"
+    },
+    "playerProfiles": {
+      "title": "Tutti i Dettagli Giusti. Tutti in un Unico Posto.",
+      "description": "Ogni profilo giocatore ti offre una visione completa dell'atleta—non solo le sue statistiche.",
+      "features": {
+        "videos": "Video di partite + highlights",
+        "history": "Storia dell'accademia e del club",
+        "stats": "Statistiche, posizioni e attributi fisici",
+        "goals": "Obiettivi e mentalità scritti dal giocatore",
+        "philosophy": "Metodologia, filosofia di gioco e approfondimenti sull'allenamento"
+      },
+      "conclusion": "Niente fronzoli. Solo le informazioni necessarie per valutare compatibilità, esigenze di sviluppo e potenziale di crescita."
+    },
+    "coachBoards": {
+      "title": "Bacheche per Allenatori che Rispecchiano il Tuo Modo di Lavorare",
+      "description": "Muovi i giocatori attraverso il processo di valutazione con tre tipi flessibili di bacheca:",
+      "boards": {
+        "recruiting": {
+          "title": "Bacheche di Reclutamento",
+          "description": "Tieni traccia degli atleti che ti interessano per lo scouting."
+        },
+        "pools": {
+          "title": "Pool di Giocatori",
+          "description": "Organizza gruppi di prova o valuta potenziali compatibilità con la squadra."
+        },
+        "teams": {
+          "title": "Bacheche di Squadra",
+          "description": "Finalizza le tue rose quando sei pronto a impegnarti."
+        }
+      },
+      "conclusion": "Trascina e rilascia tra bacheche mentre le tue decisioni si evolvono. Consideralo come la tua sala strategica digitale."
+    },
+    "features": {
+      "title": "Tutto Ciò di cui Hai Bisogno come Allenatore",
+      "coachProfile": {
+        "title": "Profilo Allenatore Privato",
+        "description": "Visibile solo ai giocatori che contatti. Niente distrazioni o messaggi indesiderati."
+      },
+      "messaging": {
+        "title": "Messaggistica In-App con Avvisi",
+        "description": "Invia messaggi diretti e ricevi notifiche via email quando i giocatori rispondono."
+      },
+      "notes": {
+        "title": "Note sui Giocatori",
+        "description": "Aggiungi intuizioni di coaching, piani di sviluppo o feedback per ogni giocatore."
+      },
+      "boards": {
+        "title": "Bacheche Illimitate",
+        "description": "Gestisci più gruppi di età o programmi contemporaneamente—senza limiti."
+      },
+      "sharing": {
+        "title": "Condividi Bacheche con lo Staff",
+        "description": "Coinvolgi i tuoi assistenti o direttori con la condivisione sicura delle bacheche."
+      },
+      "whyLove": {
+        "title": "Perché gli Allenatori ci Amano",
+        "description": "Profili privati, organizzazione dei provini, monitoraggio dello sviluppo, comunicazione mirata—tutto gratuito!"
+      }
+    },
+    "cta": {
+      "title": "Porta struttura nel tuo caos.",
+      "button": "Inizia a costruire squadre più intelligenti—gratuito per allenatori"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Reclutatori",
+      "title": "Scopri Talenti di Punta, Istantaneamente.",
+      "description": "Ogni profilo giocatore su PlayerHub include bobine di highlights, dati sulle prestazioni e obiettivi del giocatore—tutto ciò di cui hai bisogno per uno scouting più intelligente.",
+      "cta": "Ottieni il Tuo Account Reclutatore Gratuito"
+    },
+    "playerProfiles": {
+      "title": "Tutti i Dettagli Giusti. Tutti in un Unico Posto.",
+      "description": "Ogni profilo PlayerHub è ricco di dati pronti per il reclutatore:",
+      "features": {
+        "videos": {
+          "title": "Video di partite + highlights",
+          "description": "Guarda i momenti salienti delle partite, dimostrazioni di abilità e filmati di allenamento"
+        },
+        "history": {
+          "title": "Storia di club e accademie",
+          "description": "Traccia il percorso di sviluppo del giocatore e le influenze degli allenatori"
+        },
+        "stats": {
+          "title": "Statistiche, posizioni e dati fisici",
+          "description": "Analizza metriche chiave, versatilità e attributi atletici"
+        },
+        "goals": {
+          "title": "Obiettivi e mentalità scritti dal giocatore",
+          "description": "Comprendi motivazione, carattere e ambizione"
+        },
+        "philosophy": {
+          "title": "Filosofia di gioco e approfondimenti sull'allenamento",
+          "description": "Ottieni un'idea dello stile di gioco e dell'etica del lavoro"
+        }
+      }
+    },
+    "features": {
+      "title": "Strumenti Potenti per Reclutatori",
+      "boards": {
+        "title": "Bacheche Giocatori",
+        "description": "Crea e organizza bacheche per età, posizione o classe di reclutamento."
+      },
+      "sharing": {
+        "title": "Condividi Bacheche",
+        "description": "Condividi in modo sicuro le bacheche con il tuo staff per uno scouting collaborativo."
+      },
+      "notes": {
+        "title": "Note del Reclutatore",
+        "description": "Mantieni note di scouting personalizzate direttamente sul profilo di ogni giocatore."
+      },
+      "messaging": {
+        "title": "Messaggistica Integrata",
+        "description": "Invia messaggi direttamente ai giocatori e ricevi avvisi via email quando rispondono."
+      },
+      "profile": {
+        "title": "Profilo Reclutatore Privato",
+        "description": "Visibile solo ai giocatori che contatti—la tua privacy, la tua strategia."
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "questions": {
+        "info": {
+          "question": "D: Che tipo di informazioni si trovano in un profilo giocatore?",
+          "answer": "R: Video highlights, statistiche, obiettivi, background del club e altro ancora."
+        },
+        "free": {
+          "question": "D: PlayerHub è davvero gratuito per i reclutatori?",
+          "answer": "R: Sì, al 100%. Nessuna carta di credito richiesta."
+        },
+        "messages": {
+          "question": "D: I giocatori possono contattarmi per primi?",
+          "answer": "R: No, solo i giocatori che contatti possono vedere il tuo profilo e rispondere."
+        },
+        "collaborate": {
+          "question": "D: Posso collaborare con altri reclutatori?",
+          "answer": "R: Assolutamente! Condividi bacheche in modo sicuro con lo staff tecnico."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Inizia a fare scouting in modo più intelligente, veloce e con maggiore sicurezza.",
+      "button": "Crea il Tuo Account Reclutatore Gratuito"
     }
   }
 }

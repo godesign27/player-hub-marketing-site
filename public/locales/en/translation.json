@@ -166,5 +166,157 @@
   "cookies": {
     "message": "We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies. Read our",
     "accept": "Accept all"
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Coaches",
+      "title": "Build Smarter Teams. Manage with Precision.",
+      "description": "From evaluating talent to finalizing your roster, PlayerHub helps coaches organize, track, and develop players like never before.",
+      "cta": "Create Your Free Coach Account"
+    },
+    "playerProfiles": {
+      "title": "All the Right Details. All in One Place.",
+      "description": "Each player profile gives you a full-picture view of the athlete—not just their stats.",
+      "features": {
+        "videos": "Match + highlight videos",
+        "history": "Academy and club history",
+        "stats": "Stats, positions, & physical attributes",
+        "goals": "Player-written goals & mindset",
+        "philosophy": "Methodology, playing philosophy & training insights"
+      },
+      "conclusion": "No fluff. Just the intel you need to assess fit, development needs, and growth potential."
+    },
+    "coachBoards": {
+      "title": "Coach Boards That Match How You Actually Work",
+      "description": "Move players through the evaluation process with three flexible board types:",
+      "boards": {
+        "recruiting": {
+          "title": "Recruiting Boards",
+          "description": "Track athletes you're interested in scouting."
+        },
+        "pools": {
+          "title": "Player Pools",
+          "description": "Organize tryout groups or evaluate potential team fits."
+        },
+        "teams": {
+          "title": "Team Boards",
+          "description": "Finalize your rosters when you're ready to commit."
+        }
+      },
+      "conclusion": "Drag and drop between boards as your decisions evolve. Think of it as your digital war room."
+    },
+    "features": {
+      "title": "Everything You Need as a Coach",
+      "coachProfile": {
+        "title": "Private Coach Profile",
+        "description": "Only visible to players you contact. No distractions or unwanted messages."
+      },
+      "messaging": {
+        "title": "In-App Messaging with Alerts",
+        "description": "Send direct messages and get email notifications when players reply."
+      },
+      "notes": {
+        "title": "Player Notes",
+        "description": "Add coaching insights, development plans, or feedback for each player."
+      },
+      "boards": {
+        "title": "Unlimited Boards",
+        "description": "Run multiple age groups or programs at once—without limits."
+      },
+      "sharing": {
+        "title": "Share Boards with Staff",
+        "description": "Loop in your assistants or directors with secure board-sharing."
+      },
+      "whyLove": {
+        "title": "Why Coaches Love Us",
+        "description": "Private profiles, organize tryouts, track development, communicate with purpose—all free!"
+      }
+    },
+    "cta": {
+      "title": "Bring structure to your chaos.",
+      "button": "Start building smarter teams—free for coaches"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Recruiters",
+      "title": "Discover Top Talent, Instantly.",
+      "description": "Every player profile on PlayerHub includes highlight reels, performance data, and player goals—everything you need to scout smarter.",
+      "cta": "Get Your Free Recruiter Account"
+    },
+    "playerProfiles": {
+      "title": "All the Right Details. All in One Place.",
+      "description": "Each PlayerHub profile is packed with rich, recruiter-ready data:",
+      "features": {
+        "videos": {
+          "title": "Match + highlight videos",
+          "description": "Review game highlights, skills demos, and training footage"
+        },
+        "history": {
+          "title": "Club and academy history",
+          "description": "Trace player development path and coaching influences"
+        },
+        "stats": {
+          "title": "Stats, positions, & physical data",
+          "description": "Analyze key metrics, versatility, and athletic attributes"
+        },
+        "goals": {
+          "title": "Player-written goals and mindset",
+          "description": "Understand motivation, character, and ambition"
+        },
+        "philosophy": {
+          "title": "Playing philosophy & training insights",
+          "description": "Get a sense of playing style and work ethic"
+        }
+      }
+    },
+    "features": {
+      "title": "Powerful Tools for Recruiters",
+      "boards": {
+        "title": "Player Boards",
+        "description": "Create and organize boards by age, position, or recruiting class."
+      },
+      "sharing": {
+        "title": "Share Boards",
+        "description": "Securely share boards with your staff for collaborative scouting."
+      },
+      "notes": {
+        "title": "Recruiter Notes",
+        "description": "Keep personalized scouting notes right on each player's profile."
+      },
+      "messaging": {
+        "title": "Built-in Messaging",
+        "description": "Directly message players and get email alerts when they respond."
+      },
+      "profile": {
+        "title": "Private Recruiter Profile",
+        "description": "Only visible to players you message—your privacy, your strategy."
+      }
+    },
+    "faq": {
+      "title": "FAQs",
+      "questions": {
+        "info": {
+          "question": "Q: What kind of information is in a player profile?",
+          "answer": "A: Video highlights, stats, goals, club background, and more."
+        },
+        "free": {
+          "question": "Q: Is PlayerHub really free for recruiters?",
+          "answer": "A: Yes, 100% free. No credit card required."
+        },
+        "messages": {
+          "question": "Q: Can players message me first?",
+          "answer": "A: No, only players you message can see your profile and reply."
+        },
+        "collaborate": {
+          "question": "Q: Can I collaborate with other recruiters?",
+          "answer": "A: Absolutely! Share boards securely with coaching staff."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Start scouting smarter, faster, and more confidently.",
+      "button": "Create Your Free Recruiter Account"
+    }
   }
 }

@@ -1,3 +1,4 @@
+
 {
   "navigation": {
     "home": "Início",
@@ -161,6 +162,158 @@
           "API dedicada"
         ]
       }
+    }
+  },
+  "coaches": {
+    "hero": {
+      "badge": "Treinadores",
+      "title": "Construa Times mais Inteligentes. Gerencie com Precisão.",
+      "description": "Desde avaliar talentos até finalizar seu elenco, o PlayerHub ajuda treinadores a organizar, acompanhar e desenvolver jogadores como nunca antes.",
+      "cta": "Crie Sua Conta Gratuita de Treinador"
+    },
+    "playerProfiles": {
+      "title": "Todos os Detalhes Certos. Tudo em Um Só Lugar.",
+      "description": "Cada perfil de jogador oferece uma visão completa do atleta—não apenas suas estatísticas.",
+      "features": {
+        "videos": "Vídeos de partidas + highlights",
+        "history": "Histórico de academias e clubes",
+        "stats": "Estatísticas, posições e atributos físicos",
+        "goals": "Objetivos e mentalidade escritos pelo jogador",
+        "philosophy": "Metodologia, filosofia de jogo e insights de treinamento"
+      },
+      "conclusion": "Sem enfeites. Apenas as informações necessárias para avaliar compatibilidade, necessidades de desenvolvimento e potencial de crescimento."
+    },
+    "coachBoards": {
+      "title": "Quadros de Treinadores Que Correspondem ao Seu Modo de Trabalhar",
+      "description": "Mova jogadores pelo processo de avaliação com três tipos flexíveis de quadros:",
+      "boards": {
+        "recruiting": {
+          "title": "Quadros de Recrutamento",
+          "description": "Acompanhe atletas que você está interessado em observar."
+        },
+        "pools": {
+          "title": "Pools de Jogadores",
+          "description": "Organize grupos de avaliação ou avalie potenciais encaixes no time."
+        },
+        "teams": {
+          "title": "Quadros de Equipe",
+          "description": "Finalize seu elenco quando estiver pronto para se comprometer."
+        }
+      },
+      "conclusion": "Arraste e solte entre quadros conforme suas decisões evoluem. Pense nisso como sua sala de guerra digital."
+    },
+    "features": {
+      "title": "Tudo o Que Você Precisa Como Treinador",
+      "coachProfile": {
+        "title": "Perfil de Treinador Privado",
+        "description": "Visível apenas para jogadores que você contata. Sem distrações ou mensagens indesejadas."
+      },
+      "messaging": {
+        "title": "Mensagens no App com Alertas",
+        "description": "Envie mensagens diretas e receba notificações por email quando jogadores responderem."
+      },
+      "notes": {
+        "title": "Notas de Jogadores",
+        "description": "Adicione insights de treinamento, planos de desenvolvimento ou feedback para cada jogador."
+      },
+      "boards": {
+        "title": "Quadros Ilimitados",
+        "description": "Gerencie múltiplas categorias de idade ou programas de uma vez—sem limites."
+      },
+      "sharing": {
+        "title": "Compartilhe Quadros com a Comissão",
+        "description": "Inclua seus assistentes ou diretores com compartilhamento seguro de quadros."
+      },
+      "whyLove": {
+        "title": "Por Que Treinadores Nos Amam",
+        "description": "Perfis privados, organize avaliações, acompanhe desenvolvimento, comunique-se com propósito—tudo gratuito!"
+      }
+    },
+    "cta": {
+      "title": "Traga estrutura ao seu caos.",
+      "button": "Comece a construir times mais inteligentes—gratuito para treinadores"
+    }
+  },
+  "recruiters": {
+    "hero": {
+      "badge": "Olheiros",
+      "title": "Descubra Talentos de Ponta, Instantaneamente.",
+      "description": "Cada perfil de jogador no PlayerHub inclui vídeos de destaque, dados de desempenho e objetivos do jogador—tudo que você precisa para recrutar de forma mais inteligente.",
+      "cta": "Obtenha Sua Conta Gratuita de Olheiro"
+    },
+    "playerProfiles": {
+      "title": "Todos os Detalhes Certos. Tudo em Um Só Lugar.",
+      "description": "Cada perfil do PlayerHub está repleto de dados ricos, prontos para olheiros:",
+      "features": {
+        "videos": {
+          "title": "Vídeos de partidas + highlights",
+          "description": "Revise destaques de jogos, demonstrações de habilidades e filmagens de treinamento"
+        },
+        "history": {
+          "title": "Histórico de clubes e academias",
+          "description": "Acompanhe o caminho de desenvolvimento do jogador e influências de treinadores"
+        },
+        "stats": {
+          "title": "Estatísticas, posições e dados físicos",
+          "description": "Analise métricas-chave, versatilidade e atributos atléticos"
+        },
+        "goals": {
+          "title": "Objetivos e mentalidade escritos pelo jogador",
+          "description": "Entenda motivação, caráter e ambição"
+        },
+        "philosophy": {
+          "title": "Filosofia de jogo e insights de treinamento",
+          "description": "Tenha uma noção do estilo de jogo e ética de trabalho"
+        }
+      }
+    },
+    "features": {
+      "title": "Ferramentas Poderosas para Olheiros",
+      "boards": {
+        "title": "Quadros de Jogadores",
+        "description": "Crie e organize quadros por idade, posição ou classe de recrutamento."
+      },
+      "sharing": {
+        "title": "Compartilhe Quadros",
+        "description": "Compartilhe quadros com segurança com sua equipe para observação colaborativa."
+      },
+      "notes": {
+        "title": "Notas de Olheiro",
+        "description": "Mantenha notas de observação personalizadas diretamente no perfil de cada jogador."
+      },
+      "messaging": {
+        "title": "Mensagens Integradas",
+        "description": "Envie mensagens diretamente aos jogadores e receba alertas por email quando eles responderem."
+      },
+      "profile": {
+        "title": "Perfil de Olheiro Privado",
+        "description": "Visível apenas para jogadores que você mensagens—sua privacidade, sua estratégia."
+      }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "questions": {
+        "info": {
+          "question": "P: Que tipo de informação está em um perfil de jogador?",
+          "answer": "R: Vídeos de destaque, estatísticas, objetivos, histórico de clubes e muito mais."
+        },
+        "free": {
+          "question": "P: O PlayerHub é realmente gratuito para olheiros?",
+          "answer": "R: Sim, 100% gratuito. Sem necessidade de cartão de crédito."
+        },
+        "messages": {
+          "question": "P: Os jogadores podem me enviar mensagem primeiro?",
+          "answer": "R: Não, apenas jogadores que você contata podem ver seu perfil e responder."
+        },
+        "collaborate": {
+          "question": "P: Posso colaborar com outros olheiros?",
+          "answer": "R: Absolutamente! Compartilhe quadros com segurança com a comissão técnica."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Comece a observar de forma mais inteligente, rápida e confiante.",
+      "button": "Crie Sua Conta Gratuita de Olheiro"
     }
   }
 }
