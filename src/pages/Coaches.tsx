@@ -56,7 +56,7 @@ const Coaches = () => {
             <div className="lg:w-1/2">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/player-profile-recruiter.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvcGxheWVyLXByb2ZpbGUtcmVjcnVpdGVyLnBuZyIsImlhdCI6MTc0Mjk5NDEzMCwiZXhwIjoxNzc0NTMwMTMwfQ.r_3Ds6Xsc7fdOKgRY1omwdStknsmlDquCni3zm3GCt0" 
+                  src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Players%20Profile%20authenticated-New2.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvUGxheWVycyBQcm9maWxlIGF1dGhlbnRpY2F0ZWQtTmV3Mi5wbmciLCJpYXQiOjE3NDM0MjE2ODcsImV4cCI6MTc3NDk1NzY4N30.4mNANS2mnP3qhyEibGWkX8TfcyvEqAsV_cpcveU7__g" 
                   alt="Player Profile Dashboard" 
                   className="w-full object-cover"
                 />
