@@ -81,7 +81,25 @@
     "teamAccess": {
       "title": "Collaborative Team Access",
       "description": "Share profiles and notes with your coaching staff and team members."
-    }
+    },
+    "learnMore": "Learn More"
+  },
+  "trainersFeatures": {
+    "title": "For Trainers: Showcase, Schedule & Get Paid",
+    "subtitle": "Create your free trainer profile to add sessions, share videos, list prices, and accept payments with no platform fees.",
+    "profile": {
+      "title": "Customizable Profile",
+      "description": "Build a professional profile to showcase your expertise and training services."
+    },
+    "schedule": {
+      "title": "Session Management",
+      "description": "Create and manage training sessions with flexible scheduling options."
+    },
+    "payments": {
+      "title": "Accept Payments",
+      "description": "Get paid directly through your preferred payment methods with zero platform fees."
+    },
+    "learnMore": "Learn More"
   },
   "newsletter": {
     "title": "Subscribe",
@@ -317,6 +335,96 @@
     "finalCta": {
       "title": "Start scouting smarter, faster, and more confidently.",
       "button": "Create Your Free Recruiter Account"
+    }
+  },
+  "trainers": {
+    "hero": {
+      "badge": "Trainers",
+      "title": "Grow Your Training Business—Without the Overhead.",
+      "description": "PlayerHub gives trainers a free, all-in-one platform to showcase expertise, host sessions, share pricing, and accept payments—all while reaching motivated players.",
+      "cta": "Create Your Free Trainer Profile"
+    },
+    "profile": {
+      "title": "A Fully Customizable Trainer Profile",
+      "description": "Make Your Training Program Stand Out",
+      "features": {
+        "bios": "Add bios and multiple trainers",
+        "videos": "Upload videos and images of your sessions",
+        "testimonials": "Share testimonials or coaching philosophy",
+        "customize": "Customize it to reflect your style, expertise, and approach"
+      },
+      "conclusion": "Whether you're a solo trainer or a coaching group, this is your digital home base."
+    },
+    "sessions": {
+      "title": "Publish and Promote Your Sessions",
+      "description": "Your Schedule, Shared with the Right Audience",
+      "features": {
+        "create": "Create individual or group sessions with full descriptions",
+        "urls": "Add custom sign-up URLs to your own forms or booking platforms",
+        "photos": "Upload photos to show drills, setup, or training environment",
+        "discover": "Sessions appear on PlayerHub's public Events Page, helping new players discover and join you"
+      },
+      "conclusion": "Built for flexibility. Designed to convert interest into sign-ups."
+    },
+    "features": {
+      "title": "Additional Features",
+      "payments": {
+        "title": "Accept Payments Seamlessly",
+        "description": "Add Zelle, Venmo, Cash App, or PayPal so players can pay you directly."
+      },
+      "pricing": {
+        "title": "Offer Tiered Pricing",
+        "description": "Set rates for private sessions, small groups, or full-team packages."
+      },
+      "trainers": {
+        "title": "Add Multiple Trainers",
+        "description": "Collaborate with other trainers under a single profile."
+      },
+      "videos": {
+        "title": "Share Training Videos",
+        "description": "Upload highlight clips, technique tutorials, or session breakdowns."
+      },
+      "portfolio": {
+        "title": "Build a Visual Portfolio",
+        "description": "Add images to build trust and showcase your environment or coaching style."
+      }
+    },
+    "why": {
+      "title": "Why Trainers Love PlayerHub",
+      "description": "100% free platform—no subscriptions, no limits. Boost visibility and reach new athletes. Stay organized with one central place for sessions, media, and payments. Built to reflect the way real trainers operate."
+    },
+    "testimonial": {
+      "quote": "I used to juggle Google Forms, Instagram DMs, and Cash App. Now I have one place for everything—and players take me more seriously.",
+      "author": "— Private Trainer, California"
+    },
+    "faq": {
+      "title": "FAQs",
+      "questions": {
+        "payments": {
+          "question": "Q: Does PlayerHub take a cut of my payments?",
+          "answer": "A: No. Payments go directly through your preferred method (Zelle, PayPal, etc)."
+        },
+        "booking": {
+          "question": "Q: Can I link to an external booking form?",
+          "answer": "A: Yes! Use any sign-up or payment platform you prefer—just drop in the link."
+        },
+        "multiple": {
+          "question": "Q: Can I add multiple trainers under one profile?",
+          "answer": "A: Absolutely. Ideal for training groups or small organizations."
+        },
+        "find": {
+          "question": "Q: How do players find my sessions?",
+          "answer": "A: All public sessions are shown on our Events Page, visible to every PlayerHub user."
+        },
+        "cost": {
+          "question": "Q: What does it cost to join?",
+          "answer": "A: Nothing. PlayerHub is 100% free for trainers."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Ready to grow your training program the smart way?",
+      "button": "Create your free Trainer profile today"
     }
   }
 }

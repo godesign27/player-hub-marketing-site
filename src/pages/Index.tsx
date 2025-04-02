@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Sports from "@/components/Sports";
 import RecruiterFeatures from "@/components/RecruiterFeatures";
 import CoachesFeatures from "@/components/CoachesFeatures";
+import TrainersFeatures from "@/components/TrainersFeatures";
 import Newsletter from "@/components/Newsletter";
 import PlayerJourneySection from "@/components/PlayerJourneySection";
 import PlayerJourneySection2 from "@/components/PlayerJourneySection2";
@@ -23,6 +24,7 @@ const Index = () => {
       <PlayerJourneySection2 />
       <RecruiterFeatures />
       <CoachesFeatures />
+      <TrainersFeatures />
       <Newsletter />
       <Footer activePage="home" />
     </div>

@@ -70,7 +70,25 @@
     "teamAccess": {
       "title": "Team Toegang",
       "description": "Werk samen met je staf door notities en beoordelingen over spelers te delen."
-    }
+    },
+    "learnMore": "Meer informatie"
+  },
+  "trainersFeatures": {
+    "title": "Voor Trainers: Showcase, Plan & Krijg Betaald",
+    "subtitle": "Maak je gratis trainersprofiel aan om sessies toe te voegen, video's te delen, prijzen te vermelden en betalingen te accepteren zonder platformkosten.",
+    "profile": {
+      "title": "Aanpasbaar Profiel",
+      "description": "Bouw een professioneel profiel om je expertise en trainingsservices te presenteren."
+    },
+    "schedule": {
+      "title": "Sessiebeheer",
+      "description": "Creëer en beheer trainingssessies met flexibele planningsopties."
+    },
+    "payments": {
+      "title": "Accepteer Betalingen",
+      "description": "Word direct betaald via je voorkeursbetaalmethoden zonder platformkosten."
+    },
+    "learnMore": "Meer informatie"
   },
   "newsletter": {
     "title": "Blijf op de hoogte",
@@ -314,6 +332,96 @@
     "finalCta": {
       "title": "Begin slimmer, sneller en met meer vertrouwen te scouten.",
       "button": "Maak Je Gratis Scout Account"
+    }
+  },
+  "trainers": {
+    "hero": {
+      "badge": "Trainers",
+      "title": "Groei Je Trainingsbedrijf — Zonder Overhead.",
+      "description": "PlayerHub geeft trainers een gratis, alles-in-één platform om expertise te tonen, sessies te hosten, prijzen te delen en betalingen te accepteren — terwijl je gemotiveerde spelers bereikt.",
+      "cta": "Maak Je Gratis Trainersprofiel Aan"
+    },
+    "profile": {
+      "title": "Een Volledig Aanpasbaar Trainersprofiel",
+      "description": "Laat Je Trainingsprogramma Opvallen",
+      "features": {
+        "bios": "Voeg bio's en meerdere trainers toe",
+        "videos": "Upload video's en afbeeldingen van je sessies",
+        "testimonials": "Deel getuigenissen of coachingsfilosofie",
+        "customize": "Pas het aan om je stijl, expertise en aanpak weer te geven"
+      },
+      "conclusion": "Of je nu een solotrainer bent of een coachingsgroep, dit is je digitale thuisbasis."
+    },
+    "sessions": {
+      "title": "Publiceer en Promoot Je Sessies",
+      "description": "Jouw Schema, Gedeeld met het Juiste Publiek",
+      "features": {
+        "create": "Maak individuele of groepssessies met volledige beschrijvingen",
+        "urls": "Voeg aangepaste aanmeld-URL's toe naar je eigen formulieren of boekingsplatforms",
+        "photos": "Upload foto's om oefeningen, setup of trainingsomgeving te tonen",
+        "discover": "Sessies verschijnen op PlayerHub's openbare Evenementenpagina, waardoor nieuwe spelers je kunnen ontdekken en deelnemen"
+      },
+      "conclusion": "Gebouwd voor flexibiliteit. Ontworpen om interesse om te zetten in aanmeldingen."
+    },
+    "features": {
+      "title": "Aanvullende Functies",
+      "payments": {
+        "title": "Accepteer Betalingen Naadloos",
+        "description": "Voeg Zelle, Venmo, Cash App of PayPal toe zodat spelers je direct kunnen betalen."
+      },
+      "pricing": {
+        "title": "Bied Gestaffelde Prijzen Aan",
+        "description": "Stel tarieven in voor privésessies, kleine groepen of full-team pakketten."
+      },
+      "trainers": {
+        "title": "Voeg Meerdere Trainers Toe",
+        "description": "Werk samen met andere trainers onder één profiel."
+      },
+      "videos": {
+        "title": "Deel Trainingsvideo's",
+        "description": "Upload highlight clips, techniektutorials of sessie-uitsplitsingen."
+      },
+      "portfolio": {
+        "title": "Bouw een Visueel Portfolio",
+        "description": "Voeg afbeeldingen toe om vertrouwen op te bouwen en je omgeving of coachingsstijl te tonen."
+      }
+    },
+    "why": {
+      "title": "Waarom Trainers van PlayerHub Houden",
+      "description": "100% gratis platform — geen abonnementen, geen limieten. Verhoog zichtbaarheid en bereik nieuwe atleten. Blijf georganiseerd met één centrale plaats voor sessies, media en betalingen. Gebouwd om de manier waarop echte trainers werken te weerspiegelen."
+    },
+    "testimonial": {
+      "quote": "Ik moest vroeger jongleren tussen Google Forms, Instagram DM's en Cash App. Nu heb ik één plek voor alles — en spelers nemen me serieuzer.",
+      "author": "— Privétrainer, Californië"
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "questions": {
+        "payments": {
+          "question": "V: Neemt PlayerHub een deel van mijn betalingen?",
+          "answer": "A: Nee. Betalingen gaan direct via je voorkeursmethode (Zelle, PayPal, etc.)."
+        },
+        "booking": {
+          "question": "V: Kan ik linken naar een extern boekingsformulier?",
+          "answer": "A: Ja! Gebruik elk aanmeld- of betalingsplatform dat je verkiest — voeg gewoon de link toe."
+        },
+        "multiple": {
+          "question": "V: Kan ik meerdere trainers toevoegen onder één profiel?",
+          "answer": "A: Absoluut. Ideaal voor trainingsgroepen of kleine organisaties."
+        },
+        "find": {
+          "question": "V: Hoe vinden spelers mijn sessies?",
+          "answer": "A: Alle openbare sessies worden getoond op onze Evenementenpagina, zichtbaar voor elke PlayerHub-gebruiker."
+        },
+        "cost": {
+          "question": "V: Wat kost het om lid te worden?",
+          "answer": "A: Niets. PlayerHub is 100% gratis voor trainers."
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Klaar om je trainingsprogramma op de slimme manier te laten groeien?",
+      "button": "Maak vandaag nog je gratis Trainersprofiel aan"
     }
   }
 }
