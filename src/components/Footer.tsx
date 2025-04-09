@@ -1,3 +1,4 @@
+
 import { Globe, ChevronDown } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
@@ -32,7 +33,9 @@ const Footer = ({ activePage }: FooterProps) => {
             <span className="text-xl font-bold text-gray-900">PlayerHub</span>
           </div>
         </div>
-        <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
+        
+        {/* Top row with primary links */}
+        <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 mb-6">
           <Link 
             to="/" 
             className={activePage === "home" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
@@ -46,11 +49,36 @@ const Footer = ({ activePage }: FooterProps) => {
             {t('navigation.players')}
           </Link>
           <Link 
+            to="/recruiters" 
+            className={location.pathname === "/recruiters" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+          >
+            Recruiters
+          </Link>
+          <Link 
+            to="/coaches" 
+            className={location.pathname === "/coaches" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+          >
+            Coaches
+          </Link>
+          <Link 
+            to="/trainers" 
+            className={location.pathname === "/trainers" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+          >
+            Trainers
+          </Link>
+          <Link 
             to="/get-started" 
-            className={activePage === "get-started" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+            className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
           >
             {t('navigation.getStarted')}
           </Link>
+        </nav>
+        
+        {/* Separator line between rows */}
+        <div className="border-t border-gray-200 my-6 w-full max-w-4xl mx-auto"></div>
+        
+        {/* Bottom row with secondary links */}
+        <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
           <Link 
             to="/get-started" 
             className={activePage === "pricing" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
@@ -92,6 +120,7 @@ const Footer = ({ activePage }: FooterProps) => {
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
+        
         <div className="text-center mt-8 text-gray-500">
           {t('footer.copyright')}
         </div>
