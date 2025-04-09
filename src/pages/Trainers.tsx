@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { 
@@ -91,7 +92,7 @@ const Trainers = () => {
             </div>
             <div className="md:order-1">
               <img 
-                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/trainer-sessions.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvdHJhaW5lci1zZXNzaW9ucy5wbmciLCJpYXQiOjE3NDQyMjU0MzQsImV4cCI6MTc3NTc2MTQzNH0.7yQEX3exfvScl-IcwmqwS1Vygrid8EnBrQ9LOFMZ5ek" 
+                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/trainer-payments.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvdHJhaW5lci1wYXltZW50cy5wbmciLCJpYXQiOjE3NDQyMjk0MjYsImV4cCI6MTc3NTc2NTQyNn0.WRbz_oAFbsZElZi9S1qUI5uUAK8QgG0tAEIff7iJK0w" 
                 alt="Trainer profile example"
                 className="rounded-lg shadow-lg w-full"
               />
