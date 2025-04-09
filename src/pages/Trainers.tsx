@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { 
@@ -138,7 +137,7 @@ const Trainers = () => {
             </div>
             <div className="flex justify-end">
               <img 
-                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Image%20Placeholder.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvSW1hZ2UgUGxhY2Vob2xkZXIucG5nIiwiaWF0IjoxNzQzNjA5MzEwLCJleHAiOjE3NzUxNDUzMTB9.4qX5MYoCDuI0sVObV111kMXtssoPPecYfT00JIZiAig" 
+                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/trainer-sessions.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvdHJhaW5lci1zZXNzaW9ucy5wbmciLCJpYXQiOjE3NDQyMjg3ODEsImV4cCI6MTc3NTc2NDc4MX0.6kbbrVU-w28FdTwUSebityRdV6AZXjWTk8-PwhAw0lc" 
                 alt="Session management"
                 className="rounded-lg shadow-lg w-full"
               />
@@ -310,4 +309,3 @@ const Trainers = () => {
 };
 
 export default Trainers;
-
