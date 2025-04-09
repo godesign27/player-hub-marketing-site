@@ -46,8 +46,8 @@ const Trainers = () => {
             </div>
             <div className="animate-fade-in md:flex justify-end hidden">
               <img 
-                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/trainer-sessions.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvdHJhaW5lci1zZXNzaW9ucy5wbmciLCJpYXQiOjE3NDQyMjU5MDIsImV4cCI6MTc3NTc2MTkwMn0.oX56ITjl-I2GDEZlGBiYNl2NCOFVXtNZsLZCAdXGxs4"
-                alt="Trainer dashboard"
+                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/football-trainer-helping-kids-medium-shot.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvZm9vdGJhbGwtdHJhaW5lci1oZWxwaW5nLWtpZHMtbWVkaXVtLXNob3QuanBnIiwiaWF0IjoxNzQ0MjI4NDM0LCJleHAiOjE3NzU3NjQ0MzR9.F4D6Dc2R4FsY30fVybyj3cTAhM9BwmeFCi4nN4Zyn5s"
+                alt="Trainer coaching kids"
                 className="rounded-lg shadow-xl max-w-full md:max-w-[125%] lg:max-w-[125%] object-cover"
               />
             </div>
