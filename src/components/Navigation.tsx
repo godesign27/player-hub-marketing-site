@@ -28,6 +28,7 @@ const Navigation = () => {
               <Link to="/players" className={location.pathname === "/players" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.players')}</Link>
               <Link to="/get-started" className={location.pathname === "/pricing" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.pricing')}</Link>
               <Link to="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.contact')}</Link>
+              <Link to="/trainers" className={location.pathname === "/trainers" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>Trainers</Link>
             </div>
           </div>
           
