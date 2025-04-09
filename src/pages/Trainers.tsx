@@ -295,7 +295,7 @@ const Trainers = () => {
       <section className="py-16 md:py-24 bg-accent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            {t('trainers.finalCta.title')}
+            Grow your training program today
           </h2>
           <Button size="lg" className="font-medium">
             {t('trainers.finalCta.button')}
