@@ -46,7 +46,7 @@ const Trainers = () => {
             </div>
             <div className="animate-fade-in md:flex justify-end hidden">
               <img 
-                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/Image%20Placeholder.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvSW1hZ2UgUGxhY2Vob2xkZXIucG5nIiwiaWF0IjoxNzQzNjA5MzEwLCJleHAiOjE3NzUxNDUzMTB9.4qX5MYoCDuI0sVObV111kMXtssoPPecYfT00JIZiAig"
+                src="https://knddrhyoqawaccpztdiw.supabase.co/storage/v1/object/sign/playerhub/trainer-sessions.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJwbGF5ZXJodWIvdHJhaW5lci1zZXNzaW9ucy5wbmciLCJpYXQiOjE3NDQyMjU0MzQsImV4cCI6MTc3NTc2MTQzNH0.7yQEX3exfvScl-IcwmqwS1Vygrid8EnBrQ9LOFMZ5ek"
                 alt="Trainer dashboard"
                 className="rounded-lg shadow-xl max-w-full md:max-w-md lg:max-w-lg object-cover"
               />
