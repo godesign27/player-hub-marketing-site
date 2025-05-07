@@ -1,6 +1,5 @@
 
 import Navigation from "@/components/Navigation";
-import Banner from "@/components/Banner";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Sports from "@/components/Sports";
@@ -16,7 +15,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />
-      <Banner />
       <Hero />
       <Features />
       <Sports />
