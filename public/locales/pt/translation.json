@@ -16,7 +16,8 @@
     "title": "Destrave seu",
     "subtitle": "potencial esportivo",
     "description": "PlayerHub é a plataforma definitiva para atletas mostrarem seu talento e se conectarem com olheiros do mundo todo.",
-    "cta": "Crie seu perfil"
+    "cta": "Crie seu perfil",
+    "comingSoon": "Em breve"
   },
   "features": {
     "title": "Funcionalidades da Plataforma",
@@ -169,7 +170,8 @@
       "badge": "Treinadores",
       "title": "Construa Times mais Inteligentes. Gerencie com Precisão.",
       "description": "Desde avaliar talentos até finalizar seu elenco, o PlayerHub ajuda treinadores a organizar, acompanhar e desenvolver jogadores como nunca antes.",
-      "cta": "Crie Sua Conta Gratuita de Treinador"
+      "cta": "Crie Sua Conta Gratuita de Treinador",
+      "comingSoon": "Em breve"
     },
     "playerProfiles": {
       "title": "Todos os Detalhes Certos. Tudo em Um Só Lugar.",
@@ -239,7 +241,8 @@
       "badge": "Olheiros",
       "title": "Descubra Talentos de Ponta, Instantaneamente.",
       "description": "Cada perfil de jogador no PlayerHub inclui vídeos de destaque, dados de desempenho e objetivos do jogador—tudo que você precisa para recrutar de forma mais inteligente.",
-      "cta": "Obtenha Sua Conta Gratuita de Olheiro"
+      "cta": "Obtenha Sua Conta Gratuita de Olheiro",
+      "comingSoon": "Em breve"
     },
     "playerProfiles": {
       "title": "Todos os Detalhes Certos. Tudo em Um Só Lugar.",
