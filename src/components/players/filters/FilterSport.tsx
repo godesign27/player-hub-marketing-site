@@ -1,3 +1,5 @@
+
+import { Label } from "@/components/ui/label"
 import {
   Select,
   SelectContent,
@@ -6,12 +8,17 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-const FilterSport = () => {
+interface FilterSportProps {
+  value?: string;
+  onChange: (value: string | undefined) => void;
+}
+
+const FilterSport = ({ value, onChange }: FilterSportProps) => {
   return (
     <div className="space-y-2">
-      <label className="text-sm font-medium text-gray-900 dark:text-white">Sport</label>
-      <Select>
-        <SelectTrigger className="w-full bg-white border-gray-300 hover:border-gray-400 dark:bg-gray-700 dark:border-gray-600">
+      <Label htmlFor="sport">Sport</Label>
+      <Select value={value} onValueChange={onChange}>
+        <SelectTrigger id="sport" className="w-full">
           <SelectValue placeholder="Select a sport" />
         </SelectTrigger>
         <SelectContent position="popper" className="z-[100]">
