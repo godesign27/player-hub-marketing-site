@@ -16,7 +16,8 @@
     "title": "Entfalte dein",
     "subtitle": "sportliches Potenzial",
     "description": "PlayerHub ist die ultimative Plattform für Athleten, die ihr Talent präsentieren und sich mit Scouts aus der ganzen Welt vernetzen möchten.",
-    "cta": "Erstelle dein Profil"
+    "cta": "Erstelle dein Profil",
+    "comingSoon": "Demnächst verfügbar"
   },
   "features": {
     "title": "Plattform-Funktionen",
@@ -169,7 +170,8 @@
       "badge": "Trainer",
       "title": "Intelligentere Teams aufbauen. Mit Präzision managen.",
       "description": "Von der Bewertung von Talenten bis zur Finalisierung deines Kaders hilft PlayerHub Trainern, Spieler wie nie zuvor zu organisieren, zu verfolgen und zu entwickeln.",
-      "cta": "Erstelle dein kostenloses Trainer-Konto"
+      "cta": "Erstelle dein kostenloses Trainer-Konto",
+      "comingSoon": "Demnächst verfügbar"
     },
     "playerProfiles": {
       "title": "Alle wichtigen Details. Alles an einem Ort.",
@@ -239,7 +241,8 @@
       "badge": "Scouts",
       "title": "Entdecke Top-Talente, sofort.",
       "description": "Jedes Spielerprofil auf PlayerHub enthält Highlight-Reels, Leistungsdaten und Spielerziele — alles, was du brauchst, um intelligenter zu scouten.",
-      "cta": "Hol dir dein kostenloses Scout-Konto"
+      "cta": "Hol dir dein kostenloses Scout-Konto",
+      "comingSoon": "Demnächst verfügbar"
     },
     "playerProfiles": {
       "title": "Alle wichtigen Details. Alles an einem Ort.",

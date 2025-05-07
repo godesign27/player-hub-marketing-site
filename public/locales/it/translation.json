@@ -16,7 +16,8 @@
     "title": "Sblocca il tuo potenziale",
     "subtitle": "sportivo",
     "description": "PlayerHub è la piattaforma definitiva per gli atleti che vogliono mostrare il loro talento e connettersi con reclutatori in tutto il mondo.",
-    "cta": "Crea il tuo profilo"
+    "cta": "Crea il tuo profilo",
+    "comingSoon": "Prossimamente"
   },
   "features": {
     "title": "Caratteristiche della piattaforma",
@@ -169,7 +170,8 @@
       "badge": "Allenatori",
       "title": "Costruisci Squadre più Intelligenti. Gestisci con Precisione.",
       "description": "Dalla valutazione del talento alla finalizzazione della tua squadra, PlayerHub aiuta gli allenatori a organizzare, monitorare e sviluppare i giocatori come mai prima d'ora.",
-      "cta": "Crea il Tuo Account Allenatore Gratuito"
+      "cta": "Crea il Tuo Account Allenatore Gratuito",
+      "comingSoon": "Prossimamente"
     },
     "playerProfiles": {
       "title": "Tutti i Dettagli Giusti. Tutti in un Unico Posto.",
@@ -239,7 +241,8 @@
       "badge": "Reclutatori",
       "title": "Scopri Talenti di Punta, Istantaneamente.",
       "description": "Ogni profilo giocatore su PlayerHub include bobine di highlights, dati sulle prestazioni e obiettivi del giocatore—tutto ciò di cui hai bisogno per uno scouting più intelligente.",
-      "cta": "Ottieni il Tuo Account Reclutatore Gratuito"
+      "cta": "Ottieni il Tuo Account Reclutatore Gratuito",
+      "comingSoon": "Prossimamente"
     },
     "playerProfiles": {
       "title": "Tutti i Dettagli Giusti. Tutti in un Unico Posto.",

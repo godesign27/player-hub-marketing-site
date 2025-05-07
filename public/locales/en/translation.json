@@ -27,7 +27,8 @@
     "title": "An athlete-centric player profile platform",
     "subtitle": "to showcase your story.",
     "description": "Showcase your Player Profile and tell your sports story allowing recruiters, scouts, coaches and peers a detailed glimpse into your sport journey and personal narrative, equipping them with the essential information and tools to kickstart the evaluation journey.",
-    "cta": "Get Started"
+    "cta": "Get Started",
+    "comingSoon": "Coming soon"
   },
   "features": {
     "title": "The first ever athlete managed player profile.",
@@ -190,7 +191,8 @@
       "badge": "Coaches",
       "title": "Build Smarter Teams. Manage with Precision.",
       "description": "From evaluating talent to finalizing your roster, PlayerHub helps coaches organize, track, and develop players like never before.",
-      "cta": "Create Your Free Coach Account"
+      "cta": "Create Your Free Coach Account",
+      "comingSoon": "Coming soon"
     },
     "playerProfiles": {
       "title": "All the Right Details. All in One Place.",
@@ -260,7 +262,8 @@
       "badge": "Recruiters",
       "title": "Discover Top Talent, Instantly.",
       "description": "Every player profile on PlayerHub includes highlight reels, performance data, and player goals—everything you need to scout smarter.",
-      "cta": "Get Your Free Recruiter Account"
+      "cta": "Get Your Free Recruiter Account",
+      "comingSoon": "Coming soon"
     },
     "playerProfiles": {
       "title": "All the Right Details. All in One Place.",
@@ -342,7 +345,8 @@
       "badge": "Trainers",
       "title": "Grow Your Training Business—Without the Overhead.",
       "description": "PlayerHub gives trainers a free, all-in-one platform to showcase expertise, host sessions, share pricing, and accept payments—all while reaching motivated players.",
-      "cta": "Create Your Free Trainer Profile"
+      "cta": "Create Your Free Trainer Profile",
+      "comingSoon": "Coming soon"
     },
     "profile": {
       "title": "A Fully Customizable Trainer Profile",

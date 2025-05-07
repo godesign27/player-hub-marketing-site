@@ -27,7 +27,8 @@
     "title": "Una plataforma de perfiles de jugadores centrada en el atleta",
     "subtitle": "para mostrar tu historia.",
     "description": "Muestra tu Perfil de Jugador y cuenta tu historia deportiva, permitiendo que reclutadores, ojeadores, entrenadores y compañeros tengan una visión detallada de tu trayectoria deportiva y narrativa personal, equipándolos con la información y herramientas esenciales para iniciar el proceso de evaluación.",
-    "cta": "Empezar"
+    "cta": "Empezar",
+    "comingSoon": "Próximamente"
   },
   "features": {
     "title": "El primer perfil de jugador gestionado por el atleta.",
@@ -172,7 +173,8 @@
       "badge": "Entrenadores",
       "title": "Construye Equipos más Inteligentes. Gestiona con Precisión.",
       "description": "Desde evaluar talento hasta finalizar tu plantilla, PlayerHub ayuda a los entrenadores a organizar, seguir y desarrollar jugadores como nunca antes.",
-      "cta": "Crea Tu Cuenta Gratuita de Entrenador"
+      "cta": "Crea Tu Cuenta Gratuita de Entrenador",
+      "comingSoon": "Próximamente"
     },
     "playerProfiles": {
       "title": "Todos los Detalles Correctos. Todo en Un Solo Lugar.",
@@ -242,7 +244,8 @@
       "badge": "Reclutadores",
       "title": "Descubre Talento Top, Al Instante.",
       "description": "Cada perfil de jugador en PlayerHub incluye videos destacados, datos de rendimiento y objetivos del jugador—todo lo que necesitas para reclutar de forma más inteligente.",
-      "cta": "Obtén Tu Cuenta Gratuita de Reclutador"
+      "cta": "Obtén Tu Cuenta Gratuita de Reclutador",
+      "comingSoon": "Próximamente"
     },
     "playerProfiles": {
       "title": "Todos los Detalles Correctos. Todo en Un Solo Lugar.",

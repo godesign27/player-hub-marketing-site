@@ -7,6 +7,7 @@ import { Check } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { PLAYER_FREE_PLAN_LINK, PLAYER_MONTHLY_PLAN_LINK, PLAYER_YEARLY_PLAN_LINK } from "@/constants";
 
 const GetStarted = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -34,8 +35,8 @@ const GetStarted = () => {
         <div className="flex justify-center mb-12">
           <div className="sm:hidden w-full max-w-xs">
             <label htmlFor="billing-tabs" className="sr-only">Select billing period</label>
-            <select 
-              id="billing-tabs" 
+            <select
+              id="billing-tabs"
               value={isYearly ? "yearly" : "monthly"}
               onChange={(e) => setIsYearly(e.target.value === "yearly")}
               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
@@ -48,9 +49,9 @@ const GetStarted = () => {
             <li className="w-32 focus-within:z-10">
               <button
                 onClick={() => setIsYearly(false)}
-                className={`inline-block w-full p-4 ${!isYearly 
-                  ? 'text-white bg-gray-900 hover:bg-gray-800' 
-                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
+                className={`inline-block w-full p-4 ${!isYearly
+                  ? 'text-white bg-gray-900 hover:bg-gray-800'
+                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'}
                   border-r border-gray-200 rounded-s-lg focus:ring-4 focus:ring-gray-300 focus:outline-none`}
                 aria-current={!isYearly ? "page" : undefined}
               >
@@ -60,9 +61,9 @@ const GetStarted = () => {
             <li className="w-32 focus-within:z-10">
               <button
                 onClick={() => setIsYearly(true)}
-                className={`inline-block w-full p-4 ${isYearly 
-                  ? 'text-white bg-gray-900 hover:bg-gray-800' 
-                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'} 
+                className={`inline-block w-full p-4 ${isYearly
+                  ? 'text-white bg-gray-900 hover:bg-gray-800'
+                  : 'bg-white hover:text-gray-700 hover:bg-gray-50'}
                   rounded-e-lg focus:ring-4 focus:ring-gray-300 focus:outline-none`}
                 aria-current={isYearly ? "page" : undefined}
               >
@@ -92,7 +93,7 @@ const GetStarted = () => {
                 ))}
               </ul>
             </div>
-            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
+            <Link to={PLAYER_FREE_PLAN_LINK} className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
               {t('hero.cta')}
             </Link>
           </div>
@@ -118,7 +119,7 @@ const GetStarted = () => {
                 ))}
               </ul>
             </div>
-            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
+            <Link to={isYearly ? PLAYER_YEARLY_PLAN_LINK : PLAYER_MONTHLY_PLAN_LINK} className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
               {t('hero.cta')}
             </Link>
           </div>
@@ -140,8 +141,8 @@ const GetStarted = () => {
                 ))}
               </ul>
             </div>
-            <Link to="/get-started" className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
-              {t('hero.cta')}
+            <Link to="/" style={{ pointerEvents: "none", opacity: 0.5 }} className="w-full bg-blue-600 text-white py-2.5 px-4 rounded-lg hover:bg-blue-700 transition-colors mt-auto text-center">
+              {t('hero.comingSoon')}
             </Link>
           </div>
         </div>
