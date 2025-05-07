@@ -1,5 +1,3 @@
-
-import { Label } from "@/components/ui/label"
 import {
   Select,
   SelectContent,
@@ -8,17 +6,12 @@ import {
   SelectValue,
 } from "@/components/ui/select"
 
-interface FilterBirthYearProps {
-  value?: string;
-  onChange: (value: string | undefined) => void;
-}
-
-const FilterBirthYear = ({ value, onChange }: FilterBirthYearProps) => {
+const FilterBirthYear = () => {
   return (
     <div className="space-y-2">
-      <Label htmlFor="birthYear">Birth Year</Label>
-      <Select value={value} onValueChange={onChange}>
-        <SelectTrigger id="birthYear" className="w-full">
+      <label className="text-sm font-medium text-gray-900 dark:text-white">Birth Year</label>
+      <Select>
+        <SelectTrigger className="w-full bg-white border-gray-300 hover:border-gray-400 dark:bg-gray-700 dark:border-gray-600">
           <SelectValue placeholder="Select birth year" />
         </SelectTrigger>
         <SelectContent position="popper" className="z-[100]">

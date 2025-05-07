@@ -1,36 +1,14 @@
-
-import { Label } from "@/components/ui/label"
-
-interface FilterGenderProps {
-  value?: string;
-  onChange: (value: string | undefined) => void;
-}
-
-const FilterGender = ({ value, onChange }: FilterGenderProps) => {
+const FilterGender = () => {
   return (
-    <div className="space-y-2">
-      <Label htmlFor="gender">Gender</Label>
+    <div>
+      <label className="text-sm font-medium mb-1.5 block">Gender</label>
       <div className="flex gap-4">
         <label className="flex items-center">
-          <input 
-            type="radio" 
-            name="gender" 
-            value="male" 
-            className="mr-2" 
-            checked={value === "male"}
-            onChange={() => onChange("male")}
-          />
+          <input type="radio" name="gender" value="male" className="mr-2" defaultChecked />
           Male
         </label>
         <label className="flex items-center">
-          <input 
-            type="radio" 
-            name="gender" 
-            value="female" 
-            className="mr-2"
-            checked={value === "female"}
-            onChange={() => onChange("female")}
-          />
+          <input type="radio" name="gender" value="female" className="mr-2" />
           Female
         </label>
       </div>

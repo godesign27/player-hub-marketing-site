@@ -1,29 +1,17 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { PLAYER_FREE_PLAN_LINK } from "@/constants"
-
-interface CreateProfileCTAProps {
-  className?: string;
-}
-
-const CreateProfileCTA = ({ className = "" }: CreateProfileCTAProps) => {
+const CreateProfileCTA = () => {
   return (
-    <Card className={`${className} border-2 border-primary/20`}>
-      <CardContent className="p-6 text-center">
-        <h3 className="text-xl font-semibold mb-2">Want to join these players?</h3>
-        <p className="text-gray-600 mb-6">
-          Create your own player profile and showcase your talents to coaches and recruiters.
-        </p>
-        <Button asChild className="gap-2">
-          <a href={PLAYER_FREE_PLAN_LINK} target="_blank" rel="noopener noreferrer">
-            Create Your Profile
-            <ArrowRight className="h-4 w-4" />
-          </a>
-        </Button>
-      </CardContent>
-    </Card>
+    <div className="bg-white rounded-lg p-8 text-center mt-8">
+      <h2 className="text-2xl font-bold mb-2">
+        Share your player story
+      </h2>
+      <p className="text-gray-600 mb-4">Create your Player Profile today.</p>
+      <Button asChild>
+        <Link to="/get-started">Get Started</Link>
+      </Button>
+    </div>
   );
 };
 
