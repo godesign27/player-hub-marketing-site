@@ -1,9 +1,15 @@
+
 import { useState } from "react"
 import { Filter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import FilterDrawer from "./FilterDrawer"
+import { PlayerFilters } from "@/services/playerService"
 
-const FilterButton = () => {
+interface FilterButtonProps {
+  onApplyFilters: (filters: PlayerFilters) => void;
+}
+
+const FilterButton = ({ onApplyFilters }: FilterButtonProps) => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -16,7 +22,11 @@ const FilterButton = () => {
         <Filter className="h-4 w-4" />
         Filter
       </Button>
-      <FilterDrawer open={open} onOpenChange={setOpen} />
+      <FilterDrawer 
+        open={open} 
+        onOpenChange={setOpen} 
+        onApplyFilters={onApplyFilters}
+      />
     </>
   )
 }
