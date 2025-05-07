@@ -33,7 +33,7 @@ const Navigation = () => {
           
           <div className="hidden md:flex items-center space-x-4">
             <a href="https://app.playerhub.co/en/auth/login" className="px-4 py-2 rounded-lg text-gray-700 border border-gray-300 hover:bg-gray-100 transition-colors">
-              {t('navigation.logIn')}
+              Log In
             </a>
             <Link to="/get-started" className={`${location.pathname === "/get-started" ? "bg-[#000000]" : "bg-primary"} px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors`}>
               {t('navigation.getStarted')}
@@ -60,7 +60,7 @@ const Navigation = () => {
             <Link to="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.contact')}</Link>
             
             <a href="https://app.playerhub.co/en/auth/login" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">
-              {t('navigation.logIn')}
+              Log In
             </a>
             
             <Link to="/get-started" className="block w-full mt-4">
