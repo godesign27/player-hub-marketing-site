@@ -8,6 +8,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { playersPageUrl } from "@/constants";
 
 interface FooterProps {
   activePage?: string;
@@ -25,80 +26,80 @@ const Footer = ({ activePage }: FooterProps) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex justify-center mb-8">
           <div className="flex items-center space-x-2">
-            <img 
-              src="/lovable-uploads/f62f7f05-47c4-4538-be19-6d431147e810.png" 
-              alt="Player Hub Logo" 
+            <img
+              src="/lovable-uploads/f62f7f05-47c4-4538-be19-6d431147e810.png"
+              alt="Player Hub Logo"
               className="h-8"
             />
             <span className="text-xl font-bold text-gray-900">PlayerHub</span>
           </div>
         </div>
-        
+
         {/* Top row with primary links */}
         <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 mb-6">
-          <Link 
-            to="/" 
+          <Link
+            to="/"
             className={activePage === "home" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('navigation.home')}
           </Link>
-          <Link 
-            to="/players" 
+          <Link
+            to={playersPageUrl}
             className={location.pathname === "/players" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('navigation.players')}
           </Link>
-          <Link 
-            to="/recruiters" 
+          <Link
+            to="/recruiters"
             className={location.pathname === "/recruiters" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             Recruiters
           </Link>
-          <Link 
-            to="/coaches" 
+          <Link
+            to="/coaches"
             className={location.pathname === "/coaches" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             Coaches
           </Link>
-          <Link 
-            to="/trainers" 
+          <Link
+            to="/trainers"
             className={location.pathname === "/trainers" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             Trainers
           </Link>
-          <Link 
-            to="/get-started" 
+          <Link
+            to="/get-started"
             className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors"
           >
             {t('navigation.getStarted')}
           </Link>
         </nav>
-        
+
         {/* Separator line between rows */}
         <div className="border-t border-gray-200 my-6 w-full max-w-4xl mx-auto"></div>
-        
+
         {/* Bottom row with secondary links */}
         <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
-          <Link 
-            to="/get-started" 
+          <Link
+            to="/get-started"
             className={activePage === "pricing" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('navigation.pricing')}
           </Link>
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className={activePage === "contact" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('navigation.contact')}
           </Link>
-          <Link 
-            to="/terms" 
+          <Link
+            to="/terms"
             className={activePage === "terms" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('footer.termsOfUse')}
           </Link>
-          <Link 
-            to="/privacy" 
+          <Link
+            to="/privacy"
             className={activePage === "privacy" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('footer.privacyPolicy')}
@@ -120,7 +121,7 @@ const Footer = ({ activePage }: FooterProps) => {
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
-        
+
         <div className="text-center mt-8 text-gray-500">
           {t('footer.copyright')}
         </div>
