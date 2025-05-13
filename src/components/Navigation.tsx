@@ -12,7 +12,7 @@ const Navigation = () => {
 
   return (
     <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[2560px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center space-x-12">
             <Link to="/" className="flex items-center space-x-2">
@@ -25,18 +25,47 @@ const Navigation = () => {
             </Link>
 
             <div className="hidden md:flex items-center space-x-8">
-              <Link to="/" className={location.pathname === "/" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.home')}</Link>
-              <Link to={playersPageUrl} className={location.pathname === "/players" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.players')}</Link>
-              <Link to="/get-started" className={location.pathname === "/pricing" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.pricing')}</Link>
-              <Link to="/contact" className={location.pathname === "/contact" ? "text-[#000000] font-bold transition-colors" : "text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.contact')}</Link>
+              <Link to="/" className={location.pathname === "/" ?
+                "border-b-4 font-medium border-gray-100 py-[18px] dark:border-gray-700 md:border-teal-500 md:dark:border-teal-500 text-teal-500 dark:text-teal-500 bg-transparent md:text-cyan-700" :
+                "text-gray-600 hover:text-gray-900 transition-colors"
+              }>
+                {t('navigation.home')}
+              </Link>
+
+              <Link to={playersPageUrl} className={location.pathname === "/players" ?
+                "border-b-4 font-medium border-gray-100 py-[18px] dark:border-gray-700 md:border-teal-500 md:dark:border-teal-500 text-teal-500 dark:text-teal-500 bg-transparent md:text-cyan-700" :
+                "py-5 text-gray-600 hover:text-gray-900 transition-colors"
+                }>
+                  {t('navigation.players')}
+              </Link>
+
+              <Link to="/get-started" className={location.pathname === "/get-started" ?
+                "border-b-4 font-medium border-gray-100 py-[18px] dark:border-gray-700 md:border-teal-500 md:dark:border-teal-500 text-teal-500 dark:text-teal-500 bg-transparent md:text-cyan-700" :
+                "text-gray-600 hover:text-gray-900 transition-colors"
+              }>
+                {t('navigation.pricing')}
+              </Link>
+
+              <Link to="/contact" className={location.pathname === "/contact" ?
+                "border-b-4 font-medium border-gray-100 py-[18px] dark:border-gray-700 md:border-teal-500 md:dark:border-teal-500 text-teal-500 dark:text-teal-500 bg-transparent md:text-cyan-700" :
+                "text-gray-600 hover:text-gray-900 transition-colors"
+              }>
+                {t('navigation.contact')}
+              </Link>
             </div>
           </div>
 
+
           <div className="hidden md:flex items-center space-x-4">
-            <a href="https://app.playerhub.co/en/auth/login" className="px-4 py-2 rounded-lg text-gray-700 border border-gray-300 hover:bg-gray-100 transition-colors">
+            <a href="https://app.playerhub.co/en/auth/login"
+              className="px-4 py-2.5 transition-colors text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"
+            >
               Log In
             </a>
-            <Link to="/get-started" className={`${location.pathname === "/get-started" ? "bg-[#000000]" : "bg-primary"} px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors`}>
+
+            <Link to="/get-started"
+              className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
               {t('navigation.getStarted')}
             </Link>
           </div>
@@ -59,11 +88,11 @@ const Navigation = () => {
             <Link to={playersPageUrl} className={location.pathname === "/players" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.players')}</Link>
             <Link to="/get-started" className={location.pathname === "/pricing" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.pricing')}</Link>
             <Link to="/contact" className={location.pathname === "/contact" ? "block px-3 py-2 text-[#000000] font-bold" : "block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"}>{t('navigation.contact')}</Link>
-            
+
             <a href="https://app.playerhub.co/en/auth/login" className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors">
               Log In
             </a>
-            
+
             <Link to="/get-started" className="block w-full mt-4">
               <button className={`w-full ${location.pathname === "/get-started" ? "bg-[#000000]" : "bg-primary"} px-4 py-2 rounded-lg text-white hover:bg-primary/90 transition-colors`}>
                 {t('navigation.getStarted')}

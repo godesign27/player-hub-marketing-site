@@ -82,7 +82,7 @@ const Footer = ({ activePage }: FooterProps) => {
         <nav className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
           <Link
             to="/get-started"
-            className={activePage === "pricing" ? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
+            className={activePage === "get-started"? "text-[#000000] font-bold" : "text-gray-600 hover:text-gray-900"}
           >
             {t('navigation.pricing')}
           </Link>
